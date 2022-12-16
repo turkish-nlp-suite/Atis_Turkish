@@ -236,8 +236,8 @@
 # sent_id = 0018.test
 # text = Washington DC'de ne tür bir kara ulaşımı var
 # intent: ground_service
-1	Washington	washington	PROPN	B-state_name
-2	DC'de	dc	PROPN	B-toloc.state_code
+1	Washington	washington	PROPN	B-city_name
+2	DC'de	dc	PROPN	B-state_code
 3	ne	ne	ADJ	O
 4	tür	tür	NOUN	O
 5	bir	bir	DET	O
@@ -317,7 +317,7 @@
 # text = Lütfen Washington DC'den San Francisco'ya mümkün olan en erken saatte twa'dan bir uçuş rezervasyonu yapın
 # intent: flight
 1	Lütfen	lütfen	ADV	O
-2	Washington	washington	PROPN	B-fromloc.state_name
+2	Washington	washington	PROPN	B-fromloc.city_name
 3	DC'den	dc	PROPN	B-fromloc.state_code
 4	San	san	PROPN	B-toloc.city_name
 5	Francisco'ya	francisco	PROPN	I-toloc.city_name
@@ -1678,7 +1678,7 @@
 # sent_id = 0124.test
 # text = Washington DC'den San Francisco California'ya bir uçuş için bilgiye ihtiyacım var lütfen
 # intent: flight
-1	Washington	washington	PROPN	B-fromloc.state_name
+1	Washington	washington	PROPN	B-fromloc.city_name
 2	DC'den	dc	PROPN	B-fromloc.state_code
 3	San	san	PROPN	B-toloc.city_name
 4	Francisco	francisco	PROPN	I-toloc.city_name
@@ -2330,8 +2330,8 @@
 # intent: flight
 1	Uçuşumu	uç	NOUN	O
 2	Denver'deki	denver	PROPN	B-toloc.city_name
-3	Washington	washington	PROPN	B-state_name
-4	DC	dc	PROPN	B-state_code
+3	Washington	washington	PROPN	B-stoploc.city_name
+4	DC	dc	PROPN	B-stoploc.state_code
 5	durağındaki	durak	ADJ	O
 6	San	san	PROPN	B-toloc.city_name
 7	Francisco	francisco	PROPN	I-toloc.city_name
@@ -2364,7 +2364,7 @@
 # sent_id = 0171.test
 # text = Washington DC'den Columbus'a hangi havayolları
 # intent: airline
-1	Washington	washington	PROPN	B-fromloc.state_name
+1	Washington	washington	PROPN	B-fromloc.city_name
 2	DC'den	dc	PROPN	B-fromloc.state_code
 3	Columbus'a	columbus	PROPN	B-toloc.city_name
 4	hangi	hangi	ADJ	O
@@ -2374,7 +2374,7 @@
 # sent_id = 0172.test
 # text = Washington DC'den Boston'a uçuşları listele
 # intent: flight
-1	Washington	washington	PROPN	B-fromloc.state_name
+1	Washington	washington	PROPN	B-fromloc.city_name
 2	DC'den	dc	PROPN	B-fromloc.state_code
 3	Boston'a	boston	PROPN	B-toloc.city_name
 4	uçuşları	uç	NOUN	O
@@ -2392,7 +2392,7 @@
 6	bilgi	bilgi	NOUN	O
 7	verir	ver	VERB	O
 8	misiniz	mi	AUX	O
-9	Washington	washington	PROPN	B-fromloc.state_name
+9	Washington	washington	PROPN	B-fromloc.city_name
 10	DC'den	dc	PROPN	B-fromloc.state_code
 11	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 12	mümkün	mümkün	ADJ	O
@@ -2406,7 +2406,7 @@
 # sent_id = 0174.test
 # text = Washington DC - Pittsburgh uçuşlarını listele
 # intent: flight
-1	Washington	washington	PROPN	B-state_name
+1	Washington	washington	PROPN	B-fromloc.city_name
 2	DC	dc	PROPN	B-fromloc.state_code
 3	-	-	PUNCT	O
 4	Pittsburgh	pittsburgh	PROPN	B-toloc.city_name
@@ -2417,7 +2417,7 @@
 # sent_id = 0175.test
 # text = Washington DC'den San Diego'ya bir uçağa ihtiyacım var
 # intent: flight
-1	Washington	washington	PROPN	B-fromloc.state_name
+1	Washington	washington	PROPN	B-fromloc.city_name
 2	DC'den	dc	PROPN	B-fromloc.state_code
 3	San	san	PROPN	B-toloc.city_name
 4	Diego'ya	diego	PROPN	I-toloc.city_name
@@ -2612,7 +2612,7 @@
 3	saat	saat	NOUN	O
 4	9'da	9	NOUN	B-depart_time.time
 5	Boston'dan	boston	PROPN	B-fromloc.city_name
-6	Washington	washington	PROPN	B-toloc.state_name
+6	Washington	washington	PROPN	B-toloc.city_name
 7	DC'ye	dc	PROPN	B-toloc.state_code
 8	ne	ne	ADJ	O
 9	tür	tür	NOUN	O
@@ -3040,7 +3040,7 @@
 # text = Montreal'dan Washington Dc'ye bir uçuş istiyorum
 # intent: flight
 1	Montreal'dan	montreal	PROPN	B-fromloc.city_name
-2	Washington	washington	PROPN	B-toloc.state_name
+2	Washington	washington	PROPN	B-toloc.city_name
 3	Dc'ye	dc	PROPN	B-toloc.state_code
 4	bir	bir	DET	O
 5	uçuş	uç	NOUN	O
@@ -3052,7 +3052,7 @@
 # intent: flight
 1	bana	ben	PRON	O
 2	Atlanta'dan	atlanta	PROPN	B-fromloc.city_name
-3	Washington	washington	PROPN	B-toloc.state_name
+3	Washington	washington	PROPN	B-toloc.city_name
 4	Dc'ye	dc	PROPN	B-toloc.state_code
 5	perşembe	perşembe	NOUN	B-depart_date.day_name
 6	sabahı	sabah	NOUN	B-depart_time.period_of_day
@@ -3080,7 +3080,7 @@
 2	bana	ben	PRON	O
 3	San	san	PROPN	B-fromloc.city_name
 4	Francisco'dan	francisco	PROPN	I-fromloc.city_name
-5	Washington	washington	PROPN	B-toloc.state_name
+5	Washington	washington	PROPN	B-toloc.city_name
 6	Dc'ye	dc	PROPN	B-toloc.state_code
 7	uçuşları	uç	NOUN	O
 8	ver	ver	VERB	O
@@ -3092,7 +3092,7 @@
 1	bana	ben	PRON	O
 2	Atlanta	atlanta	PROPN	B-fromloc.city_name
 3	-	-	PUNCT	O
-4	Washington	washington	PROPN	B-toloc.state_name
+4	Washington	washington	PROPN	B-toloc.city_name
 5	Dc	dc	PROPN	B-toloc.state_code
 6	arasındaki	ara	ADJ	O
 7	tüm	tüm	DET	O
@@ -3105,7 +3105,7 @@
 # text = Atlanta'dan Washington Dc'ye çarşamba günü giden en son uçuş nedir
 # intent: flight
 1	Atlanta'dan	atlanta	PROPN	B-fromloc.city_name
-2	Washington	washington	PROPN	B-toloc.state_name
+2	Washington	washington	PROPN	B-toloc.city_name
 3	Dc'ye	dc	PROPN	B-toloc.state_code
 4	çarşamba	çarşamba	PROPN	B-depart_date.day_name
 5	günü	gün	NOUN	O
@@ -3120,7 +3120,7 @@
 # text = Toronto'dan Washington Dc'ye cumartesi sabah uçuşlarını listele
 # intent: flight
 1	Toronto'dan	toronto	PROPN	B-fromloc.city_name
-2	Washington	washington	PROPN	B-toloc.state_name
+2	Washington	washington	PROPN	B-toloc.city_name
 3	Dc'ye	dc	PROPN	B-toloc.state_code
 4	cumartesi	cumartesi	NOUN	B-depart_date.day_name
 5	sabah	sabah	NOUN	B-depart_time.period_of_day
@@ -3132,7 +3132,7 @@
 # text = Atlanta'dan Washington Dc'ye uçuşları görmek istiyorum
 # intent: flight
 1	Atlanta'dan	atlanta	PROPN	B-fromloc.city_name
-2	Washington	washington	PROPN	B-toloc.state_name
+2	Washington	washington	PROPN	B-toloc.city_name
 3	Dc'ye	dc	PROPN	B-toloc.state_code
 4	uçuşları	uç	NOUN	O
 5	görmek	gör	NOUN	O

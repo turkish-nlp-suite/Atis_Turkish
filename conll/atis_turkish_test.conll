@@ -1513,7 +1513,7 @@
 4	York'tan	york	PROPN	I-fromloc.city_name
 5	Los	los	PROPN	B-toloc.city_name
 6	Angeles'e	angeles	PROPN	I-toloc.city_name
-7	Milwaukee	milwaukee	PROPN	B-fromloc.city_name
+7	Milwaukee	milwaukee	PROPN	B-stoploc.city_name
 8	üzerinden	üzeri	NOUN	O
 9	uçuyor	uç	VERB	O
 
@@ -1522,8 +1522,8 @@
 # text = Twa'nin business class'ta kaç uçuşu var
 # intent: quantity+flight
 1	Twa'nin	twa	PROPN	B-airline_code
-2	business	business	NOUN	O
-3	class'ta	class'ta	NOUN	O
+2	business	business	NOUN	B-class_type
+3	class'ta	class	NOUN	I-class_type
 4	kaç	kaç	ADJ	O
 5	uçuşu	uç	NOUN	O
 6	var	var	ADJ	O
@@ -1546,8 +1546,8 @@
 # text = TWA'nin business class ile kaç uçuşu var
 # intent: quantity+flight
 1	TWA'nin	twa	PROPN	B-airline_code
-2	business	business	NOUN	O
-3	class	class	NOUN	O
+2	business	business	NOUN	B-class_type
+3	class	class	NOUN	I-class_type
 4	ile	ile	ADP	O
 5	kaç	kaç	ADJ	O
 6	uçuşu	uç	NOUN	O
@@ -1769,7 +1769,7 @@
 # intent: airfare+flight
 1	Cleveland'dan	cleveland	PROPN	B-fromloc.city_name
 2	Miami'ye	miami	PROPN	B-toloc.city_name
-3	US	us	NOUN	B-airline_code
+3	US	us	NOUN	B-airline_name
 4	Air	air	PROPN	I-airline_name
 5	uçuşunda	uç	NOUN	O
 6	en	en	ADV	B-cost_relative
@@ -2825,7 +2825,7 @@
 3	sonra	sonra	ADP	O
 4	Indianapolis'ten	indianapolis	PROPN	B-fromloc.city_name
 5	San	san	PROPN	B-toloc.city_name
-6	Diego'ya	diego	PROPN	I-toloc.city_name
+6	Diego'ya	diego	PROPN	I-stoploc.city_name
 7	Continental	continental	PROPN	B-airline_name
 8	üzerinden	üzeri	NOUN	O
 9	uçuşları	uç	NOUN	O
@@ -2835,7 +2835,7 @@
 # sent_id = 0204.test
 # text = northwest'in Dulles'ten ayrılan kaç uçuşu var
 # intent: quantity+flight
-1	northwest'in	northwest'in	NOUN	O
+1	northwest'in	northwest	NOUN	B-airline_name
 2	Dulles'ten	dulles	PROPN	B-fromloc.airport_name
 3	ayrılan	ayır	ADJ	O
 4	kaç	kaç	ADJ	O
@@ -3228,7 +3228,7 @@
 # sent_id = 0231.test
 # text = us air'de Cleveland'dan Miami'ye yirmi dört şubattaki en ucuz birinci sınıf ücret nedir
 # intent: airfare+flight
-1	us	us	NOUN	B-airline_code
+1	us	us	NOUN	B-airline_name
 2	air'de	air	PROPN	I-airline_name
 3	Cleveland'dan	cleveland	PROPN	B-fromloc.city_name
 4	Miami'ye	miami	PROPN	B-toloc.city_name
@@ -4230,7 +4230,7 @@
 # sent_id = 0305.test
 # text = Denver'de aktarma ile Toronto'dan San Diego'ya bir Amerikan uçuşu istiyorum lütfen
 # intent: flight
-1	Denver'de	denver	PROPN	B-toloc.city_name
+1	Denver'de	denver	PROPN	B-stoploc.city_name
 2	aktarma	aktarma	NOUN	B-flight_stop
 3	ile	ile	ADP	O
 4	Toronto'dan	toronto	PROPN	B-fromloc.city_name
@@ -4246,7 +4246,7 @@
 # sent_id = 0306.test
 # text = Denver'de mola vererek Boston'dan San Francisco'ya gidebilir miyim
 # intent: flight
-1	Denver'de	denver	PROPN	B-toloc.city_name
+1	Denver'de	denver	PROPN	B-stoploc.city_name
 2	mola	mola	NOUN	O
 3	vererek	ver	ADV	O
 4	Boston'dan	boston	PROPN	B-fromloc.city_name
@@ -4327,7 +4327,7 @@
 # text = bana Houston üzerinden San Diego'dan Newark'a uçuşları göster
 # intent: flight
 1	bana	ben	PRON	O
-2	Houston	houston	PROPN	B-fromloc.city_name
+2	Houston	houston	PROPN	B-stoploc.city_name
 3	üzerinden	üzeri	NOUN	O
 4	San	san	PROPN	B-fromloc.city_name
 5	Diego'dan	diego	PROPN	I-fromloc.city_name
@@ -4373,7 +4373,7 @@
 1	Philadelphia'dan	philadelphia	PROPN	B-fromloc.city_name
 2	San	san	PROPN	B-toloc.city_name
 3	Francisco'ya	francisco	PROPN	I-toloc.city_name
-4	Dallas	dallas	PROPN	B-fromloc.city_name
+4	Dallas	dallas	PROPN	B-stoploc.city_name
 5	üzerinden	üzeri	NOUN	O
 6	uçuşları	uç	NOUN	O
 7	listele	listele	VERB	O
@@ -4414,7 +4414,7 @@
 4	Dallas'a	dallas	PROPN	B-toloc.city_name
 5	kalkan	kalk	ADJ	O
 6	ve	ve	CCONJ	O
-7	Atlanta'da	atlanta	PROPN	B-toloc.city_name
+7	Atlanta'da	atlanta	PROPN	B-stoploc.city_name
 8	mola	mola	NOUN	O
 9	veren	ver	ADJ	O
 10	bir	bir	DET	O
@@ -5428,7 +5428,7 @@
 # intent: airfare
 1	Delta	delta	PROPN	B-airline_name
 2	kuzeybatı	kuzeybatı	ADJ	B-airline_name
-3	us	us	NOUN	B-airline_code
+3	us	us	NOUN	B-airline_name
 4	Air	air	PROPN	I-airline_name
 5	ve	ve	CCONJ	O
 6	birleşik	birleşik	ADJ	O

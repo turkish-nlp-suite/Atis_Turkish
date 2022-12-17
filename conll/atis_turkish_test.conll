@@ -17,7 +17,6 @@
 14	uçuşlar	uç	NOUN	O
 15	hangileri	hangi	PRON	O
 
-
 # sent_id = 0002.test
 # text = Nashville'den Seattle'ye giden saat 3'ten önce varışlı bir uçuş istiyorum
 # intent: flight
@@ -31,7 +30,6 @@
 8	bir	bir	DET	O
 9	uçuş	uç	NOUN	O
 10	istiyorum	iste	VERB	O
-
 
 # sent_id = 0003.test
 # text = Kansas'tan Chicago'ya önümüzdeki Çarşamba kalkan ve ertesi gün dönen bir uçuş istiyorum
@@ -49,14 +47,12 @@
 11	uçuş	uç	NOUN	O
 12	istiyorum	iste	VERB	O
 
-
 # sent_id = 0004.test
 # text = Yemek kurallarını açıklayın
 # intent: abbreviation
 1	Yemek	yemek	NOUN	B-meal
 2	kurallarını	kural	NOUN	O
 3	açıklayın	açıkla	VERB	O
-
 
 # sent_id = 0005.test
 # text = Atlanta'dan San Francisco'ya yarından sonraki gün akşam 5'ten sonra yola çıkan uçuşları göster
@@ -75,7 +71,6 @@
 12	uçuşları	uç	NOUN	O
 13	göster	göster	VERB	O
 
-
 # sent_id = 0006.test
 # text = Toronto'dan Montreal'a cuma erken varışlı bir uçuş istiyorum
 # intent: flight
@@ -87,7 +82,6 @@
 6	bir	bir	DET	O
 7	uçuş	uç	NOUN	O
 8	istiyorum	iste	VERB	O
-
 
 # sent_id = 0007.test
 # text = New York'tan Montreal'a perşembe çıkışlı uçuş var mı
@@ -101,7 +95,6 @@
 7	var	var	ADJ	O
 8	mı	mi	AUX	O
 
-
 # sent_id = 0008.test
 # text = Cuma sabahı Philadelphia'daki kara ulaşımını göster
 # intent: ground_service
@@ -111,7 +104,6 @@
 4	kara	kara	ADJ	O
 5	ulaşımını	ulaşım	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0009.test
 # text = Toronto'dan San Diego'ya DC aktarmalı Delta Airlines uçuşu bul
@@ -126,7 +118,6 @@
 8	uçuşu	uç	NOUN	O
 9	bul	bul	VERB	O
 
-
 # sent_id = 0010.test
 # text = Ap80 kısıtlaması nedir
 # intent: restriction
@@ -134,14 +125,12 @@
 2	kısıtlaması	kısıtlama	NOUN	O
 3	nedir	ne	VERB	O
 
-
 # sent_id = 0011.test
 # text = Arizona havaalanını listele
 # intent: airport
 1	Arizona	arizona	PROPN	B-state_name
 2	havaalanını	havaalan	NOUN	O
 3	listele	listele	VERB	O
-
 
 # sent_id = 0012.test
 # text = Kansas City'den Burbank'a 22 Mayıs Cumartesi günü aktarmasız America West veya Southwest Air uçuşları nelerdir
@@ -162,7 +151,6 @@
 14	uçuşları	uç	NOUN	O
 15	nelerdir	ne	VERB	O
 
-
 # sent_id = 0013.test
 # text = Washington'dan Denver'e akşamüstü uçuşları kaçta kalkıyor
 # intent: flight_time
@@ -173,7 +161,6 @@
 5	kaçta	kaçta	ADV	B-flight_time
 6	kalkıyor	kalk	VERB	O
 
-
 # sent_id = 0014.test
 # text = S yemek kodunun açılımı nedir
 # intent: flight
@@ -182,7 +169,6 @@
 3	kodunun	kod	NOUN	O
 4	açılımı	açılım	NOUN	O
 5	nedir	ne	VERB	O
-
 
 # sent_id = 0015.test
 # text = Sabah 8.42'de inersem Memphis Havalimanından şehir merkezine kara ulaşımı var mı
@@ -198,7 +184,6 @@
 9	ulaşımı	ulaşım	NOUN	O
 10	var	var	ADJ	O
 11	mı	mi	AUX	O
-
 
 # sent_id = 0016.test
 # text = Dfw ve Oakland arası hangi uçuşlar Oakland'a sabah 11:33 ve akşam 4:30 arası iniyor
@@ -218,7 +203,6 @@
 13	arası	ara	NOUN	O
 14	iniyor	in	VERB	O
 
-
 # sent_id = 0017.test
 # text = Charlotte Kuzey Carolina'dan Phoenix Arizona'ya giden pazartesi uçuşları nelerdir
 # intent: flight
@@ -232,7 +216,6 @@
 8	uçuşları	uç	NOUN	O
 9	nelerdir	ne	VERB	O
 
-
 # sent_id = 0018.test
 # text = Washington DC'de ne tür bir kara ulaşımı var
 # intent: ground_service
@@ -244,7 +227,6 @@
 6	kara	kara	ADJ	O
 7	ulaşımı	ulaşım	NOUN	O
 8	var	var	ADJ	O
-
 
 # sent_id = 0019.test
 # text = Dallas'tan Baltimore'ye yedi Temmuz'da varan ekonomi sınıfında olan en ucuz bilet nedir
@@ -262,7 +244,6 @@
 11	bilet	bilet	NOUN	O
 12	nedir	ne	VERB	O
 
-
 # sent_id = 0020.test
 # text = Baltimore'den San Francisco'ya cuma günü akşam 6 - 8 arasındaki uçuşları göster
 # intent: flight
@@ -279,7 +260,6 @@
 11	uçuşları	uç	NOUN	O
 12	göster	göster	VERB	O
 
-
 # sent_id = 0021.test
 # text = dl 468'de hangi öğünler var hangileri San Francisco'ya 950'de geliyor
 # intent: flight
@@ -293,7 +273,6 @@
 8	Francisco'ya	francisco	PROPN	I-toloc.city_name
 9	950'de	950	NOUN	O
 10	geliyor	gel	VERB	O
-
 
 # sent_id = 0022.test
 # text = Önümüzdeki çarşamba akşam varıp ertesi gün geri dönerek Kansas City'den Chicago'ya uçmak istiyorum
@@ -311,7 +290,6 @@
 11	Chicago'ya	chicago	PROPN	B-toloc.city_name
 12	uçmak	uç	NOUN	O
 13	istiyorum	iste	VERB	O
-
 
 # sent_id = 0023.test
 # text = Lütfen Washington DC'den San Francisco'ya mümkün olan en erken saatte twa'dan bir uçuş rezervasyonu yapın
@@ -332,7 +310,6 @@
 14	rezervasyonu	rezervasyon	NOUN	O
 15	yapın	yap	VERB	O
 
-
 # sent_id = 0024.test
 # text = 19 Mayıs çarşamba San Jose'den Nashville'ye gece uçuşu var mı
 # intent: flight
@@ -346,7 +323,6 @@
 8	uçuşu	uç	NOUN	O
 9	var	var	ADJ	O
 10	mı	mi	AUX	O
-
 
 # sent_id = 0025.test
 # text = Önümüzdeki cumartesi akşamı iki arkadaşım için Los Angeles'e uçuş ayarlamak istiyorum biri Kansas'tan diğeri de Las Vegas'tan geliyor
@@ -370,7 +346,6 @@
 17	Vegas'tan	vegas	PROPN	B-fromloc.city_name
 18	geliyor	gel	VERB	O
 
-
 # sent_id = 0026.test
 # text = AP 55 kısıtlaması nedir
 # intent: restriction
@@ -379,7 +354,6 @@
 3	kısıtlaması	kısıtlama	NOUN	O
 4	nedir	ne	VERB	O
 
-
 # sent_id = 0027.test
 # text = AP 80 kısıtlaması nedir
 # intent: restriction
@@ -387,7 +361,6 @@
 2	80	80	NUM	I-restriction_code
 3	kısıtlaması	kısıtlama	NOUN	O
 4	nedir	ne	VERB	O
-
 
 # sent_id = 0028.test
 # text = bana Philadelphia'dan San Francisco'ya Dallas aktarmalı tüm uçuşları göster
@@ -402,7 +375,6 @@
 8	uçuşları	uç	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0029.test
 # text = bana Denver aktarmalı Miami'den San Diego'ya olan uçuşları göster
 # intent: flight
@@ -416,7 +388,6 @@
 8	uçuşları	uç	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0030.test
 # text = önümüzdeki pazartesi Atlanta'dan Charlotte Kuzey Carolina'ya uçuşunuz var mı
 # intent: flight
@@ -429,7 +400,6 @@
 7	uçuşunuz	uç	VERB	O
 8	var	var	ADJ	O
 9	mı	mi	AUX	O
-
 
 # sent_id = 0031.test
 # text = 6 Nisan günü Tampa Florida'dan Charlotte Kuzey Carolina'ya sabah erken bir uçuş rezervasyonu yapmak istiyorum
@@ -450,7 +420,6 @@
 14	yapmak	yap	NOUN	O
 15	istiyorum	iste	VERB	O
 
-
 # sent_id = 0032.test
 # text = şimdi Philadelphia'dan Pittsburgh'a akşam 430 ile 530 arasında kalkan uçuşlar istiyorum
 # intent: flight
@@ -466,13 +435,11 @@
 10	uçuşlar	uç	NOUN	O
 11	istiyorum	iste	VERB	O
 
-
 # sent_id = 0033.test
 # text = sfo'dan Denver'e
 # intent: flight
 1	sfo'dan	sfo'dan	NOUN	O
 2	Denver'e	denver	PROPN	B-toloc.city_name
-
 
 # sent_id = 0034.test
 # text = bwi'den Salt Lake City'e en düşük ücret nedir
@@ -486,7 +453,6 @@
 7	ücret	ücret	NOUN	I-cost_relative
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0035.test
 # text = Minneapolis'ten Long Beach'a 26 Haziran'da uçuş numaraları
 # intent: flight_no
@@ -497,7 +463,6 @@
 5	Haziran'da	haziran	PROPN	B-depart_date.month_name
 6	uçuş	uç	NOUN	O
 7	numaraları	numara	NOUN	O
-
 
 # sent_id = 0036.test
 # text = Philadelphia - Boston arası us-air uçuş numarası 279 mu 137338 mi
@@ -514,7 +479,6 @@
 10	137338	137338	NUM	O
 11	mi	mi	AUX	O
 
-
 # sent_id = 0037.test
 # text = Atlanta'da araba kiralama fiyatı ne kadar
 # intent: flight
@@ -524,7 +488,6 @@
 4	fiyatı	fiyat	NOUN	O
 5	ne	ne	ADV	O
 6	kadar	kadar	ADP	O
-
 
 # sent_id = 0038.test
 # text = lütfen Pittsburgh'taki araç kiralama fiyatlarını listeleyin
@@ -536,7 +499,6 @@
 5	fiyatlarını	fiyat	NOUN	O
 6	listeleyin	listele	VERB	O
 
-
 # sent_id = 0039.test
 # text = ap58 kısıtlaması ne anlama geliyor
 # intent: abbreviation+restriction
@@ -545,7 +507,6 @@
 3	ne	ne	ADJ	O
 4	anlama	anlam	NOUN	O
 5	geliyor	gel	VERB	O
-
 
 # sent_id = 0040.test
 # text = Baltimore Washington'dan Oakland'a akşam 445 ve 515 saatleri arasında varan aktarmasız uçuşları listele
@@ -564,7 +525,6 @@
 12	uçuşları	uç	NOUN	O
 13	listele	listele	VERB	O
 
-
 # sent_id = 0041.test
 # text = akşam 8'den akşam 9'a kadar Denver'e gelen tüm günlük uçuşları listele
 # intent: flight
@@ -580,7 +540,6 @@
 10	uçuşları	uç	NOUN	O
 11	listele	listele	VERB	O
 
-
 # sent_id = 0042.test
 # text = Milwaukee'den dtw'ye uçuşları verin
 # intent: flight
@@ -588,7 +547,6 @@
 2	dtw'ye	dtw'ye	NOUN	O
 3	uçuşları	uç	NOUN	O
 4	verin	ver	VERB	O
-
 
 # sent_id = 0043.test
 # text = Boston'dan bwi'ye atıştırmalık servisi olan en erken uçuş nedir
@@ -603,14 +561,12 @@
 8	uçuş	uç	NOUN	O
 9	nedir	ne	VERB	O
 
-
 # sent_id = 0044.test
 # text = bwi Washington'da mı
 # intent: city
 1	bwi	bwi	NOUN	B-airport_code
 2	Washington'da	washington	PROPN	B-toloc.state_name
 3	mı	mi	AUX	O
-
 
 # sent_id = 0045.test
 # text = Amerikan Havayollarının hizmet verdiği şehirler nelerdir
@@ -621,7 +577,6 @@
 4	verdiği	ver	NOUN	O
 5	şehirler	şehir	NOUN	O
 6	nelerdir	ne	VERB	O
-
 
 # sent_id = 0046.test
 # text = hem Amerikan hem Delta Havayolları tarafından hangi şehirlere hizmet verilmektedir
@@ -636,7 +591,6 @@
 8	şehirlere	şehir	NOUN	O
 9	hizmet	hizmet	NOUN	O
 10	verilmektedir	ver	VERB	O
-
 
 # sent_id = 0047.test
 # text = bana öğleden sonra 12 ile 4 arası Pittsburgh'a tüm US-Air uçuşlarını göster
@@ -654,7 +608,6 @@
 11	uçuşlarını	uç	NOUN	O
 12	göster	göster	VERB	O
 
-
 # sent_id = 0048.test
 # text = Philadelphia'da limuzin servisinin maliyeti nedir
 # intent: ground_fare
@@ -663,7 +616,6 @@
 3	servisinin	servis	NOUN	O
 4	maliyeti	maliyet	NOUN	O
 5	nedir	ne	VERB	O
-
 
 # sent_id = 0049.test
 # text = Pittsburgh içinde limuzin servisinin fiyatı ne kadar
@@ -675,7 +627,6 @@
 5	fiyatı	fiyat	NOUN	O
 6	ne	ne	ADV	O
 7	kadar	kadar	ADP	O
-
 
 # sent_id = 0050.test
 # text = bu yıl 23 Kasım'da Atlanta'dan Denver'e Delta ile uçmak istiyorum
@@ -691,7 +642,6 @@
 9	uçmak	uç	NOUN	O
 10	istiyorum	iste	VERB	O
 
-
 # sent_id = 0051.test
 # text = bana 15 ekim 1991'de Boston'dan Oakland'a olan uçuşları söyler misin
 # intent: flight
@@ -705,7 +655,6 @@
 8	uçuşları	uç	NOUN	O
 9	söyler	söyle	VERB	O
 10	misin	mi	AUX	O
-
 
 # sent_id = 0052.test
 # text = bana 1 Eylül 1991 için Denver - San Francisco arasındaki tüm United uçuşlarını göster
@@ -725,7 +674,6 @@
 13	uçuşlarını	uç	NOUN	O
 14	göster	göster	VERB	O
 
-
 # sent_id = 0053.test
 # text = Amerikan Havayolu şirketinin Washington'dan Philadelphia'ya sabah erken saatlerde uçuşları hakkında bilgi
 # intent: flight
@@ -740,7 +688,6 @@
 9	uçuşları	uç	NOUN	O
 10	hakkında	hakkında	ADV	O
 11	bilgi	bilgi	NOUN	O
-
 
 # sent_id = 0054.test
 # text = bana uçuş saatlerini verin lütfen sabah saat 8'den önce Boston'dan Baltimore'ye uçmak istiyorum
@@ -759,7 +706,6 @@
 12	uçmak	uç	NOUN	O
 13	istiyorum	iste	VERB	O
 
-
 # sent_id = 0055.test
 # text = Boston'dan Pittsburgh'a uçuş saatlerini listeleyin lütfen
 # intent: flight
@@ -769,7 +715,6 @@
 4	saatlerini	saat	NOUN	O
 5	listeleyin	listele	VERB	O
 6	lütfen	lütfen	ADV	O
-
 
 # sent_id = 0056.test
 # text = bana Dallas ile San Francisco arasındaki tüm uçuşları ve ücretlerini listele
@@ -785,7 +730,6 @@
 9	ve	ve	CCONJ	O
 10	ücretlerini	ücret	NOUN	O
 11	listele	listele	VERB	O
-
 
 # sent_id = 0057.test
 # text = bana Denver - Baltimore arası uçan tüm havayollarının uçuşlarını ve maliyetlerini listeleyin lütfen
@@ -804,7 +748,6 @@
 12	listeleyin	listele	VERB	O
 13	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0058.test
 # text = bana yirmi yedi Aralık'ta Indianapolis'ten Orlando'ya olan uçuşları ve ücretlerini ver
 # intent: airfare+flight
@@ -820,13 +763,11 @@
 10	ücretlerini	ücret	NOUN	O
 11	ver	ver	VERB	O
 
-
 # sent_id = 0059.test
 # text = PHL nedir
 # intent: flight
 1	PHL	phl	NOUN	O
 2	nedir	ne	VERB	O
-
 
 # sent_id = 0060.test
 # text = lga'dan New York City'e kara ulaşımı var mı
@@ -840,13 +781,11 @@
 7	var	var	ADJ	O
 8	mı	mi	AUX	O
 
-
 # sent_id = 0061.test
 # text = TPA nedir
 # intent: flight
 1	TPA	TPA	PROPN	B-airport_code
 2	nedir	ne	VERB	O
-
 
 # sent_id = 0062.test
 # text = Toronto International şehir merkezine ne kadar uzaklıkta
@@ -858,7 +797,6 @@
 5	ne	ne	ADV	O
 6	kadar	kadar	ADP	O
 7	uzaklıkta	uzak	NOUN	O
-
 
 # sent_id = 0063.test
 # text = Los Angeles International şehir merkezine ne kadar uzaklıkta
@@ -872,7 +810,6 @@
 7	kadar	kadar	ADP	O
 8	uzaklıkta	uzak	NOUN	O
 
-
 # sent_id = 0064.test
 # text = Baltimore'den San Francisco'ya uçuş ne kadar sürer
 # intent: distance+flight
@@ -883,7 +820,6 @@
 5	ne	ne	ADV	O
 6	kadar	kadar	ADP	O
 7	sürer	sür	VERB	O
-
 
 # sent_id = 0065.test
 # text = New York'taki hangi havaalanı şehir merkezine en yakın
@@ -897,13 +833,11 @@
 7	en	en	ADV	O
 8	yakın	yakın	NOUN	O
 
-
 # sent_id = 0066.test
 # text = Houston havaalanları
 # intent: airport
 1	Houston	houston	NOUN	B-city_name
 2	havaalanları	havaalan	NOUN	O
-
 
 # sent_id = 0067.test
 # text = bana Baltimore'deki havaalanlarının bir listesini ver
@@ -915,7 +849,6 @@
 5	listesini	liste	NOUN	O
 6	ver	ver	VERB	O
 
-
 # sent_id = 0068.test
 # text = Delta American'ın uçmadığı nereye uçuyor
 # intent: flight
@@ -924,7 +857,6 @@
 3	uçmadığı	uç	NOUN	O
 4	nereye	nereye	ADV	O
 5	uçuyor	uç	VERB	O
-
 
 # sent_id = 0069.test
 # text = Pittsburgh'tan kalkan ve dört Temmuz'da Baltimore'ye varan en küçük uçağa hangi havayolu şirketi sahip
@@ -944,7 +876,6 @@
 13	şirketi	şirket	NOUN	O
 14	sahip	sahip	NOUN	O
 
-
 # sent_id = 0070.test
 # text = Pittsburgh'tan Baltimore'ye hangi uçuş en az yolcu taşıyor
 # intent: flight
@@ -956,7 +887,6 @@
 6	az	az	ADJ	I-mod
 7	yolcu	yolcu	NOUN	O
 8	taşıyor	taşı	VERB	O
-
 
 # sent_id = 0071.test
 # text = yarın için Boston'dan Stapleton havalimanına ilk uçuş nedir
@@ -970,7 +900,6 @@
 7	uçuş	uç	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0072.test
 # text = General Mitchell International'a gelen tüm uçuşları listeleyin
 # intent: flight
@@ -981,7 +910,6 @@
 5	tüm	tüm	DET	O
 6	uçuşları	uç	NOUN	O
 7	listeleyin	listele	VERB	O
-
 
 # sent_id = 0073.test
 # text = şehir merkezinden Logan Havaalanına gitmek ne kadar tutar
@@ -995,7 +923,6 @@
 7	kadar	kadar	ADP	O
 8	tutar	tut	VERB	O
 
-
 # sent_id = 0074.test
 # text = bana tüm havaalanlarından Love Field'e uçuşları göster
 # intent: flight
@@ -1006,7 +933,6 @@
 5	Field'e	field	PROPN	I-toloc.airport_name
 6	uçuşları	uç	NOUN	O
 7	göster	göster	VERB	O
-
 
 # sent_id = 0075.test
 # text = Cincinnati'den O'hare'ye uçuşlar Amerikan saatiyle sabah 7.18'den sonra kalkıyor
@@ -1020,7 +946,6 @@
 7	7.18'den	7.18	NOUN	O
 8	sonra	sonra	ADP	O
 9	kalkıyor	kalk	VERB	O
-
 
 # sent_id = 0076.test
 # text = bana gidiş dönüş 1500 dolardan az olan tüm Dallas uçuşlarını göster
@@ -1037,7 +962,6 @@
 10	uçuşlarını	uç	NOUN	O
 11	göster	göster	VERB	O
 
-
 # sent_id = 0077.test
 # text = Pittsburgh'tan Philadelphia'ya 1000 doların altındaki gidiş dönüş ücretleri
 # intent: airfare
@@ -1049,7 +973,6 @@
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
 8	ücretleri	ücret	NOUN	O
-
 
 # sent_id = 0078.test
 # text = Baltimore'den Philadelphia'ya 1000 doların altında gidiş dönüş ücretleri
@@ -1063,7 +986,6 @@
 7	dönüş	dön	NOUN	O
 8	ücretleri	ücret	NOUN	O
 
-
 # sent_id = 0079.test
 # text = Baltimore'den Philadelphia'ya tüm uçuşlar 1000 dolardan az
 # intent: flight
@@ -1075,7 +997,6 @@
 6	dolardan	dolar	NOUN	O
 7	az	az	ADP	O
 
-
 # sent_id = 0080.test
 # text = 100'de kaç koltuk var
 # intent: capacity
@@ -1083,7 +1004,6 @@
 2	kaç	kaç	ADJ	O
 3	koltuk	koltuk	NOUN	O
 4	var	var	ADJ	O
-
 
 # sent_id = 0081.test
 # text = bir Boeing 737 kaç yolcu alabilir
@@ -1095,7 +1015,6 @@
 5	yolcu	yolcu	NOUN	O
 6	alabilir	al	VERB	O
 
-
 # sent_id = 0082.test
 # text = bir dc9'un koltuk kapasitesi nedir
 # intent: capacity
@@ -1105,7 +1024,6 @@
 4	kapasitesi	kapasite	NOUN	O
 5	nedir	ne	VERB	O
 
-
 # sent_id = 0083.test
 # text = Delta BE1 koltuk kapasitesi nedir
 # intent: capacity
@@ -1114,7 +1032,6 @@
 3	koltuk	koltuk	NOUN	O
 4	kapasitesi	kapasite	NOUN	O
 5	nedir	ne	VERB	O
-
 
 # sent_id = 0084.test
 # text = İndianapolis'ten Orlando'ya 1288'den daha düşük gidiş dönüş ücretleri olan uçuşları göster
@@ -1131,7 +1048,6 @@
 10	uçuşları	uç	NOUN	O
 11	göster	göster	VERB	O
 
-
 # sent_id = 0085.test
 # text = Baltimore'den Dallas'a ekonomik fiyatlarla hangi uçuşların uygun olduğunu göster
 # intent: airfare+flight
@@ -1145,7 +1061,6 @@
 8	olduğunu	ol	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0086.test
 # text = Baltimore'den Kansas şehirine ekonomi
 # intent: flight
@@ -1153,7 +1068,6 @@
 2	Kansas	kansas	PROPN	B-state_name
 3	şehirine	şehirine	NOUN	O
 4	ekonomi	ekonomi	NOUN	B-class_type
-
 
 # sent_id = 0087.test
 # text = New York'tan Miami'ye gidiş dönüş ekonomi sınıfı ücretler
@@ -1166,7 +1080,6 @@
 6	ekonomi	ekonomi	NOUN	B-class_type
 7	sınıfı	sınıf	NOUN	I-class_type
 8	ücretler	ücret	NOUN	O
-
 
 # sent_id = 0088.test
 # text = bana Burbank'tan St. Louis'teki Milwaukee'ye tüm gidiş dönüş uçak biletlerini bul
@@ -1183,7 +1096,6 @@
 10	biletlerini	bilet	NOUN	O
 11	bul	bul	VERB	O
 
-
 # sent_id = 0089.test
 # text = Charlotte'den Las Vegas'a bir uçuş bulmak ve St. Louis'te duraklamak isterdim
 # intent: flight
@@ -1199,7 +1111,6 @@
 10	duraklamak	durakla	NOUN	O
 11	isterdim	iste	VERB	O
 
-
 # sent_id = 0090.test
 # text = Memphis'ten Tacoma'ya hangi uçuşların gittiğini söyleyip Los Angeles'te duraklama yapabilir misin
 # intent: flight
@@ -1214,7 +1125,6 @@
 9	duraklama	duraklama	NOUN	B-flight_stop
 10	yapabilir	yap	VERB	O
 11	misin	mi	AUX	O
-
 
 # sent_id = 0091.test
 # text = Oakland ve Boston arasında Dallas kalesinde mola yeri olan bir uçuş var mı
@@ -1233,7 +1143,6 @@
 12	var	var	ADJ	O
 13	mı	mi	AUX	O
 
-
 # sent_id = 0092.test
 # text = bana San Francisco'dan Boston'a öğleden önce kalkan tüm direkt uçuşları göster
 # intent: flight
@@ -1249,7 +1158,6 @@
 10	uçuşları	uç	NOUN	O
 11	göster	göster	VERB	O
 
-
 # sent_id = 0093.test
 # text = Philadelphia'dan Pittsburgh'a sabahın erken saatlerinde direkt uçuşunuz var mı
 # intent: flight
@@ -1263,7 +1171,6 @@
 8	var	var	ADJ	O
 9	mı	mi	AUX	O
 
-
 # sent_id = 0094.test
 # text = Boston'dan San Francisco'ya hangi United uçuşları bağlantı kuruyor
 # intent: flight
@@ -1276,7 +1183,6 @@
 7	bağlantı	bağlantı	NOUN	O
 8	kuruyor	kur	VERB	O
 
-
 # sent_id = 0095.test
 # text = Seattle'den Boston'a aktarmasız veya bağlantılı uçuşlar
 # intent: flight
@@ -1286,7 +1192,6 @@
 4	veya	veya	CCONJ	B-or
 5	bağlantılı	bağlantı	ADJ	O
 6	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0096.test
 # text = lütfen bana Pittsburgh'tan Atlanta'ya direkt sabah uçuşlarını verin
@@ -1299,7 +1204,6 @@
 6	sabah	sabah	NOUN	B-depart_time.period_of_day
 7	uçuşlarını	uç	NOUN	O
 8	verin	ver	VERB	O
-
 
 # sent_id = 0097.test
 # text = Philadelphia'dan Atlanta'ya Perşembe sabahı sabah 8'den önce kalkan uçuşları listeleyin
@@ -1315,7 +1219,6 @@
 9	uçuşları	uç	NOUN	O
 10	listeleyin	listele	VERB	O
 
-
 # sent_id = 0098.test
 # text = bana bugün erken kalkan Boston - San Francisco uçuşlarını ver
 # intent: flight
@@ -1330,7 +1233,6 @@
 9	uçuşlarını	uç	NOUN	O
 10	ver	ver	VERB	O
 
-
 # sent_id = 0099.test
 # text = cumartesi sabahı erken saatlerde Chicago'dan kalkan kıtasal uçuşları göster
 # intent: flight
@@ -1343,7 +1245,6 @@
 7	kıtasal	kıta	ADJ	O
 8	uçuşları	uç	NOUN	O
 9	göster	göster	VERB	O
-
 
 # sent_id = 0100.test
 # text = pazartesi sabahı erken saatlerde hangi uçuşlar Kansas şehrinden Atlanta'ya kalkıyor
@@ -1358,7 +1259,6 @@
 8	şehrinden	şehir	NOUN	O
 9	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
 10	kalkıyor	kalk	VERB	O
-
 
 # sent_id = 0101.test
 # text = Columbus'tan Minneapolis'e on dört Haziran pazartesi sabahın erken saatlerinde veya on üç Haziran pazar akşamı olan uçuşları bulmak istiyorum teşekkür ederim
@@ -1385,7 +1285,6 @@
 20	teşekkür	teşekkür	NOUN	O
 21	ederim	et	VERB	O
 
-
 # sent_id = 0102.test
 # text = ve Milwaukee'den Atlanta'ya her gün saat 10'dan önce
 # intent: flight
@@ -1398,7 +1297,6 @@
 7	10'dan	10	NOUN	B-depart_time.time
 8	önce	önce	ADP	B-depart_time.time_relative
 
-
 # sent_id = 0103.test
 # text = Denver'den Boston'a günlük uçuşları listeleyin
 # intent: flight
@@ -1408,7 +1306,6 @@
 4	uçuşları	uç	NOUN	O
 5	listeleyin	listele	VERB	O
 
-
 # sent_id = 0104.test
 # text = Boston'dan Pittsburgh'a günlük uçuşları listele
 # intent: flight
@@ -1417,7 +1314,6 @@
 3	günlük	gün	ADJ	O
 4	uçuşları	uç	NOUN	O
 5	listele	listele	VERB	O
-
 
 # sent_id = 0105.test
 # text = bana Milwaukee ile Orlando arasındaki tüm günlük uçuşları göster
@@ -1432,7 +1328,6 @@
 8	uçuşları	uç	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0106.test
 # text = Continental havayollarını kullanarak Boston'dan Oakland'a günlük uçuşları listele
 # intent: flight
@@ -1444,7 +1339,6 @@
 6	günlük	gün	ADJ	O
 7	uçuşları	uç	NOUN	O
 8	listele	listele	VERB	O
-
 
 # sent_id = 0107.test
 # text = bana on beş Haziran'da Denver veya Dallas'tan kalkan Baltimore'ye varan uçuşları göster
@@ -1462,7 +1356,6 @@
 11	uçuşları	uç	NOUN	O
 12	göster	göster	VERB	O
 
-
 # sent_id = 0108.test
 # text = Bir Temmuz'da Pittsburgh'tan Baltimore'ye gelen uçuşları listeleyin
 # intent: flight
@@ -1473,7 +1366,6 @@
 5	gelen	gel	ADJ	O
 6	uçuşları	uç	NOUN	O
 7	listeleyin	listele	VERB	O
-
 
 # sent_id = 0109.test
 # text = bana on dört Haziran'da Baltimore'ye varan uçuşları göster
@@ -1486,7 +1378,6 @@
 6	varan	var	ADJ	O
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
-
 
 # sent_id = 0110.test
 # text = Dallas'tan başlayarak on dört Haziran'da Baltimore'ye varan en ucuz uçuşu göster
@@ -1503,7 +1394,6 @@
 10	uçuşu	uç	NOUN	O
 11	göster	göster	VERB	O
 
-
 # sent_id = 0111.test
 # text = kaç havayolu New York'tan Los Angeles'e Milwaukee üzerinden uçuyor
 # intent: quantity
@@ -1517,7 +1407,6 @@
 8	üzerinden	üzeri	NOUN	O
 9	uçuyor	uç	VERB	O
 
-
 # sent_id = 0112.test
 # text = Twa'nin business class'ta kaç uçuşu var
 # intent: quantity+flight
@@ -1527,7 +1416,6 @@
 4	kaç	kaç	ADJ	O
 5	uçuşu	uç	NOUN	O
 6	var	var	ADJ	O
-
 
 # sent_id = 0113.test
 # text = Delta'nın bugün kaç tane birinci sınıf uçuşu var
@@ -1541,7 +1429,6 @@
 7	uçuşu	uç	NOUN	O
 8	var	var	ADJ	O
 
-
 # sent_id = 0114.test
 # text = TWA'nin business class ile kaç uçuşu var
 # intent: quantity+flight
@@ -1552,7 +1439,6 @@
 5	kaç	kaç	ADJ	O
 6	uçuşu	uç	NOUN	O
 7	var	var	ADJ	O
-
 
 # sent_id = 0115.test
 # text = United'in bugün tüm şehirlerden kalkan kaç tane birinci sınıf uçuşu var
@@ -1569,7 +1455,6 @@
 10	uçuşu	uç	NOUN	O
 11	var	var	ADJ	O
 
-
 # sent_id = 0116.test
 # text = Washington'dan kalkan 755 salı sabahı uçuşu San Francisco'ya kaçta varıyor
 # intent: flight
@@ -1583,7 +1468,6 @@
 8	Francisco'ya	francisco	PROPN	I-toloc.city_name
 9	kaçta	kaçta	ADV	B-flight_time
 10	varıyor	var	VERB	O
-
 
 # sent_id = 0117.test
 # text = Amerikan Havayolları ile Philadelphia'dan Washington'a sabahki en erken uçuşunuzun saatini istiyorum
@@ -1600,7 +1484,6 @@
 10	saatini	saat	NOUN	O
 11	istiyorum	iste	VERB	O
 
-
 # sent_id = 0118.test
 # text = Continental pazar günleri Philadelphia'dan Denver'e kaçta uçuyor
 # intent: flight
@@ -1611,7 +1494,6 @@
 5	Denver'e	denver	PROPN	B-toloc.city_name
 6	kaçta	kaçta	ADV	B-flight_time
 7	uçuyor	uç	VERB	O
-
 
 # sent_id = 0119.test
 # text = çarşamba günü San Francisco'dan Boston'a uçuş tarifesi rica ediyorum
@@ -1626,7 +1508,6 @@
 8	rica	rica	NOUN	O
 9	ediyorum	et	VERB	O
 
-
 # sent_id = 0120.test
 # text = Pittsburgh'ta araba kiralamak istiyorum
 # intent: ground_service
@@ -1634,7 +1515,6 @@
 2	araba	araba	NOUN	B-transport_type
 3	kiralamak	kirala	NOUN	O
 4	istiyorum	iste	VERB	O
-
 
 # sent_id = 0121.test
 # text = Baltimore Havaalanında limuzin servisi var mı
@@ -1645,7 +1525,6 @@
 4	servisi	servis	NOUN	O
 5	var	var	ADJ	O
 6	mı	mi	AUX	O
-
 
 # sent_id = 0122.test
 # text = çarşamba günleri Long Beach California'dan Columbus Ohio'ya uçuşların listesini alabilir miyim
@@ -1662,7 +1541,6 @@
 10	alabilir	al	VERB	O
 11	miyim	mi	AUX	O
 
-
 # sent_id = 0123.test
 # text = Nashville Tennessee'den Seattle'ye bir bilete ihtiyacım var
 # intent: flight
@@ -1673,7 +1551,6 @@
 5	bilete	bilet	NOUN	O
 6	ihtiyacım	ihtiyaç	NOUN	O
 7	var	var	ADJ	O
-
 
 # sent_id = 0124.test
 # text = Washington DC'den San Francisco California'ya bir uçuş için bilgiye ihtiyacım var lütfen
@@ -1691,7 +1568,6 @@
 11	var	var	ADJ	O
 12	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0125.test
 # text = Oakland California'dan Philadelphia'ya salı günü olan uçuşları listeleyin lütfen
 # intent: flight
@@ -1704,7 +1580,6 @@
 7	uçuşları	uç	NOUN	O
 8	listeleyin	listele	VERB	O
 9	lütfen	lütfen	ADV	O
-
 
 # sent_id = 0126.test
 # text = Dallas'tan Baltimore'ye hangi uçuşun en ucuz fiyata sahip olduğunu söyleyebilir misin
@@ -1721,7 +1596,6 @@
 10	söyleyebilir	söyle	VERB	O
 11	misin	mi	AUX	O
 
-
 # sent_id = 0127.test
 # text = Dallas'tan Baltimore'ye üç Ağustos'ta uygun olan uçuşlardan hangisinin en ucuz
 # intent: flight
@@ -1735,7 +1609,6 @@
 8	hangisinin	hangi	PRON	O
 9	en	en	ADV	B-cost_relative
 10	ucuz	ucuz	ADJ	I-cost_relative
-
 
 # sent_id = 0128.test
 # text = Boston ve San Francisco arasındaki en pahalı birinci sınıf biletler hangileri
@@ -1752,7 +1625,6 @@
 10	biletler	bilet	NOUN	O
 11	hangileri	hangi	PRON	O
 
-
 # sent_id = 0129.test
 # text = Denver'den Atlanta'ya en ucuz uçuşlar hangileridir
 # intent: flight
@@ -1762,7 +1634,6 @@
 4	ucuz	ucuz	ADJ	I-cost_relative
 5	uçuşlar	uç	NOUN	O
 6	hangileridir	hangi	VERB	O
-
 
 # sent_id = 0130.test
 # text = Cleveland'dan Miami'ye US Air uçuşunda en ucuz birinci sınıf gidiş dönüş biletinin fiyatı nedir
@@ -1781,7 +1652,6 @@
 12	biletinin	bilet	NOUN	O
 13	fiyatı	fiyat	NOUN	O
 14	nedir	ne	VERB	O
-
 
 # sent_id = 0131.test
 # text = harika şimdi öğrenmek istediğim şey yirmi Nisan'da Washington'dan Denver'e sabah saat 5 civarı en az pahalı uçuşunuz var mı
@@ -1806,7 +1676,6 @@
 18	var	var	ADJ	O
 19	mı	mi	AUX	O
 
-
 # sent_id = 0132.test
 # text = Milwaukee Havaalanı ile Milwaukee şehir merkezi arasında hangi kara taşımacılığı mevcuttur
 # intent: flight
@@ -1822,7 +1691,6 @@
 10	taşımacılığı	taşımacılık	NOUN	O
 11	mevcuttur	mevcut	VERB	O
 
-
 # sent_id = 0133.test
 # text = General Mitchell International için tüm kalkışları ve inişleri listeleyin lütfen
 # intent: flight
@@ -1837,7 +1705,6 @@
 9	listeleyin	listele	VERB	O
 10	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0134.test
 # text = La Guardia Havaalanı'ndan New York City'e hangi kara taşımacılığı mevcuttur
 # intent: flight
@@ -1851,7 +1718,6 @@
 8	kara	kara	ADJ	O
 9	taşımacılığı	taşımacılık	NOUN	O
 10	mevcuttur	mevcut	VERB	O
-
 
 # sent_id = 0135.test
 # text = Dallas Fort Worth Airport'tan Dallas şehir merkezine hangi kara taşımacılığı mevcuttur
@@ -1868,7 +1734,6 @@
 10	taşımacılığı	taşımacılık	NOUN	O
 11	mevcuttur	mevcut	VERB	O
 
-
 # sent_id = 0136.test
 # text = Boston şehrinde havalimanı ve şehir merkezi arasında kara ulaşımı lütfen
 # intent: ground_service
@@ -1883,7 +1748,6 @@
 9	ulaşımı	ulaşım	NOUN	O
 10	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0137.test
 # text = San Francisco kara taşımacılığı
 # intent: flight
@@ -1891,7 +1755,6 @@
 2	Francisco	francisco	PROPN	I-city_name
 3	kara	kara	ADJ	O
 4	taşımacılığı	taşımacılık	NOUN	O
-
 
 # sent_id = 0138.test
 # text = bana San Francisco'daki kara taşımacılığını anlat
@@ -1902,7 +1765,6 @@
 4	kara	kara	ADJ	O
 5	taşımacılığını	taşımacılık	NOUN	O
 6	anlat	anlat	VERB	O
-
 
 # sent_id = 0139.test
 # text = şimdi bana St. Louis'ten Burbank'a tüm uçuşları göster
@@ -1915,7 +1777,6 @@
 6	tüm	tüm	DET	O
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
-
 
 # sent_id = 0140.test
 # text = Milwaukee ve Phoenix arasında cumartesi veya pazar uçuşları American havayolları
@@ -1931,7 +1792,6 @@
 9	American	american	PROPN	B-airline_name
 10	havayolları	havayol	NOUN	I-airline_name
 
-
 # sent_id = 0141.test
 # text = bana Denver veya Philadelphia veya Pittsburgh'tan Baltimore'ye tüm uçuşları göster
 # intent: flight
@@ -1945,7 +1805,6 @@
 8	tüm	tüm	DET	O
 9	uçuşları	uç	NOUN	O
 10	göster	göster	VERB	O
-
 
 # sent_id = 0142.test
 # text = Cleveland'dan Indianapolis'e 12 Mayıs Çarşamba günü TWA Delta veya Continental ile uçuşlar nelerdir
@@ -1964,7 +1823,6 @@
 12	uçuşlar	uç	NOUN	O
 13	nelerdir	ne	VERB	O
 
-
 # sent_id = 0143.test
 # text = Baltimore veya Denver veya Pittsburgh'tan kalkan ve Philadelphia'ya varan tüm uçuşları listele
 # intent: flight
@@ -1981,7 +1839,6 @@
 11	uçuşları	uç	NOUN	O
 12	listele	listele	VERB	O
 
-
 # sent_id = 0144.test
 # text = ücret kodu Y ne anlama geliyor
 # intent: abbreviation+airfare
@@ -1991,7 +1848,6 @@
 4	ne	ne	ADJ	O
 5	anlama	anlam	NOUN	O
 6	geliyor	gel	VERB	O
-
 
 # sent_id = 0145.test
 # text = ücret kodu QW ne anlama geliyor
@@ -2003,7 +1859,6 @@
 5	anlama	anlam	NOUN	O
 6	geliyor	gel	VERB	O
 
-
 # sent_id = 0146.test
 # text = ücret kodu QW nedir
 # intent: airfare
@@ -2011,7 +1866,6 @@
 2	kodu	kod	NOUN	O
 3	QW	qw	NOUN	B-fare_basis_code
 4	nedir	ne	VERB	O
-
 
 # sent_id = 0147.test
 # text = ücret kodu BN ne anlama geliyor
@@ -2023,7 +1877,6 @@
 5	anlama	anlam	NOUN	O
 6	geliyor	gel	VERB	O
 
-
 # sent_id = 0148.test
 # text = ücret kodu YN ne anlama geliyor
 # intent: abbreviation+airfare
@@ -2033,7 +1886,6 @@
 4	ne	ne	ADJ	O
 5	anlama	anlam	NOUN	O
 6	geliyor	gel	VERB	O
-
 
 # sent_id = 0149.test
 # text = QX ücret kodu olan San Francisco - Boston arası tüm uçuşları listeleyin
@@ -2051,7 +1903,6 @@
 11	uçuşları	uç	NOUN	O
 12	listeleyin	listele	VERB	O
 
-
 # sent_id = 0150.test
 # text = Boston'dan Denver'e yemek servisi yapan en geç uçuş nedir
 # intent: flight
@@ -2064,7 +1915,6 @@
 7	geç	geç	ADV	O
 8	uçuş	uç	NOUN	O
 9	nedir	ne	VERB	O
-
 
 # sent_id = 0151.test
 # text = Continental'daki cumartesi günü kalkan ve yemek servisi yapan Chicago'dan Seattle'ye tüm uçuşları listeleyin
@@ -2082,7 +1932,6 @@
 11	tüm	tüm	DET	O
 12	uçuşları	uç	NOUN	O
 13	listeleyin	listele	VERB	O
-
 
 # sent_id = 0152.test
 # text = Atlanta ile Denver arasında gidip gelen ve yemek servisi yapan en erken uçuşun ne olduğunu söyleyebilir misin
@@ -2105,7 +1954,6 @@
 16	söyleyebilir	söyle	VERB	O
 17	misin	mi	AUX	O
 
-
 # sent_id = 0153.test
 # text = cumartesi sabahı Chicago'dan Minneapolis'e yemekli uçuşları ver
 # intent: flight
@@ -2116,7 +1964,6 @@
 5	yemekli	yemekli	ADJ	O
 6	uçuşları	uç	NOUN	O
 7	ver	ver	VERB	O
-
 
 # sent_id = 0154.test
 # text = Delta l10'daki Seattle'den Salt Lake şehrine uçuşları listele
@@ -2129,7 +1976,6 @@
 6	şehrine	şehir	NOUN	O
 7	uçuşları	uç	NOUN	O
 8	listele	listele	VERB	O
-
 
 # sent_id = 0155.test
 # text = Boeing 737 ile San Diego'dan Phoenix'e tüm uçuşları göster
@@ -2144,13 +1990,11 @@
 8	uçuşları	uç	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0156.test
 # text = D9S nedir
 # intent: flight
 1	D9S	d9s	NOUN	B-aircraft_code
 2	nedir	ne	VERB	O
-
 
 # sent_id = 0157.test
 # text = Baltimore ve Oakland arasında kahvaltı servisi yapılan en erken uçuş nedir
@@ -2167,7 +2011,6 @@
 10	uçuş	uç	NOUN	O
 11	nedir	ne	VERB	O
 
-
 # sent_id = 0158.test
 # text = Denver'den San Francisco'ya kahvaltı uçuşu lütfen
 # intent: flight
@@ -2177,7 +2020,6 @@
 4	kahvaltı	kahvaltı	NOUN	B-meal_description
 5	uçuşu	uç	NOUN	O
 6	lütfen	lütfen	ADV	O
-
 
 # sent_id = 0159.test
 # text = Boston ve San Francisco arasında kahvaltı servisi yapan uçuşları listeleyin
@@ -2193,7 +2035,6 @@
 9	uçuşları	uç	NOUN	O
 10	listeleyin	listele	VERB	O
 
-
 # sent_id = 0160.test
 # text = önümüzdeki hafta Boston'dan Philadelphia'ya öğleden sonra varan tüm uçuşları ver
 # intent: flight
@@ -2207,7 +2048,6 @@
 8	tüm	tüm	DET	O
 9	uçuşları	uç	NOUN	O
 10	ver	ver	VERB	O
-
 
 # sent_id = 0161.test
 # text = bana çarşamba sabahı Pittsburgh'tan Atlanta'ya kahvaltı servisi yapan uçuşları göster lütfen
@@ -2224,7 +2064,6 @@
 10	göster	göster	VERB	O
 11	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0162.test
 # text = Atlanta'dan Baltimore'ye kahvaltı servisi yapan ilk uçuş nedir
 # intent: flight
@@ -2236,7 +2075,6 @@
 6	ilk	ilk	ADV	O
 7	uçuş	uç	NOUN	O
 8	nedir	ne	VERB	O
-
 
 # sent_id = 0163.test
 # text = perşembe sabahı hangi uçuşlar St. Paul'dan St. Louis'e varıyor
@@ -2250,7 +2088,6 @@
 7	St.	St.	PROPN	B-toloc.city_name
 8	Louis'e	louis	PROPN	I-toloc.city_name
 9	varıyor	var	VERB	O
-
 
 # sent_id = 0164.test
 # text = Kansas'tan St. Paul'a akşam 6 civarında varan bir uçuş rica ediyorum
@@ -2267,7 +2104,6 @@
 10	rica	rica	NOUN	O
 11	ediyorum	et	VERB	O
 
-
 # sent_id = 0165.test
 # text = Dallas'tan Houston'a pazar öğleden sonra gelen uçuşları listele
 # intent: flight
@@ -2279,7 +2115,6 @@
 6	gelen	gel	ADJ	O
 7	uçuşları	uç	NOUN	O
 8	listele	listele	VERB	O
-
 
 # sent_id = 0166.test
 # text = Baltimore Washington havaalanından Oakland'a öğleden sonra kalkan aktarmasız uçuşları listeleyin
@@ -2294,7 +2129,6 @@
 8	aktarmasız	aktarmasız	ADJ	B-flight_stop
 9	uçuşları	uç	NOUN	O
 10	listeleyin	listele	VERB	O
-
 
 # sent_id = 0167.test
 # text = Perşembe günü Pittsburgh'tan ayrılıp sabah Baltimore'ye varan uçuş bilgilerine ihtiyacım var
@@ -2311,7 +2145,6 @@
 10	ihtiyacım	ihtiyaç	NOUN	O
 11	var	var	ADJ	O
 
-
 # sent_id = 0168.test
 # text = San Francisco'dan Boston'a öğleden sonra varan sabah uçuşları
 # intent: flight
@@ -2323,7 +2156,6 @@
 6	varan	var	ADJ	O
 7	sabah	sabah	NOUN	B-depart_time.period_of_day
 8	uçuşları	uç	NOUN	O
-
 
 # sent_id = 0169.test
 # text = Uçuşumu Denver'deki Washington DC durağındaki San Francisco hedef şehri ile başlatmak istiyorum
@@ -2340,7 +2172,6 @@
 10	ile	ile	ADP	O
 11	başlatmak	başlat	NOUN	O
 12	istiyorum	iste	VERB	O
-
 
 # sent_id = 0170.test
 # text = bana yirmi iki Temmuz'da akşam 6'dan sonra DC'den ayrılıp Dallas'a giden uçuşların listesini göster
@@ -2360,7 +2191,6 @@
 13	listesini	liste	NOUN	O
 14	göster	göster	VERB	O
 
-
 # sent_id = 0171.test
 # text = Washington DC'den Columbus'a hangi havayolları
 # intent: airline
@@ -2370,7 +2200,6 @@
 4	hangi	hangi	ADJ	O
 5	havayolları	havayol	NOUN	O
 
-
 # sent_id = 0172.test
 # text = Washington DC'den Boston'a uçuşları listele
 # intent: flight
@@ -2379,7 +2208,6 @@
 3	Boston'a	boston	PROPN	B-toloc.city_name
 4	uçuşları	uç	NOUN	O
 5	listele	listele	VERB	O
-
 
 # sent_id = 0173.test
 # text = bana Amerikan Havayolları ile ilgili bilgi verir misiniz Washington DC'den Philadelphia'ya mümkün olan en erken sabah uçuşu
@@ -2402,7 +2230,6 @@
 16	sabah	sabah	NOUN	B-depart_time.period_of_day
 17	uçuşu	uç	NOUN	O
 
-
 # sent_id = 0174.test
 # text = Washington DC - Pittsburgh uçuşlarını listele
 # intent: flight
@@ -2412,7 +2239,6 @@
 4	Pittsburgh	pittsburgh	PROPN	B-toloc.city_name
 5	uçuşlarını	uç	NOUN	O
 6	listele	listele	VERB	O
-
 
 # sent_id = 0175.test
 # text = Washington DC'den San Diego'ya bir uçağa ihtiyacım var
@@ -2426,7 +2252,6 @@
 7	ihtiyacım	ihtiyaç	NOUN	O
 8	var	var	ADJ	O
 
-
 # sent_id = 0176.test
 # text = Boston'dan Baltimore'ye uçmak istiyorum lütfen bana uçuşların saatlerini söyleyin
 # intent: flight
@@ -2439,7 +2264,6 @@
 7	uçuşların	uç	NOUN	O
 8	saatlerini	saat	NOUN	O
 9	söyleyin	söyle	VERB	O
-
 
 # sent_id = 0177.test
 # text = DL 323 DL 229 numaralı Boston - Denver seferi Philadelphia'da durur mu
@@ -2457,7 +2281,6 @@
 11	durur	dur	VERB	O
 12	mu	mi	AUX	O
 
-
 # sent_id = 0178.test
 # text = Boston dan Denver'e UA 281 sefer sayılı uçak ne tür bir uçak
 # intent: aircraft
@@ -2474,7 +2297,6 @@
 11	bir	bir	DET	O
 12	uçak	uçak	NOUN	O
 
-
 # sent_id = 0179.test
 # text = Amerikan Havayolları New York - Los Angeles 19 uçuşunun fiyatı nedir
 # intent: airfare
@@ -2490,7 +2312,6 @@
 10	fiyatı	fiyat	NOUN	O
 11	nedir	ne	VERB	O
 
-
 # sent_id = 0180.test
 # text = Denver'den Boston'a 352 numaralı United uçuşunda first class ücreti nedir
 # intent: airfare
@@ -2505,7 +2326,6 @@
 9	ücreti	ücret	NOUN	O
 10	nedir	ne	VERB	O
 
-
 # sent_id = 0181.test
 # text = Boston - Denver uçuşu UA 281'in fiyatı ne kadar
 # intent: airfare
@@ -2518,7 +2338,6 @@
 7	fiyatı	fiyat	NOUN	O
 8	ne	ne	ADV	O
 9	kadar	kadar	ADP	O
-
 
 # sent_id = 0182.test
 # text = Philadelphia'dan Denver'e DL 1083 sefer sayılı uçuş cumartesi günleri uçuyor mu
@@ -2535,7 +2354,6 @@
 10	uçuyor	uç	VERB	O
 11	mu	mi	AUX	O
 
-
 # sent_id = 0183.test
 # text = DL 98 hangi havayolu
 # intent: airline
@@ -2543,7 +2361,6 @@
 2	98	98	NUM	O
 3	hangi	hangi	ADJ	O
 4	havayolu	havayol	NOUN	O
-
 
 # sent_id = 0184.test
 # text = hangi birinci sınıf uçak Philadelphia'dan San Francisco'ya gidiyor ve pazartesi öğleden sonra Dallas'ta duruyor
@@ -2563,7 +2380,6 @@
 13	Dallas'ta	dallas	PROPN	B-toloc.city_name
 14	duruyor	dur	VERB	O
 
-
 # sent_id = 0185.test
 # text = TWA hangi uçakları kullanıyor
 # intent: aircraft
@@ -2571,7 +2387,6 @@
 2	hangi	hangi	ADJ	O
 3	uçakları	uçak	NOUN	O
 4	kullanıyor	kullan	VERB	O
-
 
 # sent_id = 0186.test
 # text = saat sabah 10'dan önce Denver'den San Francisco'ya tekrarlayan kalkışta ne tür bir uçak kullanılıyor
@@ -2591,7 +2406,6 @@
 13	uçak	uçak	NOUN	O
 14	kullanılıyor	kullan	VERB	O
 
-
 # sent_id = 0187.test
 # text = Midway Havayolları tarafından ne tür uçaklar kullanılıyor
 # intent: aircraft
@@ -2602,7 +2416,6 @@
 5	tür	tür	NOUN	O
 6	uçaklar	uçak	NOUN	O
 7	kullanılıyor	kullan	VERB	O
-
 
 # sent_id = 0188.test
 # text = hafta içi saat 9'da Boston'dan Washington DC'ye ne tür uçak kalkıyor
@@ -2619,7 +2432,6 @@
 10	uçak	uçak	NOUN	O
 11	kalkıyor	kalk	VERB	O
 
-
 # sent_id = 0189.test
 # text = öğleden önce Cleveland'dan Dallas'a ne tür uçaklar uçuyor
 # intent: aircraft
@@ -2632,7 +2444,6 @@
 7	uçaklar	uçak	NOUN	O
 8	uçuyor	uç	VERB	O
 
-
 # sent_id = 0190.test
 # text = Pittsburgh'tan Baltimore'ye hangi uçak türleri uçuyor
 # intent: aircraft
@@ -2642,7 +2453,6 @@
 4	uçak	uçak	NOUN	O
 5	türleri	tür	NOUN	O
 6	uçuyor	uç	VERB	O
-
 
 # sent_id = 0191.test
 # text = San Francisco havaalanı ile şehir arasında kara taşımacılığı nedir
@@ -2656,7 +2466,6 @@
 7	kara	kara	ADJ	O
 8	taşımacılığı	taşımacılık	NOUN	O
 9	nedir	ne	VERB	O
-
 
 # sent_id = 0192.test
 # text = United'deki hangi uçuşlar San Jose için La Guardia'dan ayrılıp akşam 10 civarında varıyor
@@ -2675,7 +2484,6 @@
 12	civarında	civar	NOUN	O
 13	varıyor	var	VERB	O
 
-
 # sent_id = 0193.test
 # text = Denver havalimanından Denver şehir merkezine hangi kara ulaşımı mevcut
 # intent: ground_service
@@ -2688,7 +2496,6 @@
 7	kara	kara	ADJ	O
 8	ulaşımı	ulaşım	NOUN	O
 9	mevcut	mevcut	NOUN	O
-
 
 # sent_id = 0194.test
 # text = Cumartesi günü Charlotte Havaalanı'ndan öğlen saat 1 civarında kalkan hava uçuşlarını listeleyin
@@ -2706,7 +2513,6 @@
 11	uçuşlarını	uç	NOUN	O
 12	listeleyin	listele	VERB	O
 
-
 # sent_id = 0195.test
 # text = Dallas Havaalanı'ndan Dallas şehir merkezine kara ulaşım düzenlemelerinden bahseder misin
 # intent: ground_service
@@ -2721,7 +2527,6 @@
 9	bahseder	bahset	VERB	O
 10	misin	mi	AUX	O
 
-
 # sent_id = 0196.test
 # text = lütfen General Mitchell uluslararası havalimanına kalkan ve inen uçuşları listeleyin
 # intent: flight
@@ -2735,7 +2540,6 @@
 8	inen	in	ADJ	O
 9	uçuşları	uç	NOUN	O
 10	listeleyin	listele	VERB	O
-
 
 # sent_id = 0197.test
 # text = yarın sabah mümkün olan en erken saatte Cleveland'dan Indianapolis'e uçmak istiyorum
@@ -2752,7 +2556,6 @@
 10	uçmak	uç	NOUN	O
 11	istiyorum	iste	VERB	O
 
-
 # sent_id = 0198.test
 # text = bu öğleden sonra Logan'dan Atlanta'ya uçağa ihtiyacım var
 # intent: flight
@@ -2764,7 +2567,6 @@
 6	uçağa	uçak	NOUN	O
 7	ihtiyacım	ihtiyaç	NOUN	O
 8	var	var	ADJ	O
-
 
 # sent_id = 0199.test
 # text = bana yarın amerikan havayolları ile Milwaukee'den Tacoma'ya en son uçuşu ver
@@ -2781,7 +2583,6 @@
 10	uçuşu	uç	NOUN	O
 11	ver	ver	VERB	O
 
-
 # sent_id = 0200.test
 # text = yarın sabah Columbus'tan Nashville'ye uçmak istiyorum
 # intent: flight
@@ -2791,7 +2592,6 @@
 4	Nashville'ye	nashville	PROPN	B-toloc.city_name
 5	uçmak	uç	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0201.test
 # text = ve yarın akşam Denver'den Boston'a son uçuş nedir
@@ -2805,7 +2605,6 @@
 7	uçuş	uç	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0202.test
 # text = Phoenix'den Detroit'e yarınki akşam uçuşlarını listeleyin
 # intent: flight
@@ -2815,7 +2614,6 @@
 4	akşam	akşam	NOUN	B-depart_time.period_of_day
 5	uçuşlarını	uç	NOUN	O
 6	listeleyin	listele	VERB	O
-
 
 # sent_id = 0203.test
 # text = yarın öğleden sonra Indianapolis'ten San Diego'ya Continental üzerinden uçuşları göster
@@ -2831,7 +2629,6 @@
 9	uçuşları	uç	NOUN	O
 10	göster	göster	VERB	O
 
-
 # sent_id = 0204.test
 # text = northwest'in Dulles'ten ayrılan kaç uçuşu var
 # intent: quantity+flight
@@ -2841,7 +2638,6 @@
 4	kaç	kaç	ADJ	O
 5	uçuşu	uç	NOUN	O
 6	var	var	ADJ	O
-
 
 # sent_id = 0205.test
 # text = New York City'den Las Vegas'a pazar günleri aktarmasız uçuşlar
@@ -2856,7 +2652,6 @@
 8	aktarmasız	aktarmasız	ADJ	B-flight_stop
 9	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0206.test
 # text = bana Los Angeles'ten Pittsburgh'a pazartesi günü Pittsburgh'a varan uçuşları göster
 # intent: flight
@@ -2870,7 +2665,6 @@
 8	varan	var	ADJ	O
 9	uçuşları	uç	NOUN	O
 10	göster	göster	VERB	O
-
 
 # sent_id = 0207.test
 # text = bana Philadelphia'dan Dallas'a cumartesi günü saat 3'ten önce varan tüm uçuşları göster
@@ -2887,7 +2681,6 @@
 10	tüm	tüm	DET	O
 11	uçuşları	uç	NOUN	O
 12	göster	göster	VERB	O
-
 
 # sent_id = 0208.test
 # text = Perşembe günü akşam saat 5'ten sonra Pittsburgh'tan ayrılan ve Los Angeles'e varan uçuşlar
@@ -2906,7 +2699,6 @@
 12	varan	var	ADJ	O
 13	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0209.test
 # text = Cuma günü St. Louis'ten Charlotte'ye en erken inen uçuş nedir
 # intent: flight
@@ -2920,7 +2712,6 @@
 8	inen	in	ADJ	O
 9	uçuş	uç	NOUN	O
 10	nedir	ne	VERB	O
-
 
 # sent_id = 0210.test
 # text = önümüzdeki hafta çarşamba akşam saat 6'dan sonra Boston'dan Pittsburgh'a hangi uçuşların var
@@ -2938,7 +2729,6 @@
 11	uçuşların	uç	NOUN	O
 12	var	var	ADJ	O
 
-
 # sent_id = 0211.test
 # text = önümüzdeki perşembe günü St. Petersburg'dan Miami'ye bir uçuş rica ediyorum
 # intent: flight
@@ -2953,7 +2743,6 @@
 9	rica	rica	NOUN	O
 10	ediyorum	et	VERB	O
 
-
 # sent_id = 0212.test
 # text = önümüzdeki çarşamba Kansas şehrinden Chicago'ya gitmek istiyorum
 # intent: flight
@@ -2965,7 +2754,6 @@
 6	gitmek	git	NOUN	O
 7	istiyorum	iste	VERB	O
 
-
 # sent_id = 0213.test
 # text = önümüzdeki perşembe Boston'dan Philadelphia'ya uçmak istiyorum
 # intent: flight
@@ -2975,7 +2763,6 @@
 4	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 5	uçmak	uç	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0214.test
 # text = bana önümüzdeki pazartesi Atlanta'dan Charlotte'ye olan uçuşları anlat
@@ -2988,7 +2775,6 @@
 6	olan	ol	ADJ	O
 7	uçuşları	uç	NOUN	O
 8	anlat	anlat	VERB	O
-
 
 # sent_id = 0215.test
 # text = önümüzdeki çarşamba saat 8'den sonra Pittsburgh'tan Baltimore'ye hangi uçuşlar kalkıyor
@@ -3004,7 +2790,6 @@
 9	uçuşlar	uç	NOUN	O
 10	kalkıyor	kalk	VERB	O
 
-
 # sent_id = 0216.test
 # text = bana önümüzdeki çarşamba Cleveland'dan Miami'ye gidiş dönüş uçuşların fiyatlarını ver
 # intent: airfare+flight
@@ -3018,7 +2803,6 @@
 8	uçuşların	uç	NOUN	O
 9	fiyatlarını	fiyat	NOUN	O
 10	ver	ver	VERB	O
-
 
 # sent_id = 0217.test
 # text = önümüzdeki salı Chicago'dan ayrılıp Detroit'e akşam saat 6 civarı varmak istiyorum
@@ -3035,7 +2819,6 @@
 10	varmak	var	NOUN	O
 11	istiyorum	iste	VERB	O
 
-
 # sent_id = 0218.test
 # text = Montreal'dan Washington Dc'ye bir uçuş istiyorum
 # intent: flight
@@ -3045,7 +2828,6 @@
 4	bir	bir	DET	O
 5	uçuş	uç	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0219.test
 # text = bana Atlanta'dan Washington Dc'ye perşembe sabahı kalkan uçuşları göster
@@ -3060,7 +2842,6 @@
 8	uçuşları	uç	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0220.test
 # text = bana çarşamba günü Denver'den dc'ye uçuşları göster
 # intent: flight
@@ -3071,7 +2852,6 @@
 5	dc'ye	dc'ye	NOUN	O
 6	uçuşları	uç	NOUN	O
 7	göster	göster	VERB	O
-
 
 # sent_id = 0221.test
 # text = lütfen bana San Francisco'dan Washington Dc'ye uçuşları ver
@@ -3084,7 +2864,6 @@
 6	Dc'ye	dc	PROPN	B-toloc.state_code
 7	uçuşları	uç	NOUN	O
 8	ver	ver	VERB	O
-
 
 # sent_id = 0222.test
 # text = bana Atlanta - Washington Dc arasındaki tüm uçuşların fiyatlarını göster
@@ -3100,7 +2879,6 @@
 9	fiyatlarını	fiyat	NOUN	O
 10	göster	göster	VERB	O
 
-
 # sent_id = 0223.test
 # text = Atlanta'dan Washington Dc'ye çarşamba günü giden en son uçuş nedir
 # intent: flight
@@ -3115,7 +2893,6 @@
 9	uçuş	uç	NOUN	O
 10	nedir	ne	VERB	O
 
-
 # sent_id = 0224.test
 # text = Toronto'dan Washington Dc'ye cumartesi sabah uçuşlarını listele
 # intent: flight
@@ -3127,7 +2904,6 @@
 6	uçuşlarını	uç	NOUN	O
 7	listele	listele	VERB	O
 
-
 # sent_id = 0225.test
 # text = Atlanta'dan Washington Dc'ye uçuşları görmek istiyorum
 # intent: flight
@@ -3137,7 +2913,6 @@
 4	uçuşları	uç	NOUN	O
 5	görmek	gör	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0226.test
 # text = özür dilerim Atlanta'dan Denver Colorado'ya uçuş rezervasyonu yapmak istiyorum
@@ -3151,7 +2926,6 @@
 7	rezervasyonu	rezervasyon	NOUN	O
 8	yapmak	yap	NOUN	O
 9	istiyorum	iste	VERB	O
-
 
 # sent_id = 0227.test
 # text = Aralık ayının yirmi yedisi ve yirmi sekizi için İndianapolis ile Orlando Florida arasında gidiş dönüş uçuşların bir listesini istiyorum
@@ -3176,7 +2950,6 @@
 18	listesini	liste	NOUN	O
 19	istiyorum	iste	VERB	O
 
-
 # sent_id = 0228.test
 # text = Minneapolis - Long Beach California pazartesi günü uçuşlarının listesini alabilir miyim lütfen
 # intent: flight
@@ -3193,7 +2966,6 @@
 11	miyim	mi	AUX	O
 12	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0229.test
 # text = Dallas'tan Oakland California'ya pazartesi günü olan tüm uçuşları ver lütfen
 # intent: flight
@@ -3207,7 +2979,6 @@
 8	uçuşları	uç	NOUN	O
 9	ver	ver	VERB	O
 10	lütfen	lütfen	ADV	O
-
 
 # sent_id = 0230.test
 # text = amerikan havayolları ile salı günü Philadelphia'dan San Francisco'ya yirmi üçüncü uçuş
@@ -3223,7 +2994,6 @@
 9	yirmi	yirmi	NUM	O
 10	üçüncü	üçüncü	ADJ	O
 11	uçuş	uç	NOUN	O
-
 
 # sent_id = 0231.test
 # text = us air'de Cleveland'dan Miami'ye yirmi dört şubattaki en ucuz birinci sınıf ücret nedir
@@ -3242,7 +3012,6 @@
 12	ücret	ücret	NOUN	O
 13	nedir	ne	VERB	O
 
-
 # sent_id = 0232.test
 # text = yirmi beş Aralık'ta İndianapolis ile Orlando arasında en ucuz gidiş dönüş yolculuk ücreti
 # intent: airfare+flight
@@ -3260,7 +3029,6 @@
 12	yolculuk	yolculuk	NOUN	O
 13	ücreti	ücret	NOUN	O
 
-
 # sent_id = 0233.test
 # text = yirmi yedi Ağustos sabahı 650'de çıkarak Dallas'tan Denver'e uçmak istiyorum
 # intent: flight
@@ -3274,7 +3042,6 @@
 8	Denver'e	denver	PROPN	B-toloc.city_name
 9	uçmak	uç	NOUN	O
 10	istiyorum	iste	VERB	O
-
 
 # sent_id = 0234.test
 # text = bana yirmi yedi ve yirmi sekiz Aralık'ta İndianapolis - Orlando uçuşlarını ver
@@ -3291,7 +3058,6 @@
 10	Orlando	orlando	PROPN	B-toloc.city_name
 11	uçuşlarını	uç	NOUN	O
 12	ver	ver	VERB	O
-
 
 # sent_id = 0235.test
 # text = yirmi altı Mayıs'ta Tampa'dan Seattle'ye giden bir uçak bileti rezerve etmek istiyorum yolda Milwaukee'de durmak istiyorum
@@ -3313,7 +3079,6 @@
 15	durmak	dur	NOUN	B-flight_stop
 16	istiyorum	iste	VERB	O
 
-
 # sent_id = 0236.test
 # text = yirmi bir Ağustos çarşamba günü San Francisco'dan Boston'a en ucuz tek yön ücret nedir
 # intent: airfare+flight
@@ -3332,7 +3097,6 @@
 13	ücret	ücret	NOUN	O
 14	nedir	ne	VERB	O
 
-
 # sent_id = 0237.test
 # text = yirmi ikinci Nisan sabahı Tacoma'dan San Jose'ye hangi uçuşlar var
 # intent: flight
@@ -3346,7 +3110,6 @@
 8	hangi	hangi	ADJ	O
 9	uçuşlar	uç	NOUN	O
 10	var	var	ADJ	O
-
 
 # sent_id = 0238.test
 # text = Aralık ayının yirmi yedisinde İndianapolis ve Orlando arasındaki tüm gidiş dönüş uçuşlarını listeleyin
@@ -3365,13 +3128,11 @@
 12	uçuşlarını	uç	NOUN	O
 13	listeleyin	listele	VERB	O
 
-
 # sent_id = 0239.test
 # text = hp nedir
 # intent: flight
 1	hp	hp	NOUN	B-airline_code
 2	nedir	ne	VERB	O
-
 
 # sent_id = 0240.test
 # text = us havayolunu tanımla
@@ -3380,13 +3141,11 @@
 2	havayolunu	havayol	NOUN	I-airline_name
 3	tanımla	tanımla	VERB	O
 
-
 # sent_id = 0241.test
 # text = ff kodu
 # intent: flight
 1	ff	ff	NOUN	B-airline_code
 2	kodu	kod	NOUN	O
-
 
 # sent_id = 0242.test
 # text = Las Vegas'tan New York'a kesintisiz bir Twa ve ücret
@@ -3401,7 +3160,6 @@
 8	ve	ve	CCONJ	O
 9	ücret	ücret	NOUN	O
 
-
 # sent_id = 0243.test
 # text = dl anlamına gelen havayolu
 # intent: abbreviation
@@ -3409,7 +3167,6 @@
 2	anlamına	anlam	NOUN	O
 3	gelen	gel	ADJ	O
 4	havayolu	havayol	NOUN	O
-
 
 # sent_id = 0244.test
 # text = Twa kullanarak Boston ve Oakland arasında gidiş dönüş uçuşları listeleyin
@@ -3425,7 +3182,6 @@
 9	uçuşları	uç	NOUN	O
 10	listeleyin	listele	VERB	O
 
-
 # sent_id = 0245.test
 # text = Las Vegas'tan New York'a aktarmasız bir Twa uçuşu istiyorum
 # intent: flight
@@ -3439,7 +3195,6 @@
 8	uçuşu	uç	NOUN	O
 9	istiyorum	iste	VERB	O
 
-
 # sent_id = 0246.test
 # text = yx hangi havayolu
 # intent: airline
@@ -3447,14 +3202,12 @@
 2	hangi	hangi	ADJ	O
 3	havayolu	havayol	NOUN	O
 
-
 # sent_id = 0247.test
 # text = dl hangi havayolu
 # intent: airline
 1	dl	dl	NOUN	B-airline_code
 2	hangi	hangi	ADJ	O
 3	havayolu	havayol	NOUN	O
-
 
 # sent_id = 0248.test
 # text = Denver ve Oakland arasında bir uçuş bul uçuş öğleden sonra kalkmalı ve akşam 5'e yakın varmalı aynı zamanda da kesintisiz olmalı
@@ -3481,7 +3234,6 @@
 20	kesintisiz	kesintisiz	ADJ	O
 21	olmalı	ol	VERB	O
 
-
 # sent_id = 0249.test
 # text = amerikan havayolları ile Miami'den Chicago'ya akşam 5 civarında varan bir uçuşa ihtiyacım var
 # intent: flight
@@ -3499,7 +3251,6 @@
 12	ihtiyacım	ihtiyaç	NOUN	O
 13	var	var	ADJ	O
 
-
 # sent_id = 0250.test
 # text = Kansas şehrinden Cleveland'a çarşamba günü akşam saat 5'ten önce varan uçuşlar
 # intent: flight
@@ -3514,7 +3265,6 @@
 9	önce	önce	ADP	B-arrive_time.time_relative
 10	varan	var	ADJ	O
 11	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0251.test
 # text = hangi uçuşlar cuma günü Baltimore'den kalkar ve akşam saat 8'de San Francisco'ya varır
@@ -3533,7 +3283,6 @@
 12	Francisco'ya	francisco	PROPN	I-toloc.city_name
 13	varır	var	VERB	O
 
-
 # sent_id = 0252.test
 # text = Atlanta'dan Baltimore'ye akşam 7 civarı varan aktarmasız bir uçuş istiyorum
 # intent: flight
@@ -3547,7 +3296,6 @@
 8	bir	bir	DET	O
 9	uçuş	uç	NOUN	O
 10	istiyorum	iste	VERB	O
-
 
 # sent_id = 0253.test
 # text = Boston ile Washington arasındaki hangi aktarmasız uçuşlar akşam saat 5'ten sonra varıyor
@@ -3565,7 +3313,6 @@
 11	sonra	sonra	ADP	B-arrive_time.time_relative
 12	varıyor	var	VERB	O
 
-
 # sent_id = 0254.test
 # text = 10'da inecek olan Pittsburgh'tan Baltimore'ye tüm uçuşlar
 # intent: flight
@@ -3576,7 +3323,6 @@
 5	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
 6	tüm	tüm	DET	O
 7	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0255.test
 # text = 10'dan önce Pittsburgh'a inecek olan Boston ve Pittsburgh arasındaki aktarmalı ve aktarmasız tüm uçuşları bana gösterin
@@ -3598,7 +3344,6 @@
 15	bana	ben	PRON	O
 16	gösterin	göster	VERB	O
 
-
 # sent_id = 0256.test
 # text = Çarşamba günü Miami'ye Cleveland'dan akşam 4'ten önce gelen
 # intent: flight
@@ -3610,7 +3355,6 @@
 6	4'ten	4	NOUN	B-depart_time.time
 7	önce	önce	ADP	B-depart_time.time_relative
 8	gelen	gel	ADJ	O
-
 
 # sent_id = 0257.test
 # text = Bana Boston ve San Francisco arasındaki havayollarını gösterin
@@ -3624,7 +3368,6 @@
 7	havayollarını	havayol	NOUN	O
 8	gösterin	göster	VERB	O
 
-
 # sent_id = 0258.test
 # text = Bana San Francisco'dan Boston'a uçan havayollarını gösterin
 # intent: airline
@@ -3636,7 +3379,6 @@
 6	havayollarını	havayol	NOUN	O
 7	gösterin	göster	VERB	O
 
-
 # sent_id = 0259.test
 # text = Hangi havayolları Boston'dan Denver'e uçar
 # intent: airline
@@ -3645,7 +3387,6 @@
 3	Boston'dan	boston	PROPN	B-fromloc.city_name
 4	Denver'e	denver	PROPN	B-toloc.city_name
 5	uçar	uç	VERB	O
-
 
 # sent_id = 0260.test
 # text = Baltimore'den Seattle'ye hangi havayolları uçuş yapar
@@ -3656,7 +3397,6 @@
 4	havayolları	havayol	NOUN	O
 5	uçuş	uç	NOUN	O
 6	yapar	yap	VERB	O
-
 
 # sent_id = 0261.test
 # text = Hangi havayollarının Boston'dan Philadelphia'ya sabah 630'dan önce uçuşu var
@@ -3671,7 +3411,6 @@
 8	uçuşu	uç	NOUN	O
 9	var	var	ADJ	O
 
-
 # sent_id = 0262.test
 # text = Bana San Francisco'dan Boston'a uçan havayollarını gösterin
 # intent: airline
@@ -3682,7 +3421,6 @@
 5	uçan	uç	ADJ	O
 6	havayollarını	havayol	NOUN	O
 7	gösterin	göster	VERB	O
-
 
 # sent_id = 0263.test
 # text = Bana Detroit ile Toronto ve Detroit ile St. Louis ve St. Louis ile Toronto arasında uçuşları olan havayollarını gösterin
@@ -3707,7 +3445,6 @@
 18	havayollarını	havayol	NOUN	O
 19	gösterin	göster	VERB	O
 
-
 # sent_id = 0264.test
 # text = Hangi havayolları Boston ve Baltimore arasında uçar
 # intent: airline
@@ -3718,7 +3455,6 @@
 5	Baltimore	baltimore	PROPN	B-toloc.city_name
 6	arasında	ara	NOUN	O
 7	uçar	uç	VERB	O
-
 
 # sent_id = 0265.test
 # text = Herhangi bir havayolunun Boston'dan Pittsburgh'a öğleden sonra erken uçuşu var mı
@@ -3735,7 +3471,6 @@
 10	var	var	ADJ	O
 11	mı	mi	AUX	O
 
-
 # sent_id = 0266.test
 # text = Bana Philadelphia'dan Dallas'a uçuşu olan havayollarını gösterin lütfen
 # intent: airline+flight
@@ -3748,7 +3483,6 @@
 7	gösterin	göster	VERB	O
 8	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0267.test
 # text = Hangi havayolları Boston'dan San Francisco'ya uçar
 # intent: airline
@@ -3758,7 +3492,6 @@
 4	San	san	PROPN	B-toloc.city_name
 5	Francisco'ya	francisco	PROPN	I-toloc.city_name
 6	uçar	uç	VERB	O
-
 
 # sent_id = 0268.test
 # text = Hangi havayollarının Charlotte ile Newark arasında uçuşu var
@@ -3771,7 +3504,6 @@
 6	arasında	ara	NOUN	O
 7	uçuşu	uç	NOUN	O
 8	var	var	ADJ	O
-
 
 # sent_id = 0269.test
 # text = Bana San Francisco'dan New York'a olan tüm aktarmasız uçuşları gösterin
@@ -3787,7 +3519,6 @@
 9	uçuşları	uç	NOUN	O
 10	gösterin	göster	VERB	O
 
-
 # sent_id = 0270.test
 # text = Bana Toronto'dan St. Petersburg'a olan aktarmasız uçuşları gösterin
 # intent: flight
@@ -3799,7 +3530,6 @@
 6	aktarmasız	aktarmasız	ADJ	B-flight_stop
 7	uçuşları	uç	NOUN	O
 8	gösterin	göster	VERB	O
-
 
 # sent_id = 0271.test
 # text = Bana Miami'den New York'a olan tüm aktarmasız gidiş dönüş uçuşlarını gösterin
@@ -3816,7 +3546,6 @@
 10	uçuşlarını	uç	NOUN	O
 11	gösterin	göster	VERB	O
 
-
 # sent_id = 0272.test
 # text = Seattle'den Kansas City'e aktarmasız uçuşlar
 # intent: flight
@@ -3826,7 +3555,6 @@
 4	aktarmasız	aktarmasız	ADJ	B-flight_stop
 5	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0273.test
 # text = Atlanta'dan Philadelphia'ya aktarmasız uçmak istiyorum
 # intent: flight
@@ -3835,7 +3563,6 @@
 3	aktarmasız	aktarmasız	ADJ	B-flight_stop
 4	uçmak	uç	NOUN	O
 5	istiyorum	iste	VERB	O
-
 
 # sent_id = 0274.test
 # text = Washington'dan San Francisco'ya en erken aktarmasız uçuş hangisi
@@ -3848,7 +3575,6 @@
 6	aktarmasız	aktarmasız	ADJ	B-flight_stop
 7	uçuş	uç	NOUN	O
 8	hangisi	hangi	PRON	O
-
 
 # sent_id = 0275.test
 # text = America West'in Las Vegas'tan New York'a aktarmasız uçuşlarını listeleyin lütfen
@@ -3863,7 +3589,6 @@
 8	uçuşlarını	uç	NOUN	O
 9	listeleyin	listele	VERB	O
 10	lütfen	lütfen	ADV	O
-
 
 # sent_id = 0276.test
 # text = Bana New York'tan Miami'ye olan tüm aktarmasız gidiş dönüş uçuşlarını gösterin lütfen
@@ -3881,7 +3606,6 @@
 11	gösterin	göster	VERB	O
 12	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0277.test
 # text = Bana pazartesi günü San Francisco'dan Pittsburgh'a birinci sınıf uçuşlar hangileri gösterin
 # intent: flight
@@ -3897,7 +3621,6 @@
 10	hangileri	hangi	PRON	O
 11	gösterin	göster	VERB	O
 
-
 # sent_id = 0278.test
 # text = Bana United'in birinci sınıf seçeneği olan Baltimore'den Denver'e uçuşlarını verin
 # intent: flight
@@ -3912,7 +3635,6 @@
 9	uçuşlarını	uç	NOUN	O
 10	verin	ver	VERB	O
 
-
 # sent_id = 0279.test
 # text = Pittsburgh'tan Newark'a pazartesi sabahı birinci sınıf uçuşlar
 # intent: flight
@@ -3924,7 +3646,6 @@
 6	sınıf	sınıf	NOUN	I-class_type
 7	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0280.test
 # text = Dallas'tan Baltimore'ye birinci sınıf biletler lütfen
 # intent: flight
@@ -3934,7 +3655,6 @@
 4	sınıf	sınıf	NOUN	I-class_type
 5	biletler	bilet	NOUN	O
 6	lütfen	lütfen	ADV	O
-
 
 # sent_id = 0281.test
 # text = Tüm United Airlines birinci sınıf uçuşlarını bana göster
@@ -3947,7 +3667,6 @@
 6	uçuşlarını	uç	NOUN	O
 7	bana	ben	PRON	O
 8	göster	göster	VERB	O
-
 
 # sent_id = 0282.test
 # text = San Francisco Pittsburgh gidiş dönüş birinci sınıf bilet fiyatı
@@ -3962,7 +3681,6 @@
 8	bilet	bilet	NOUN	O
 9	fiyatı	fiyat	NOUN	O
 
-
 # sent_id = 0283.test
 # text = Baltimore'den San Francisco'ya birinci sınıf bilet ne kadar
 # intent: airfare+flight
@@ -3974,7 +3692,6 @@
 6	bilet	bilet	NOUN	O
 7	ne	ne	ADV	O
 8	kadar	kadar	ADP	O
-
 
 # sent_id = 0284.test
 # text = Çarşamba günü Dallas ile Philadelphia arasında birinci sınıf American uçuşu
@@ -3989,7 +3706,6 @@
 8	sınıf	sınıf	NOUN	I-class_type
 9	American	american	PROPN	B-airline_name
 10	uçuşu	uç	NOUN	O
-
 
 # sent_id = 0285.test
 # text = Amerikan Havayolları ile Dallas ve Philadelphia arası olan birinci sınıf uçuşları göster
@@ -4007,7 +3723,6 @@
 11	uçuşları	uç	NOUN	O
 12	göster	göster	VERB	O
 
-
 # sent_id = 0286.test
 # text = Dallas'tan Baltimore'ye birinci sınıf ücretler nelerdir
 # intent: airfare
@@ -4017,7 +3732,6 @@
 4	sınıf	sınıf	NOUN	I-class_type
 5	ücretler	ücret	NOUN	O
 6	nelerdir	ne	VERB	O
-
 
 # sent_id = 0287.test
 # text = Tampa'dan St. Louis'e birinci sınıf saat sabah 10'dan önce kalkan tek yön uçuşları göster
@@ -4037,7 +3751,6 @@
 13	uçuşları	uç	NOUN	O
 14	göster	göster	VERB	O
 
-
 # sent_id = 0288.test
 # text = hangi uçuşlar pazartesi gecesi San Francisco'dan ayrılıp gece saatlerinde Atlanta'ya varıyor
 # intent: flight
@@ -4052,7 +3765,6 @@
 9	saatlerinde	saat	NOUN	O
 10	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
 11	varıyor	var	VERB	O
-
 
 # sent_id = 0289.test
 # text = lütfen United Havayolları ve Northwest Havayolları ile öğleden önce Denver'e giden tüm uçuşları listele
@@ -4072,7 +3784,6 @@
 13	uçuşları	uç	NOUN	O
 14	listele	listele	VERB	O
 
-
 # sent_id = 0290.test
 # text = Pittsburgh Denver uçuşları için otobüs ücretleri nedir
 # intent: airfare
@@ -4083,7 +3794,6 @@
 5	otobüs	otobüs	NOUN	O
 6	ücretleri	ücret	NOUN	O
 7	nedir	ne	VERB	O
-
 
 # sent_id = 0291.test
 # text = bir ekim salı günü Atlanta'dan Baltimore'ye uçuşlar nelerdir
@@ -4097,7 +3807,6 @@
 7	uçuşlar	uç	NOUN	O
 8	nelerdir	ne	VERB	O
 
-
 # sent_id = 0292.test
 # text = LA'dan Charlotte'ye pazartesi sabahı otobüs ücretleri nedir
 # intent: airfare
@@ -4109,7 +3818,6 @@
 6	ücretleri	ücret	NOUN	O
 7	nedir	ne	VERB	O
 
-
 # sent_id = 0293.test
 # text = Dallas karayolu ulaşımını göster
 # intent: ground_service
@@ -4118,7 +3826,6 @@
 3	ulaşımını	ulaşım	NOUN	O
 4	göster	göster	VERB	O
 
-
 # sent_id = 0294.test
 # text = Denver'de kara ulaşımını göster
 # intent: ground_service
@@ -4126,7 +3833,6 @@
 2	kara	kara	ADJ	O
 3	ulaşımını	ulaşım	NOUN	O
 4	göster	göster	VERB	O
-
 
 # sent_id = 0295.test
 # text = Minneapolis'te hangi karayolu ulaşımı mevcut
@@ -4137,7 +3843,6 @@
 4	ulaşımı	ulaşım	NOUN	O
 5	mevcut	mevcut	NOUN	O
 
-
 # sent_id = 0296.test
 # text = lütfen Denver'de kara ulaşımını göster
 # intent: ground_service
@@ -4146,7 +3851,6 @@
 3	kara	kara	ADJ	O
 4	ulaşımını	ulaşım	NOUN	O
 5	göster	göster	VERB	O
-
 
 # sent_id = 0297.test
 # text = Dallas'ta ne tür bir kara ulaşımı var
@@ -4159,7 +3863,6 @@
 6	ulaşımı	ulaşım	NOUN	O
 7	var	var	ADJ	O
 
-
 # sent_id = 0298.test
 # text = Charlotte'de hangi kara ulaşımı mevcut
 # intent: ground_service
@@ -4169,7 +3872,6 @@
 4	ulaşımı	ulaşım	NOUN	O
 5	mevcut	mevcut	NOUN	O
 
-
 # sent_id = 0299.test
 # text = Pittsburgh'ta kara ulaşımı nasıl
 # intent: ground_service
@@ -4178,14 +3880,12 @@
 3	ulaşımı	ulaşım	NOUN	O
 4	nasıl	nasıl	ADV	O
 
-
 # sent_id = 0300.test
 # text = Baltimore'de kara ulaşımı
 # intent: ground_service
 1	Baltimore'de	baltimore	PROPN	B-toloc.city_name
 2	kara	kara	ADJ	O
 3	ulaşımı	ulaşım	NOUN	O
-
 
 # sent_id = 0301.test
 # text = Dallas'ta hangi kara ulaşımı var
@@ -4196,7 +3896,6 @@
 4	ulaşımı	ulaşım	NOUN	O
 5	var	var	ADJ	O
 
-
 # sent_id = 0302.test
 # text = Baltimore'de hangi kara ulaşımı mevcut
 # intent: ground_service
@@ -4206,14 +3905,12 @@
 4	ulaşımı	ulaşım	NOUN	O
 5	mevcut	mevcut	NOUN	O
 
-
 # sent_id = 0303.test
 # text = Phoenix'de karayolu ulaşımı
 # intent: ground_service
 1	Phoenix'de	phoenix	PROPN	B-toloc.city_name
 2	karayolu	karayol	NOUN	O
 3	ulaşımı	ulaşım	NOUN	O
-
 
 # sent_id = 0304.test
 # text = Dallas için kara ulaşımı hakkında bilgi göster
@@ -4225,7 +3922,6 @@
 5	hakkında	hakkında	ADV	O
 6	bilgi	bilgi	NOUN	O
 7	göster	göster	VERB	O
-
 
 # sent_id = 0305.test
 # text = Denver'de aktarma ile Toronto'dan San Diego'ya bir Amerikan uçuşu istiyorum lütfen
@@ -4242,7 +3938,6 @@
 10	istiyorum	iste	VERB	O
 11	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0306.test
 # text = Denver'de mola vererek Boston'dan San Francisco'ya gidebilir miyim
 # intent: flight
@@ -4254,7 +3949,6 @@
 6	Francisco'ya	francisco	PROPN	I-toloc.city_name
 7	gidebilir	git	VERB	O
 8	miyim	mi	AUX	O
-
 
 # sent_id = 0307.test
 # text = lütfen bana Philadelphia'da aktarma ile Boston'dan Denver'e uçuşları göster
@@ -4269,7 +3963,6 @@
 8	uçuşları	uç	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0308.test
 # text = Milwaukee'de duran New York'tan Los Angeles'e uçuşları göster
 # intent: flight
@@ -4282,7 +3975,6 @@
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
 
-
 # sent_id = 0309.test
 # text = Hiç Atlanta'da duran Denver'den Pittsburgh'a uçuş var mı
 # intent: flight
@@ -4294,7 +3986,6 @@
 6	uçuş	uç	NOUN	O
 7	var	var	ADJ	O
 8	mı	mi	AUX	O
-
 
 # sent_id = 0310.test
 # text = Hiç Denver'de duran Boston'dan San Francisco'ya uçuş var mı
@@ -4309,7 +4000,6 @@
 8	var	var	ADJ	O
 9	mı	mi	AUX	O
 
-
 # sent_id = 0311.test
 # text = Washington'dan Boston'a Philadelphia'da duran bir uçuşun var mı
 # intent: flight
@@ -4322,7 +4012,6 @@
 7	var	var	ADJ	O
 8	mı	mi	AUX	O
 
-
 # sent_id = 0312.test
 # text = bana Houston üzerinden San Diego'dan Newark'a uçuşları göster
 # intent: flight
@@ -4334,7 +4023,6 @@
 6	Newark'a	newark	PROPN	B-toloc.city_name
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
-
 
 # sent_id = 0313.test
 # text = Boston'dan San Francisco'ya giden Denver aktarmalı Amerikan Havayolları ile bir uçuş bulun
@@ -4352,7 +4040,6 @@
 11	uçuş	uç	NOUN	O
 12	bulun	bulun	VERB	O
 
-
 # sent_id = 0314.test
 # text = Ontario'dan Westchester'e giden ve Chicago'da duran bir uçuş arıyorum
 # intent: flight
@@ -4366,7 +4053,6 @@
 8	uçuş	uç	NOUN	O
 9	arıyorum	ara	VERB	O
 
-
 # sent_id = 0315.test
 # text = Philadelphia'dan San Francisco'ya Dallas üzerinden uçuşları listele
 # intent: flight
@@ -4377,7 +4063,6 @@
 5	üzerinden	üzeri	NOUN	O
 6	uçuşları	uç	NOUN	O
 7	listele	listele	VERB	O
-
 
 # sent_id = 0316.test
 # text = Hiç Pittsburgh'ta duran Denver'den Atlanta'ya uçuş var mı
@@ -4391,7 +4076,6 @@
 7	var	var	ADJ	O
 8	mı	mi	AUX	O
 
-
 # sent_id = 0317.test
 # text = Baltimore'den Seattle'ye Minneapolis aktarmalı bir uçuşa ihtiyacım var
 # intent: flight
@@ -4403,7 +4087,6 @@
 6	uçuşa	uç	NOUN	O
 7	ihtiyacım	ihtiyaç	NOUN	O
 8	var	var	ADJ	O
-
 
 # sent_id = 0318.test
 # text = cuma günü Philadelphia'dan Dallas'a kalkan ve Atlanta'da mola veren bir uçuş istiyorum
@@ -4421,7 +4104,6 @@
 11	uçuş	uç	NOUN	O
 12	istiyorum	iste	VERB	O
 
-
 # sent_id = 0319.test
 # text = Philadelphia'dan Dallas'a Atlanta aktarmalı uçuşları listele
 # intent: flight
@@ -4431,7 +4113,6 @@
 4	aktarmalı	aktarmalı	ADJ	B-connect
 5	uçuşları	uç	NOUN	O
 6	listele	listele	VERB	O
-
 
 # sent_id = 0320.test
 # text = San Francisco ile şehir merkezi arasındaki mevcut karayolu ulaşımı nedir
@@ -4447,7 +4128,6 @@
 9	ulaşımı	ulaşım	NOUN	O
 10	nedir	ne	VERB	O
 
-
 # sent_id = 0321.test
 # text = Atlanta'daki havalimanından şehir merkezine karayolu ulaşımı nedir
 # intent: ground_service
@@ -4458,7 +4138,6 @@
 5	karayolu	karayol	NOUN	O
 6	ulaşımı	ulaşım	NOUN	O
 7	nedir	ne	VERB	O
-
 
 # sent_id = 0322.test
 # text = Dallas'tan Denver'e akşam saat 3'ten sonra kalkan uçuşlar nelerdir
@@ -4472,7 +4151,6 @@
 7	kalkan	kalk	ADJ	O
 8	uçuşlar	uç	NOUN	O
 9	nelerdir	ne	VERB	O
-
 
 # sent_id = 0323.test
 # text = Chicago'dan St. Louis'e öğlen 12'den sonra kalkan tüm uçuşları listeleyebilir misiniz
@@ -4488,7 +4166,6 @@
 9	uçuşları	uç	NOUN	O
 10	listeleyebilir	listele	VERB	O
 11	misiniz	mi	AUX	O
-
 
 # sent_id = 0324.test
 # text = Philadelphia ile Denver arasında Philadelphia'dan öğleden sonra saat 2 civarında kalkan bir uçuş var mı
@@ -4509,7 +4186,6 @@
 14	var	var	ADJ	O
 15	mı	mi	AUX	O
 
-
 # sent_id = 0325.test
 # text = Hangi uçuşlar Pittsburgh'tan kalkıp Denver'e varıyor ve akşam mesela 6'dan sonra kalkıyor
 # intent: flight
@@ -4526,7 +4202,6 @@
 11	sonra	sonra	ADP	B-depart_time.time_relative
 12	kalkıyor	kalk	VERB	O
 
-
 # sent_id = 0326.test
 # text = 1201'den sonra Dallas'tan Houston'a
 # intent: flight
@@ -4534,7 +4209,6 @@
 2	sonra	sonra	ADP	B-depart_time.time_relative
 3	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 4	Houston'a	houston	PROPN	B-toloc.city_name
-
 
 # sent_id = 0327.test
 # text = Charlotte'den Minneapolis'e öğleden sonra saat 3 civarında bir uçuş var mı
@@ -4550,7 +4224,6 @@
 9	uçuş	uç	NOUN	O
 10	var	var	ADJ	O
 11	mı	mi	AUX	O
-
 
 # sent_id = 0328.test
 # text = Pittsburgh'tan San Francisco'ya öğlen saat 12'den sonra Pittsburgh'tan kalkan uçuşların bilgilerini görmek istiyorum
@@ -4569,7 +4242,6 @@
 12	görmek	gör	NOUN	O
 13	istiyorum	iste	VERB	O
 
-
 # sent_id = 0329.test
 # text = Perşembe sabah 10'dan önce Boston'dan Baltimore'ye tüm uçuşların listesi
 # intent: flight
@@ -4582,7 +4254,6 @@
 7	tüm	tüm	DET	O
 8	uçuşların	uç	NOUN	O
 9	listesi	liste	NOUN	O
-
 
 # sent_id = 0330.test
 # text = Alaska havayolları ile San Diego'dan Toronto'ya öğlen saat 1 civarında kalkan bir uçuş istiyorum
@@ -4602,7 +4273,6 @@
 13	uçuş	uç	NOUN	O
 14	istiyorum	iste	VERB	O
 
-
 # sent_id = 0331.test
 # text = Atlanta'dan Washington'a öğlen 3'ten sonra kalkan bir uçuş istiyorum
 # intent: flight
@@ -4615,7 +4285,6 @@
 7	bir	bir	DET	O
 8	uçuş	uç	NOUN	O
 9	istiyorum	iste	VERB	O
-
 
 # sent_id = 0332.test
 # text = Çarşamba günü akşam saat 6'dan sonra Boston'dan Atlanta'ya giden tüm uçuşları listele
@@ -4632,7 +4301,6 @@
 10	tüm	tüm	DET	O
 11	uçuşları	uç	NOUN	O
 12	listele	listele	VERB	O
-
 
 # sent_id = 0333.test
 # text = Cleveland'dan Milwaukee'ye çarşamba günü akşam 6'dan sonra kalkan bir uçuş için uçuş bilgilerine ihtiyacım var
@@ -4653,7 +4321,6 @@
 14	ihtiyacım	ihtiyaç	NOUN	O
 15	var	var	ADJ	O
 
-
 # sent_id = 0334.test
 # text = Boston'dan Denver'e sabah 10'dan önce hangi uçuşlar kalkıyor
 # intent: flight
@@ -4665,7 +4332,6 @@
 6	hangi	hangi	ADJ	O
 7	uçuşlar	uç	NOUN	O
 8	kalkıyor	kalk	VERB	O
-
 
 # sent_id = 0335.test
 # text = Çarşamba günü saat 6'dan sonra Boston'dan Atlanta'ya tüm uçuşları listele
@@ -4681,7 +4347,6 @@
 9	uçuşları	uç	NOUN	O
 10	listele	listele	VERB	O
 
-
 # sent_id = 0336.test
 # text = Pittsburgh'tan Philadelphia'ya sabah 9'dan önce kalkan uçuşları arıyorum
 # intent: flight
@@ -4693,7 +4358,6 @@
 6	kalkan	kalk	ADJ	O
 7	uçuşları	uç	NOUN	O
 8	arıyorum	ara	VERB	O
-
 
 # sent_id = 0337.test
 # text = Perşembe sabah saat 7'den önce Boston'dan Atlanta'ya giden tüm uçuşları listele
@@ -4709,7 +4373,6 @@
 9	tüm	tüm	DET	O
 10	uçuşları	uç	NOUN	O
 11	listele	listele	VERB	O
-
 
 # sent_id = 0338.test
 # text = Cleveland'dan Milwaukee'ye çarşamba günü akşam 5'ten sonra kalkan bir uçuş için uçuş bilgilerine ihtiyacım var
@@ -4730,7 +4393,6 @@
 14	ihtiyacım	ihtiyaç	NOUN	O
 15	var	var	ADJ	O
 
-
 # sent_id = 0339.test
 # text = cumartesi akşam 6'dan önce bana Cincinnati'den New York'a başka bir uçak bulabilir misin
 # intent: flight
@@ -4748,7 +4410,6 @@
 12	bulabilir	bul	VERB	O
 13	misin	mi	AUX	O
 
-
 # sent_id = 0340.test
 # text = Cuma sabahı saat 10'dan sonra San Francisco'dan Pittsburgh'a bir uçuş istiyorum
 # intent: flight
@@ -4763,7 +4424,6 @@
 9	bir	bir	DET	O
 10	uçuş	uç	NOUN	O
 11	istiyorum	iste	VERB	O
-
 
 # sent_id = 0341.test
 # text = Perşembe sabah saat 5'ten önce Boston'dan Atlanta'ya giden tüm uçuşları listele
@@ -4780,7 +4440,6 @@
 10	uçuşları	uç	NOUN	O
 11	listele	listele	VERB	O
 
-
 # sent_id = 0342.test
 # text = Baltimore'den Boston'a son uçuş nedir
 # intent: flight
@@ -4789,7 +4448,6 @@
 3	son	son	ADJ	O
 4	uçuş	uç	NOUN	O
 5	nedir	ne	VERB	O
-
 
 # sent_id = 0343.test
 # text = San Jose'den Houston'a son uçuş nedir
@@ -4800,7 +4458,6 @@
 4	son	son	ADJ	O
 5	uçuş	uç	NOUN	O
 6	nedir	ne	VERB	O
-
 
 # sent_id = 0344.test
 # text = Pittsburgh'tan San Francisco'ya en erken uçuş nedir
@@ -4813,7 +4470,6 @@
 6	uçuş	uç	NOUN	O
 7	nedir	ne	VERB	O
 
-
 # sent_id = 0345.test
 # text = Philadelphia'dan Dallas'a ilk uçuşu göster
 # intent: flight
@@ -4823,7 +4479,6 @@
 4	uçuşu	uç	NOUN	O
 5	göster	göster	VERB	O
 
-
 # sent_id = 0346.test
 # text = Atlanta'dan Boston'a son uçuş nedir
 # intent: flight
@@ -4832,7 +4487,6 @@
 3	son	son	ADJ	O
 4	uçuş	uç	NOUN	O
 5	nedir	ne	VERB	O
-
 
 # sent_id = 0347.test
 # text = Milwaukee'den St. Petersburg'a en kısa uçuş nedir
@@ -4845,7 +4499,6 @@
 6	uçuş	uç	NOUN	O
 7	nedir	ne	VERB	O
 
-
 # sent_id = 0348.test
 # text = Tampa'dan Cincinnati'ye en kısa akşam uçuşu
 # intent: flight
@@ -4855,7 +4508,6 @@
 4	kısa	kısa	ADJ	O
 5	akşam	akşam	NOUN	B-depart_time.period_of_day
 6	uçuşu	uç	NOUN	O
-
 
 # sent_id = 0349.test
 # text = Boston'dan Philadelphia'ya giden en erken uçuşunuz nedir
@@ -4868,7 +4520,6 @@
 6	uçuşunuz	uç	VERB	O
 7	nedir	ne	VERB	O
 
-
 # sent_id = 0350.test
 # text = Boston'dan San Francisco'ya en erken uçuş nedir
 # intent: flight
@@ -4879,7 +4530,6 @@
 5	erken	erken	ADV	O
 6	uçuş	uç	NOUN	O
 7	nedir	ne	VERB	O
-
 
 # sent_id = 0351.test
 # text = Denver'den Westchester County New York'a hafta içi uçuşlar
@@ -4893,7 +4543,6 @@
 7	içi	iç	NOUN	O
 8	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0352.test
 # text = Boston'dan Atlanta'ya son uçuş nedir
 # intent: flight
@@ -4902,7 +4551,6 @@
 3	son	son	ADJ	O
 4	uçuş	uç	NOUN	O
 5	nedir	ne	VERB	O
-
 
 # sent_id = 0353.test
 # text = Denver'den Boston'a giden en erken uçuş nedir
@@ -4915,7 +4563,6 @@
 6	uçuş	uç	NOUN	O
 7	nedir	ne	VERB	O
 
-
 # sent_id = 0354.test
 # text = Ontario'dan Memphis'e en erken uçuş nedir
 # intent: flight
@@ -4926,7 +4573,6 @@
 5	uçuş	uç	NOUN	O
 6	nedir	ne	VERB	O
 
-
 # sent_id = 0355.test
 # text = Atlanta'dan Boston'a en erken uçuş nedir
 # intent: flight
@@ -4936,7 +4582,6 @@
 4	erken	erken	ADV	O
 5	uçuş	uç	NOUN	O
 6	nedir	ne	VERB	O
-
 
 # sent_id = 0356.test
 # text = Cuma günü San Francisco'dan Washington'a giden son uçuş nedir
@@ -4951,7 +4596,6 @@
 8	uçuş	uç	NOUN	O
 9	nedir	ne	VERB	O
 
-
 # sent_id = 0357.test
 # text = San Francisco'dan Boston'a en erken sabah uçuşu nedir
 # intent: flight
@@ -4964,7 +4608,6 @@
 7	uçuşu	uç	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0358.test
 # text = Dallas'tan Houston'a en erken uçuş nedir
 # intent: flight
@@ -4974,7 +4617,6 @@
 4	erken	erken	ADV	O
 5	uçuş	uç	NOUN	O
 6	nedir	ne	VERB	O
-
 
 # sent_id = 0359.test
 # text = San Francisco'dan Atlanta'ya mümkün olan en erken uçuşu bulmak istiyorum
@@ -4990,7 +4632,6 @@
 9	bulmak	bul	NOUN	O
 10	istiyorum	iste	VERB	O
 
-
 # sent_id = 0360.test
 # text = Washington için San Francisco'dan kalkan son akşam uçuşu nedir
 # intent: flight
@@ -5003,7 +4644,6 @@
 7	akşam	akşam	NOUN	B-depart_time.period_of_day
 8	uçuşu	uç	NOUN	O
 9	nedir	ne	VERB	O
-
 
 # sent_id = 0361.test
 # text = Boston'dan Atlanta'ya ilk uçuş nedir ve Atlanta'dan Boston'a son uçuş nedir
@@ -5020,7 +4660,6 @@
 10	uçuş	uç	NOUN	O
 11	nedir	ne	VERB	O
 
-
 # sent_id = 0362.test
 # text = Baltimore'den Atlanta'ya en ucuz tek yön bilet nedir
 # intent: flight
@@ -5032,7 +4671,6 @@
 6	yön	yön	NOUN	I-round_trip
 7	bilet	bilet	NOUN	O
 8	nedir	ne	VERB	O
-
 
 # sent_id = 0363.test
 # text = Boston ve Washington arasındaki en ucuz gidiş dönüş seyahat ücreti nedir
@@ -5048,7 +4686,6 @@
 9	seyahat	seyahat	NOUN	O
 10	ücreti	ücret	NOUN	O
 11	nedir	ne	VERB	O
-
 
 # sent_id = 0364.test
 # text = Boston ve San Francisco arasındaki en ucuz gidiş dönüş yolculuk ücreti nedir
@@ -5066,7 +4703,6 @@
 11	ücreti	ücret	NOUN	O
 12	nedir	ne	VERB	O
 
-
 # sent_id = 0365.test
 # text = Atlanta Pittsburgh arası en ucuz gidiş dönüş ücreti nedir
 # intent: airfare+flight
@@ -5079,7 +4715,6 @@
 7	dönüş	dön	NOUN	O
 8	ücreti	ücret	NOUN	O
 9	nedir	ne	VERB	O
-
 
 # sent_id = 0366.test
 # text = Baltimore'den Dallas'a herhangi bir sınıfta en ucuz ücret nedir
@@ -5094,7 +4729,6 @@
 8	ücret	ücret	NOUN	O
 9	nedir	ne	VERB	O
 
-
 # sent_id = 0367.test
 # text = Boston'dan Washington'a en ucuz tek yön ücret nedir
 # intent: airfare+flight
@@ -5107,7 +4741,6 @@
 7	ücret	ücret	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0368.test
 # text = Washington'dan Fort Worth'a en ucuz tarifeyle ilgileniyorum
 # intent: flight_time+flight
@@ -5118,7 +4751,6 @@
 5	ucuz	ucuz	ADJ	I-cost_relative
 6	tarifeyle	tarife	NOUN	O
 7	ilgileniyorum	ilgilen	VERB	O
-
 
 # sent_id = 0369.test
 # text = on beş Temmuz'da Denver'den Pittsburgh'a bir uçuş rezervasyonu yapmak istiyorum en ucuz uçuş olmasını istiyorum
@@ -5139,7 +4771,6 @@
 14	olmasını	ol	NOUN	O
 15	istiyorum	iste	VERB	O
 
-
 # sent_id = 0370.test
 # text = Dallas'tan Delta üzerinde Denver'e en ucuz ücret nedir
 # intent: airfare+flight
@@ -5151,7 +4782,6 @@
 6	ucuz	ucuz	ADJ	I-cost_relative
 7	ücret	ücret	NOUN	O
 8	nedir	ne	VERB	O
-
 
 # sent_id = 0371.test
 # text = bana Denver ile Pittsburgh arasındaki en ucuz gidiş dönüş uçuşlarını gösterebilir misin
@@ -5169,7 +4799,6 @@
 11	gösterebilir	göster	VERB	O
 12	misin	mi	AUX	O
 
-
 # sent_id = 0372.test
 # text = Denver'den Atlanta'ya en düşük gidiş dönüş ücreti nedir
 # intent: airfare
@@ -5182,7 +4811,6 @@
 7	ücreti	ücret	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0373.test
 # text = Boston'dan Atlanta'ya en ucuz uçuş nedir
 # intent: flight
@@ -5192,7 +4820,6 @@
 4	ucuz	ucuz	ADJ	I-cost_relative
 5	uçuş	uç	NOUN	O
 6	nedir	ne	VERB	O
-
 
 # sent_id = 0374.test
 # text = Atlanta'dan Dallas'a en ucuz ücreti bulmak istiyorum
@@ -5205,7 +4832,6 @@
 6	bulmak	bul	NOUN	O
 7	istiyorum	iste	VERB	O
 
-
 # sent_id = 0375.test
 # text = San Francisco'dan Los Angeles'e en düşük ücret
 # intent: airfare
@@ -5217,7 +4843,6 @@
 6	düşük	düşük	ADJ	I-cost_relative
 7	ücret	ücret	NOUN	I-cost_relative
 
-
 # sent_id = 0376.test
 # text = Denver'den Pittsburgh'a en düşük ücreti istiyorum
 # intent: airfare
@@ -5227,7 +4852,6 @@
 4	düşük	düşük	ADJ	I-cost_relative
 5	ücreti	ücret	NOUN	I-cost_relative
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0377.test
 # text = tamam sadece Atlanta'dan Boston'a en ucuz fiyatı bilmek istiyorum
@@ -5242,7 +4866,6 @@
 8	bilmek	bil	NOUN	O
 9	istiyorum	iste	VERB	O
 
-
 # sent_id = 0378.test
 # text = Atlanta'dan Denver'e en düşük tek yön ücretleri nedir
 # intent: airfare
@@ -5254,7 +4877,6 @@
 6	yön	yön	NOUN	I-round_trip
 7	ücretleri	ücret	NOUN	O
 8	nedir	ne	VERB	O
-
 
 # sent_id = 0379.test
 # text = herhangi bir şehirden diğerine en ucuz tek yön ücreti nedir
@@ -5270,7 +4892,6 @@
 9	ücreti	ücret	NOUN	O
 10	nedir	ne	VERB	O
 
-
 # sent_id = 0380.test
 # text = Boston'dan Fort Worth'a en ucuz maliyetli ücreti istiyorum
 # intent: airfare+flight
@@ -5282,7 +4903,6 @@
 6	maliyetli	maliyet	ADJ	O
 7	ücreti	ücret	NOUN	O
 8	istiyorum	iste	VERB	O
-
 
 # sent_id = 0381.test
 # text = San Diego'dan Miami'ye en ucuz tek yön ücretini göster
@@ -5296,7 +4916,6 @@
 7	yön	yön	NOUN	I-round_trip
 8	ücretini	ücret	NOUN	O
 9	göster	göster	VERB	O
-
 
 # sent_id = 0382.test
 # text = Amerikan havayollarında hangi uçuşlar Philadelphia'dan Dallas'a gidiyor ve öğleden önce kalkıyor
@@ -5312,7 +4931,6 @@
 9	öğleden	öğle	NOUN	O
 10	önce	önce	ADP	O
 11	kalkıyor	kalk	VERB	O
-
 
 # sent_id = 0383.test
 # text = Cleveland'dan Dallas'a uçağa ihtiyacım var öğleden önce ayrılacak çok fazla bilgi var mı bak
@@ -5332,7 +4950,6 @@
 13	mı	mi	AUX	O
 14	bak	bak	VERB	O
 
-
 # sent_id = 0384.test
 # text = 2134'ten sonra pazar günü Denver'den Continental'la kalkan tüm uçuşları listeleyin
 # intent: flight
@@ -5347,7 +4964,6 @@
 9	uçuşları	uç	NOUN	O
 10	listeleyin	listele	VERB	O
 
-
 # sent_id = 0385.test
 # text = San Francisco'dan Boston'a öğleden önce kalkan tüm uçuşlar
 # intent: flight
@@ -5359,7 +4975,6 @@
 6	kalkan	kalk	ADJ	O
 7	tüm	tüm	DET	O
 8	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0386.test
 # text = akşam 6'dan sonra Cincinnati'den San Jose'ye bir uçağa ihtiyacım var
@@ -5375,7 +4990,6 @@
 9	ihtiyacım	ihtiyaç	NOUN	O
 10	var	var	ADJ	O
 
-
 # sent_id = 0387.test
 # text = Milwaukee'den Orlando'ya tek yön uçuşlar
 # intent: flight
@@ -5384,7 +4998,6 @@
 3	tek	tek	ADJ	B-round_trip
 4	yön	yön	NOUN	I-round_trip
 5	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0388.test
 # text = Baltimore'den Dallas'a gidiş dönüş uçmak istiyorum
@@ -5396,7 +5009,6 @@
 5	uçmak	uç	NOUN	O
 6	istiyorum	iste	VERB	O
 
-
 # sent_id = 0389.test
 # text = merhaba Dallas'a gidiş dönüş bileti istiyorum
 # intent: flight
@@ -5406,7 +5018,6 @@
 4	dönüş	dön	NOUN	O
 5	bileti	bilet	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0390.test
 # text = Pittsburgh'tan San Francisco'ya gidiş dönüş bir seyahatin maliyeti ne olur
@@ -5421,7 +5032,6 @@
 8	maliyeti	maliyet	NOUN	O
 9	ne	ne	ADV	O
 10	olur	ol	VERB	O
-
 
 # sent_id = 0391.test
 # text = Delta kuzeybatı us Air ve birleşik havayollarında Toronto'dan Detroit'e gidiş dönüş ücretlerini göster
@@ -5440,7 +5050,6 @@
 12	ücretlerini	ücret	NOUN	O
 13	göster	göster	VERB	O
 
-
 # sent_id = 0392.test
 # text = bana New York'tan Miami'ye gidiş dönüş tüm uçuşları ver
 # intent: flight
@@ -5454,7 +5063,6 @@
 8	uçuşları	uç	NOUN	O
 9	ver	ver	VERB	O
 
-
 # sent_id = 0393.test
 # text = Nashville'den Seattle'ye gidiş dönüş ücret ne kadar
 # intent: airfare
@@ -5465,7 +5073,6 @@
 5	ücret	ücret	NOUN	O
 6	ne	ne	ADV	O
 7	kadar	kadar	ADP	O
-
 
 # sent_id = 0394.test
 # text = Baltimore'den Boston'a yedi Kasım'da tek yön giden ücret nedir
@@ -5479,7 +5086,6 @@
 7	giden	git	ADJ	O
 8	ücret	ücret	NOUN	O
 9	nedir	ne	VERB	O
-
 
 # sent_id = 0395.test
 # text = Phoenix ve Salt Lake City arasındaki gidiş dönüş uçuşlarını göster
@@ -5495,7 +5101,6 @@
 9	uçuşlarını	uç	NOUN	O
 10	göster	göster	VERB	O
 
-
 # sent_id = 0396.test
 # text = Baltimore'den Atlanta'ya yedi Kasım'da tek yön ücret nedir
 # intent: airfare
@@ -5507,7 +5112,6 @@
 6	yön	yön	NOUN	I-round_trip
 7	ücret	ücret	NOUN	O
 8	nedir	ne	VERB	O
-
 
 # sent_id = 0397.test
 # text = şimdi Miami'den New York'a dönüş uçuşlarını görmek istiyorum
@@ -5521,7 +5125,6 @@
 7	görmek	gör	NOUN	O
 8	istiyorum	iste	VERB	O
 
-
 # sent_id = 0398.test
 # text = Denver'den San Francisco'ya 819 uçuşunuz var mı
 # intent: flight
@@ -5532,7 +5135,6 @@
 5	uçuşunuz	uç	VERB	O
 6	var	var	ADJ	O
 7	mı	mi	AUX	O
-
 
 # sent_id = 0399.test
 # text = Dört Haziran'da Chicago'dan Seattle'ye bir uçuş rezervasyonu yapmak istiyorum
@@ -5546,7 +5148,6 @@
 7	rezervasyonu	rezervasyon	NOUN	O
 8	yapmak	yap	NOUN	O
 9	istiyorum	iste	VERB	O
-
 
 # sent_id = 0400.test
 # text = Long Beach'tan Columbus'a altı Nisan çarşamba günü uçuş var mı
@@ -5562,7 +5163,6 @@
 9	var	var	ADJ	O
 10	mı	mi	AUX	O
 
-
 # sent_id = 0401.test
 # text = Boston'dan Atlanta'ya öğleden sonra altı Ağustos'ta kalkan uçuşlar istiyorum
 # intent: flight
@@ -5575,7 +5175,6 @@
 7	kalkan	kalk	ADJ	O
 8	uçuşlar	uç	NOUN	O
 9	istiyorum	iste	VERB	O
-
 
 # sent_id = 0402.test
 # text = on bir Haziran cuma günü St. Petersburg'dan Milwaukee'ye ve ardından Milwaukee'den Tacoma'ya hangi uçuşların olduğunu öğrenmek istiyorum teşekkür ederim
@@ -5600,7 +5199,6 @@
 18	teşekkür	teşekkür	NOUN	O
 19	ederim	et	VERB	O
 
-
 # sent_id = 0403.test
 # text = beş Haziran'da Chicago'dan Dallas'a Continental'la bir uçuşa ihtiyacım var
 # intent: flight
@@ -5613,7 +5211,6 @@
 7	uçuşa	uç	NOUN	O
 8	ihtiyacım	ihtiyaç	NOUN	O
 9	var	var	ADJ	O
-
 
 # sent_id = 0404.test
 # text = dokuz Temmuz'da Orlando'dan Kansas şehrine öğleden sonra bir uçuş istiyorum
@@ -5629,7 +5226,6 @@
 9	uçuş	uç	NOUN	O
 10	istiyorum	iste	VERB	O
 
-
 # sent_id = 0405.test
 # text = bir Ocak'ta Baltimore'ye bir gezi ayarlamak istiyorum
 # intent: flight
@@ -5640,7 +5236,6 @@
 5	gezi	gezi	NOUN	O
 6	ayarlamak	ayarla	NOUN	O
 7	istiyorum	iste	VERB	O
-
 
 # sent_id = 0406.test
 # text = tamam ve sonra Pittsburgh'tan dört Eylül'de Atlanta'ya gitmek istiyorum
@@ -5655,7 +5250,6 @@
 8	gitmek	git	NOUN	O
 9	istiyorum	iste	VERB	O
 
-
 # sent_id = 0407.test
 # text = 7 Haziran'da Westchester ilçesinden Denver'e uçuşları listeleyin
 # intent: flight
@@ -5667,7 +5261,6 @@
 6	uçuşları	uç	NOUN	O
 7	listeleyin	listele	VERB	O
 
-
 # sent_id = 0408.test
 # text = Atlanta 2 Ağustos uçuşları
 # intent: flight
@@ -5675,7 +5268,6 @@
 2	2	2	NUM	B-depart_date.day_number
 3	Ağustos	ağustos	NOUN	B-depart_date.month_name
 4	uçuşları	uç	NOUN	O
-
 
 # sent_id = 0409.test
 # text = on Ağustos'ta Pittsburgh ve Baltimore arasındaki uçuşlar nelerdir
@@ -5688,7 +5280,6 @@
 6	arasındaki	ara	ADJ	O
 7	uçuşlar	uç	NOUN	O
 8	nelerdir	ne	VERB	O
-
 
 # sent_id = 0410.test
 # text = 1 Nisan'da Phoenix'den San Diego'ya giden bir uçağa ihtiyacım var
@@ -5703,7 +5294,6 @@
 8	uçağa	uçak	NOUN	O
 9	ihtiyacım	ihtiyaç	NOUN	O
 10	var	var	ADJ	O
-
 
 # sent_id = 0411.test
 # text = bana üç Ağustos için Denver'den Baltimore'ye United ile uçuşların listesini göster
@@ -5720,7 +5310,6 @@
 10	listesini	liste	NOUN	O
 11	göster	göster	VERB	O
 
-
 # sent_id = 0412.test
 # text = ayın 20'sinde San Jose'den Nashville'ye uçuşlar nelerdir
 # intent: flight
@@ -5732,7 +5321,6 @@
 6	uçuşlar	uç	NOUN	O
 7	nelerdir	ne	VERB	O
 
-
 # sent_id = 0413.test
 # text = Nashville'den Seattle'ye bir bilete ihtiyacım var
 # intent: flight
@@ -5742,7 +5330,6 @@
 4	bilete	bilet	NOUN	O
 5	ihtiyacım	ihtiyaç	NOUN	O
 6	var	var	ADJ	O
-
 
 # sent_id = 0414.test
 # text = Delta ile Dallas'tan Baltimore'ye uçmanın maliyeti nedir
@@ -5754,7 +5341,6 @@
 5	uçmanın	uç	NOUN	O
 6	maliyeti	maliyet	NOUN	O
 7	nedir	ne	VERB	O
-
 
 # sent_id = 0415.test
 # text = Charlotte Newark uçuşlarının salı ve çarşamba ücretleri nedir
@@ -5768,7 +5354,6 @@
 7	ücretleri	ücret	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0416.test
 # text = Denver'den Oakland'a olan uçuşları ve ücretleri göster
 # intent: airfare+flight
@@ -5779,7 +5364,6 @@
 5	ve	ve	CCONJ	O
 6	ücretleri	ücret	NOUN	O
 7	göster	göster	VERB	O
-
 
 # sent_id = 0417.test
 # text = Denver ve Pittsburgh arasındaki uçak bileti ücreti nedir
@@ -5793,7 +5377,6 @@
 7	ücreti	ücret	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0418.test
 # text = United havayolları ile Boston'dan Oakland'a uçmanın maliyeti nedir
 # intent: airfare
@@ -5806,7 +5389,6 @@
 7	maliyeti	maliyet	NOUN	O
 8	nedir	ne	VERB	O
 
-
 # sent_id = 0419.test
 # text = Washington'dan Montreal'a cumartesi günü fiyatı al
 # intent: airfare+flight
@@ -5817,7 +5399,6 @@
 5	fiyatı	fiyat	NOUN	O
 6	al	al	ADJ	O
 
-
 # sent_id = 0420.test
 # text = Atlanta'dan Baltimore'ye olan ücreti ver
 # intent: airfare
@@ -5826,7 +5407,6 @@
 3	olan	ol	ADJ	O
 4	ücreti	ücret	NOUN	O
 5	ver	ver	VERB	O
-
 
 # sent_id = 0421.test
 # text = cumartesi günü Chicago'dan Seattle'ye Continental havayolları
@@ -5837,7 +5417,6 @@
 4	Seattle'ye	seattle	PROPN	B-toloc.city_name
 5	Continental	continental	PROPN	B-airline_name
 6	havayolları	havayol	NOUN	I-airline_name
-
 
 # sent_id = 0422.test
 # text = Eastern havayolları Boston ve Washington arasında uçuyor mu
@@ -5850,7 +5429,6 @@
 6	arasında	ara	NOUN	O
 7	uçuyor	uç	VERB	O
 8	mu	mi	AUX	O
-
 
 # sent_id = 0423.test
 # text = United havayolları ile Denver - San Francisco uçuşu hakkında bilgi almak istiyorum
@@ -5868,7 +5446,6 @@
 11	almak	al	NOUN	O
 12	istiyorum	iste	VERB	O
 
-
 # sent_id = 0424.test
 # text = Denver'den Milwaukee'ye American havayolları
 # intent: flight
@@ -5876,7 +5453,6 @@
 2	Milwaukee'ye	milwaukee	PROPN	B-toloc.city_name
 3	American	american	PROPN	B-airline_name
 4	havayolları	havayol	NOUN	I-airline_name
-
 
 # sent_id = 0425.test
 # text = Delta havayolları Kansas City den Salt Lake uçuşa ihtiyacım var
@@ -5892,7 +5468,6 @@
 9	ihtiyacım	ihtiyaç	NOUN	O
 10	var	var	ADJ	O
 
-
 # sent_id = 0426.test
 # text = Burbank kalkışlı Alaska havayolları uçuşlarını listele
 # intent: flight
@@ -5902,7 +5477,6 @@
 4	havayolları	havayol	NOUN	I-airline_name
 5	uçuşlarını	uç	NOUN	O
 6	listele	listele	VERB	O
-
 
 # sent_id = 0427.test
 # text = amerikan havayolları ile Miami'den Chicago'ya tüm uçuşları ver
@@ -5916,7 +5490,6 @@
 7	uçuşları	uç	NOUN	O
 8	ver	ver	VERB	O
 
-
 # sent_id = 0428.test
 # text = Denver'den Baltimore'ye birleşik havayolları uçuşlarını istiyorum
 # intent: flight
@@ -5926,7 +5499,6 @@
 4	havayolları	havayol	NOUN	O
 5	uçuşlarını	uç	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0429.test
 # text = cumartesi sabahı ABD hava yoluyla New York'tan Los Angeles'e bir uçuş istiyorum
@@ -5944,7 +5516,6 @@
 11	uçuş	uç	NOUN	O
 12	istiyorum	iste	VERB	O
 
-
 # sent_id = 0430.test
 # text = bana güneybatı havayollarının San Diego'dan San Francisco'ya uçuşlarını göster
 # intent: flight
@@ -5958,7 +5529,6 @@
 8	uçuşlarını	uç	NOUN	O
 9	göster	göster	VERB	O
 
-
 # sent_id = 0431.test
 # text = Amerikan havayollarının Boston'dan Dallas'a hangi uçuşları var
 # intent: flight
@@ -5969,7 +5539,6 @@
 5	hangi	hangi	ADJ	O
 6	uçuşları	uç	NOUN	O
 7	var	var	ADJ	O
-
 
 # sent_id = 0432.test
 # text = cumartesi günü Continental havayolları ile Chicago'dan Seattle'ye hangi uçuşlar gidiyor
@@ -5985,7 +5554,6 @@
 9	uçuşlar	uç	NOUN	O
 10	gidiyor	git	VERB	O
 
-
 # sent_id = 0433.test
 # text = American havayolları ile Dallas'tan San Francisco'ya uçuşları listele
 # intent: flight
@@ -5997,7 +5565,6 @@
 6	Francisco'ya	francisco	PROPN	I-toloc.city_name
 7	uçuşları	uç	NOUN	O
 8	listele	listele	VERB	O
-
 
 # sent_id = 0434.test
 # text = Continental havayollarıyla cumartesi günü Chicago'dan Seattle'ye hangi uçuşlar gidiyor
@@ -6012,7 +5579,6 @@
 8	uçuşlar	uç	NOUN	O
 9	gidiyor	git	VERB	O
 
-
 # sent_id = 0435.test
 # text = Delta havayolları için uçuş sınıflarını göster
 # intent: flight
@@ -6022,7 +5588,6 @@
 4	uçuş	uç	NOUN	O
 5	sınıflarını	sınıf	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0436.test
 # text = lütfen Amerikan havayollarında Cincinnati Burbank uçuşlarını listele
@@ -6034,7 +5599,6 @@
 5	Burbank	Burbank	PROPN	B-toloc.city_name
 6	uçuşlarını	uç	NOUN	O
 7	listele	listele	VERB	O
-
 
 # sent_id = 0437.test
 # text = bana Indianapolis San Diego arasındaki ABD hava yoluyla tüm uçuşları göster
@@ -6051,7 +5615,6 @@
 10	uçuşları	uç	NOUN	O
 11	göster	göster	VERB	O
 
-
 # sent_id = 0438.test
 # text = Delta havayollarıyla Atlanta'dan Pittsburgh'a uçmak istiyorum
 # intent: flight
@@ -6061,7 +5624,6 @@
 4	Pittsburgh'a	pittsburgh	PROPN	B-toloc.city_name
 5	uçmak	uç	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0439.test
 # text = çarşamba öğleden sonra Denver - San Francisco arasında hangi uçuşlar var
@@ -6078,7 +5640,6 @@
 10	uçuşlar	uç	NOUN	O
 11	var	var	ADJ	O
 
-
 # sent_id = 0440.test
 # text = akşam Philadelphia'ya tüm uçuşları göster
 # intent: flight
@@ -6087,7 +5648,6 @@
 3	tüm	tüm	DET	O
 4	uçuşları	uç	NOUN	O
 5	göster	göster	VERB	O
-
 
 # sent_id = 0441.test
 # text = cumartesi sabahı Chicago'dan Denver'e Continental üzerinden uçuşlar
@@ -6099,7 +5659,6 @@
 5	Continental	continental	PROPN	B-airline_name
 6	üzerinden	üzeri	NOUN	O
 7	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0442.test
 # text = Cuma öğleden sonra San Jose'den Dallas'a hangi uçuşlar var
@@ -6114,7 +5673,6 @@
 8	uçuşlar	uç	NOUN	O
 9	var	var	ADJ	O
 
-
 # sent_id = 0443.test
 # text = la - Charlotte pazartesi sabahı uçuş ve fiyatları nelerdir
 # intent: airfare
@@ -6128,7 +5686,6 @@
 8	fiyatları	fiyat	NOUN	O
 9	nelerdir	ne	VERB	O
 
-
 # sent_id = 0444.test
 # text = cuma akşamı Newark'tan Los Angeles'e bir uçuş istiyorum
 # intent: flight
@@ -6141,7 +5698,6 @@
 7	uçuş	uç	NOUN	O
 8	istiyorum	iste	VERB	O
 
-
 # sent_id = 0445.test
 # text = St. Paul'dan Kansas City cuma gecesi
 # intent: flight
@@ -6151,7 +5707,6 @@
 4	City	city	PROPN	I-toloc.city_name
 5	cuma	cuma	NOUN	B-depart_date.day_name
 6	gecesi	gece	NOUN	B-depart_time.period_of_day
-
 
 # sent_id = 0446.test
 # text = bana sabah Philadelphia'dan Baltimore'ye olan uçuşları göster
@@ -6164,7 +5719,6 @@
 6	uçuşları	uç	NOUN	O
 7	göster	göster	VERB	O
 
-
 # sent_id = 0447.test
 # text = sabah Chicago'dan Denver'e hangi uçuşlar var
 # intent: flight
@@ -6174,7 +5728,6 @@
 4	hangi	hangi	ADJ	O
 5	uçuşlar	uç	NOUN	O
 6	var	var	ADJ	O
-
 
 # sent_id = 0448.test
 # text = şimdi Detroit'ten San Diego'ya salı akşamı ayrılan bir uçağa ihtiyacım var
@@ -6191,7 +5744,6 @@
 10	ihtiyacım	ihtiyaç	NOUN	O
 11	var	var	ADJ	O
 
-
 # sent_id = 0449.test
 # text = Dallas'tan Atlanta'ya çarşamba sabahı uçuşlar nasıl
 # intent: flight
@@ -6201,7 +5753,6 @@
 4	sabahı	sabah	NOUN	B-depart_time.period_of_day
 5	uçuşlar	uç	NOUN	O
 6	nasıl	nasıl	ADV	O
-
 
 # sent_id = 0450.test
 # text = bana Baltimore'den Atlanta'ya akşam uçuşlarını göster
@@ -6213,7 +5764,6 @@
 5	uçuşlarını	uç	NOUN	O
 6	göster	göster	VERB	O
 
-
 # sent_id = 0451.test
 # text = akşam Pittsburgh'tan Atlanta'ya hangi uçuşlar kalkıyor
 # intent: flight
@@ -6224,7 +5774,6 @@
 5	uçuşlar	uç	NOUN	O
 6	kalkıyor	kalk	VERB	O
 
-
 # sent_id = 0452.test
 # text = öğleden sonra Toronto'dan Atlanta'ya
 # intent: flight
@@ -6232,7 +5781,6 @@
 2	sonra	sonra	ADP	O
 3	Toronto'dan	toronto	PROPN	B-fromloc.city_name
 4	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
-
 
 # sent_id = 0453.test
 # text = Pittsburgh'tan Oakland'a uçmalı ve öğleden sonra ayrılmalıyım
@@ -6244,7 +5792,6 @@
 5	öğleden	öğle	NOUN	O
 6	sonra	sonra	ADP	O
 7	ayrılmalıyım	ayrılma	VERB	O
-
 
 # sent_id = 0454.test
 # text = pazartesi öğleden sonra Los Angeles'ten Pittsburgh'a uçağa ihtiyacım var
@@ -6259,7 +5806,6 @@
 8	ihtiyacım	ihtiyaç	NOUN	O
 9	var	var	ADJ	O
 
-
 # sent_id = 0455.test
 # text = bana Atlanta'dan Boston'a akşam uçuşlarını göster
 # intent: flight
@@ -6269,7 +5815,6 @@
 4	akşam	akşam	NOUN	B-depart_time.period_of_day
 5	uçuşlarını	uç	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0456.test
 # text = Pazar akşamı Atlanta'dan kalkan ve Baltimore'ye varan uçuşları bilmem gerekiyor
@@ -6285,7 +5830,6 @@
 9	bilmem	bil	NOUN	O
 10	gerekiyor	gerek	VERB	O
 
-
 # sent_id = 0457.test
 # text = pazartesi sabahı Boston'dan Denver'e hangi uçuşlar var
 # intent: flight
@@ -6297,7 +5841,6 @@
 6	uçuşlar	uç	NOUN	O
 7	var	var	ADJ	O
 
-
 # sent_id = 0458.test
 # text = bana Atlanta'dan Baltimore'ye sabah uçuşları ver
 # intent: flight
@@ -6308,7 +5851,6 @@
 5	uçuşları	uç	NOUN	O
 6	ver	ver	VERB	O
 
-
 # sent_id = 0459.test
 # text = Atlanta'dan Dallas'a öğleden sonra uçuşlar
 # intent: flight
@@ -6317,7 +5859,6 @@
 3	öğleden	öğle	NOUN	O
 4	sonra	sonra	ADP	O
 5	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0460.test
 # text = Pittsburgh'tan Atlanta'ya çarşamba günü sabah uçuşları
@@ -6329,7 +5870,6 @@
 5	sabah	sabah	NOUN	B-depart_time.period_of_day
 6	uçuşları	uç	NOUN	O
 
-
 # sent_id = 0461.test
 # text = pazartesi sabahı Dallas'tan Boston'a uçuşlar nelerdir
 # intent: flight
@@ -6340,7 +5880,6 @@
 5	uçuşlar	uç	NOUN	O
 6	nelerdir	ne	VERB	O
 
-
 # sent_id = 0462.test
 # text = Atlanta - Philadelphia gündüz uçuşlarım
 # intent: flight
@@ -6350,7 +5889,6 @@
 4	gündüz	gündüz	NOUN	O
 5	uçuşlarım	uç	NOUN	O
 
-
 # sent_id = 0463.test
 # text = Tampa'dan Charlotte'ye pazar sabahı
 # intent: flight
@@ -6358,7 +5896,6 @@
 2	Charlotte'ye	charlotte	PROPN	B-toloc.city_name
 3	pazar	pazar	NOUN	B-depart_date.day_name
 4	sabahı	sabah	NOUN	B-depart_time.period_of_day
-
 
 # sent_id = 0464.test
 # text = cumartesi akşamı St. Louis - Burbank uçuşlarını göster
@@ -6372,7 +5909,6 @@
 7	uçuşlarını	uç	NOUN	O
 8	göster	göster	VERB	O
 
-
 # sent_id = 0465.test
 # text = Philadelphia'dan Pittsburgh'a öğleden sonra hangi uçuşlar var
 # intent: flight
@@ -6384,7 +5920,6 @@
 6	uçuşlar	uç	NOUN	O
 7	var	var	ADJ	O
 
-
 # sent_id = 0466.test
 # text = Milwaukee'den Orlando'ya çarşamba gecesi uçuşlar nelerdir
 # intent: flight
@@ -6394,7 +5929,6 @@
 4	gecesi	gece	NOUN	B-depart_time.period_of_day
 5	uçuşlar	uç	NOUN	O
 6	nelerdir	ne	VERB	O
-
 
 # sent_id = 0467.test
 # text = bana San Francisco'dan Dallas'a olan uçuşları göster
@@ -6406,7 +5940,6 @@
 5	olan	ol	ADJ	O
 6	uçuşları	uç	NOUN	O
 7	göster	göster	VERB	O
-
 
 # sent_id = 0468.test
 # text = perşembe günü San Francisco - Denver uçuşlarını göster
@@ -6420,14 +5953,12 @@
 7	uçuşlarını	uç	NOUN	O
 8	göster	göster	VERB	O
 
-
 # sent_id = 0469.test
 # text = Las Vegas'tan Phoenix'e
 # intent: flight
 1	Las	Las	PROPN	B-fromloc.city_name
 2	Vegas'tan	vegas	PROPN	B-fromloc.city_name
 3	Phoenix'e	phoenix	PROPN	B-toloc.city_name
-
 
 # sent_id = 0470.test
 # text = bana San Diego - Los Angeles arasındaki tüm uçuşları göster
@@ -6443,7 +5974,6 @@
 9	uçuşları	uç	NOUN	O
 10	göster	göster	VERB	O
 
-
 # sent_id = 0471.test
 # text = Kansas şehrinden Minneapolis şehrine uçuşları göster
 # intent: flight
@@ -6454,7 +5984,6 @@
 5	uçuşları	uç	NOUN	O
 6	göster	göster	VERB	O
 
-
 # sent_id = 0472.test
 # text = Las Vegas'tan Phoenix'e uçuşları listele
 # intent: flight
@@ -6464,7 +5993,6 @@
 4	uçuşları	uç	NOUN	O
 5	listele	listele	VERB	O
 
-
 # sent_id = 0473.test
 # text = Las Vegas'tan Montreal'a uçuşlar
 # intent: flight
@@ -6472,7 +6000,6 @@
 2	Vegas'tan	vegas	PROPN	B-fromloc.city_name
 3	Montreal'a	montreal	PROPN	B-toloc.city_name
 4	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0474.test
 # text = St. Louis'ten Las Vegas'a giden bir uçuşla da ilgileniyorum
@@ -6487,14 +6014,12 @@
 8	da	da	CCONJ	O
 9	ilgileniyorum	ilgilen	VERB	O
 
-
 # sent_id = 0475.test
 # text = St. Petersburg'dan Detroit'e
 # intent: flight
 1	St.	St.	PROPN	B-fromloc.city_name
 2	Petersburg'dan	petersburg	PROPN	I-fromloc.city_name
 3	Detroit'e	detroit	PROPN	B-toloc.city_name
-
 
 # sent_id = 0476.test
 # text = bana San Francisco'dan Minneapolis'e uçuşları göster
@@ -6505,7 +6030,6 @@
 4	Minneapolis'e	minneapolis	PROPN	B-toloc.city_name
 5	uçuşları	uç	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0477.test
 # text = Salt Lake City'den Las Vegas'a hangi uçuşlar var
@@ -6519,7 +6043,6 @@
 7	uçuşlar	uç	NOUN	O
 8	var	var	ADJ	O
 
-
 # sent_id = 0478.test
 # text = San Francisco ile Pittsburgh arasındaki tüm uçuşları göster
 # intent: flight
@@ -6532,7 +6055,6 @@
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
 
-
 # sent_id = 0479.test
 # text = Pazartesi St. Petersburg'dan Toronto'ya uçuşunuz var mı
 # intent: flight
@@ -6543,7 +6065,6 @@
 5	uçuşunuz	uç	VERB	O
 6	var	var	ADJ	O
 7	mı	mi	AUX	O
-
 
 # sent_id = 0480.test
 # text = Delta'yla Fort Worth'a giriş ve çıkış yapan tüm uçuşlar nelerdir
@@ -6559,7 +6080,6 @@
 9	uçuşlar	uç	NOUN	O
 10	nelerdir	ne	VERB	O
 
-
 # sent_id = 0481.test
 # text = St. Petersburg - Charlotte uçuşlarını göster
 # intent: flight
@@ -6569,7 +6089,6 @@
 4	Charlotte	charlotte	PROPN	B-toloc.city_name
 5	uçuşlarını	uç	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0482.test
 # text = salı günü Dallas Fort Worth'dan Boston'a uçuş bilgisi istiyorum
@@ -6583,7 +6102,6 @@
 7	uçuş	uç	NOUN	O
 8	bilgisi	bilgi	NOUN	O
 9	istiyorum	iste	VERB	O
-
 
 # sent_id = 0483.test
 # text = cuma günü San Francisco ile Pittsburgh arasındaki tüm uçuşları göster
@@ -6599,14 +6117,12 @@
 9	uçuşları	uç	NOUN	O
 10	göster	göster	VERB	O
 
-
 # sent_id = 0484.test
 # text = Las Vegas'tan Montreal'a
 # intent: flight
 1	Las	Las	PROPN	B-fromloc.city_name
 2	Vegas'tan	vegas	PROPN	B-fromloc.city_name
 3	Montreal'a	montreal	PROPN	B-toloc.city_name
-
 
 # sent_id = 0485.test
 # text = pazar New York City'den Las Vegas'a uçuşlar
@@ -6618,7 +6134,6 @@
 5	Las	Las	PROPN	B-toloc.city_name
 6	Vegas'a	vegas	PROPN	B-toloc.city_name
 7	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0486.test
 # text = lütfen Kansas şehrinden Newark şehrine bir uçuş bul
@@ -6632,7 +6147,6 @@
 7	uçuş	uç	NOUN	O
 8	bul	bul	VERB	O
 
-
 # sent_id = 0487.test
 # text = San Francisco'dan Denver'e gitmek istiyorum
 # intent: flight
@@ -6641,7 +6155,6 @@
 3	Denver'e	denver	PROPN	B-toloc.city_name
 4	gitmek	git	NOUN	O
 5	istiyorum	iste	VERB	O
-
 
 # sent_id = 0488.test
 # text = Pazartesi günü Continental'la Denver'den ayrılan tüm uçuşları listeleyin
@@ -6655,7 +6168,6 @@
 7	uçuşları	uç	NOUN	O
 8	listeleyin	listele	VERB	O
 
-
 # sent_id = 0489.test
 # text = sadece Continental uçuşlarını göster
 # intent: flight
@@ -6663,7 +6175,6 @@
 2	Continental	continental	PROPN	B-airline_name
 3	uçuşlarını	uç	NOUN	O
 4	göster	göster	VERB	O
-
 
 # sent_id = 0490.test
 # text = Philadelphia'dan San Francisco'ya Delta ile bir uçuş bul
@@ -6677,7 +6188,6 @@
 7	uçuş	uç	NOUN	O
 8	bul	bul	VERB	O
 
-
 # sent_id = 0491.test
 # text = yapabiliyorsan her yere tüm Delta uçuşları
 # intent: flight
@@ -6688,7 +6198,6 @@
 5	Delta	delta	PROPN	B-airline_name
 6	uçuşları	uç	NOUN	O
 
-
 # sent_id = 0492.test
 # text = bana Nationair'le Toronto'dan tüm uçuşları göster
 # intent: flight
@@ -6698,7 +6207,6 @@
 4	tüm	tüm	DET	O
 5	uçuşları	uç	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0493.test
 # text = bana Boston'dan Denver'e tüm United uçuşlarını göster
@@ -6711,7 +6219,6 @@
 6	uçuşlarını	uç	NOUN	O
 7	göster	göster	VERB	O
 
-
 # sent_id = 0494.test
 # text = bana Boston'dan kalkan tüm United uçuşlarını göster
 # intent: flight
@@ -6723,7 +6230,6 @@
 6	uçuşlarını	uç	NOUN	O
 7	göster	göster	VERB	O
 
-
 # sent_id = 0495.test
 # text = Phoenix'den Milwaukee'ye Amerikan uçuşları ne zaman
 # intent: flight_time
@@ -6733,7 +6239,6 @@
 4	uçuşları	uç	NOUN	O
 5	ne	ne	ADJ	O
 6	zaman	zaman	NOUN	O
-
 
 # sent_id = 0496.test
 # text = lütfen Pittsburgh ile Baltimore arasındaki tüm United uçuşlarını listele
@@ -6747,7 +6252,6 @@
 7	United	united	PROPN	B-airline_name
 8	uçuşlarını	uç	NOUN	O
 9	listele	listele	VERB	O
-
 
 # sent_id = 0497.test
 # text = lütfen pazar günleri çalışan Boston ile Philadelphia arasındaki tüm uçuşları listeleyin
@@ -6764,7 +6268,6 @@
 10	uçuşları	uç	NOUN	O
 11	listeleyin	listele	VERB	O
 
-
 # sent_id = 0498.test
 # text = cuma günü Baltimore - San Francisco arasındaki tüm uçuşları listele
 # intent: flight
@@ -6779,7 +6282,6 @@
 9	uçuşları	uç	NOUN	O
 10	listele	listele	VERB	O
 
-
 # sent_id = 0499.test
 # text = Philadelphia'dan Denver'e pazartesi uçuşlarını göster
 # intent: flight
@@ -6788,7 +6290,6 @@
 3	pazartesi	pazartesi	PROPN	B-depart_date.day_name
 4	uçuşlarını	uç	NOUN	O
 5	göster	göster	VERB	O
-
 
 # sent_id = 0500.test
 # text = cuma günü Denver'den Atlanta'ya uçuşları göster
@@ -6800,7 +6301,6 @@
 5	uçuşları	uç	NOUN	O
 6	göster	göster	VERB	O
 
-
 # sent_id = 0501.test
 # text = cuma günü Oakland'dan Philadelphia'ya giden uçuşlar
 # intent: flight
@@ -6811,7 +6311,6 @@
 5	giden	git	ADJ	O
 6	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0502.test
 # text = Baltimore - Philadelphia çarşamba
 # intent: flight
@@ -6819,7 +6318,6 @@
 2	-	-	PUNCT	O
 3	Philadelphia	philadelphia	PROPN	B-toloc.city_name
 4	çarşamba	çarşamba	PROPN	B-depart_date.day_name
-
 
 # sent_id = 0503.test
 # text = pazar için Montreal'dan San Diego'ya bir uçuş istiyorum
@@ -6833,7 +6331,6 @@
 7	uçuş	uç	NOUN	O
 8	istiyorum	iste	VERB	O
 
-
 # sent_id = 0504.test
 # text = cuma günü Philadelphia'dan Oakland'a hangi uçuşlar var
 # intent: flight
@@ -6844,7 +6341,6 @@
 5	hangi	hangi	ADJ	O
 6	uçuşlar	uç	NOUN	O
 7	var	var	ADJ	O
-
 
 # sent_id = 0505.test
 # text = pazartesi için Pittsburgh'tan San Francisco'ya mevcut uçuşları görmek istiyorum
@@ -6859,7 +6355,6 @@
 8	görmek	gör	NOUN	O
 9	istiyorum	iste	VERB	O
 
-
 # sent_id = 0506.test
 # text = bana pazar günü Tampa'dan Charlotte'ye olan uçuşları göster
 # intent: flight
@@ -6872,7 +6367,6 @@
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
 
-
 # sent_id = 0507.test
 # text = cumartesi günü Denver - Philadelphia uçuşları nelerdir
 # intent: flight
@@ -6883,7 +6377,6 @@
 5	Philadelphia	philadelphia	PROPN	B-toloc.city_name
 6	uçuşları	uç	NOUN	O
 7	nelerdir	ne	VERB	O
-
 
 # sent_id = 0508.test
 # text = Denver'den Philadelphia'ya çarşamba günleri hangi uçuşlar var
@@ -6896,7 +6389,6 @@
 6	uçuşlar	uç	NOUN	O
 7	var	var	ADJ	O
 
-
 # sent_id = 0509.test
 # text = Cumartesi günü Boston'dan Washington'a gitmek istiyorum
 # intent: flight
@@ -6906,7 +6398,6 @@
 4	Washington'a	washington	PROPN	B-toloc.state_name
 5	gitmek	git	NOUN	O
 6	istiyorum	iste	VERB	O
-
 
 # sent_id = 0510.test
 # text = Pazartesi günü Burbank - St. Louis uçuşlarını göster
@@ -6920,7 +6411,6 @@
 7	uçuşlarını	uç	NOUN	O
 8	göster	göster	VERB	O
 
-
 # sent_id = 0511.test
 # text = lütfen bana pazartesi günü Dallas'tan Atlanta'ya uçuşları göster
 # intent: flight
@@ -6933,7 +6423,6 @@
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
 
-
 # sent_id = 0512.test
 # text = bana Pittsburgh'tan Los Angeles'e perşembe uçuşlarını göster
 # intent: flight
@@ -6944,7 +6433,6 @@
 5	perşembe	perşembe	NOUN	B-depart_date.day_name
 6	uçuşlarını	uç	NOUN	O
 7	göster	göster	VERB	O
-
 
 # sent_id = 0513.test
 # text = Oakland'dan Dallas Fort Worth'a pazar günleri uçuşların bir listesini rica ediyorum
@@ -6961,7 +6449,6 @@
 10	rica	rica	NOUN	O
 11	ediyorum	et	VERB	O
 
-
 # sent_id = 0514.test
 # text = bana çarşamba Boston - Pittsburgh uçuşlarını göster
 # intent: flight
@@ -6972,7 +6459,6 @@
 5	Pittsburgh	pittsburgh	PROPN	B-toloc.city_name
 6	uçuşlarını	uç	NOUN	O
 7	göster	göster	VERB	O
-
 
 # sent_id = 0515.test
 # text = Pazar günü Nashville - Cleveland arası tüm uçuşları listele
@@ -6987,7 +6473,6 @@
 8	uçuşları	uç	NOUN	O
 9	listele	listele	VERB	O
 
-
 # sent_id = 0516.test
 # text = Pazar günü Tampa'dan Charlotte'ye bir uçuş ver
 # intent: flight
@@ -6999,7 +6484,6 @@
 6	uçuş	uç	NOUN	O
 7	ver	ver	VERB	O
 
-
 # sent_id = 0517.test
 # text = Denver - San Francisco uçuşlarını göster
 # intent: flight
@@ -7009,7 +6493,6 @@
 4	Francisco	francisco	PROPN	I-toloc.city_name
 5	uçuşlarını	uç	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0518.test
 # text = Pittsburgh ve Dallas Fort Worth arasındaki tüm uçuşlar nelerdir
@@ -7024,7 +6507,6 @@
 8	uçuşlar	uç	NOUN	O
 9	nelerdir	ne	VERB	O
 
-
 # sent_id = 0519.test
 # text = Seattle'den Salt Lake City'e hangi uçuşlar
 # intent: flight
@@ -7035,7 +6517,6 @@
 5	hangi	hangi	ADJ	O
 6	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0520.test
 # text = Memphis'ten Las Vegas'a uçuşlar nelerdir
 # intent: flight
@@ -7044,7 +6525,6 @@
 3	Vegas'a	vegas	PROPN	B-toloc.city_name
 4	uçuşlar	uç	NOUN	O
 5	nelerdir	ne	VERB	O
-
 
 # sent_id = 0521.test
 # text = Pittsburgh'tan Los Angeles'e hangi uçuşlar var
@@ -7056,7 +6536,6 @@
 5	uçuşlar	uç	NOUN	O
 6	var	var	ADJ	O
 
-
 # sent_id = 0522.test
 # text = Pittsburgh'tan San Francisco'ya bir uçuş arıyorum
 # intent: flight
@@ -7066,7 +6545,6 @@
 4	bir	bir	DET	O
 5	uçuş	uç	NOUN	O
 6	arıyorum	ara	VERB	O
-
 
 # sent_id = 0523.test
 # text = bana Dallas'tan San Francisco'ya uçuşları göster
@@ -7078,7 +6556,6 @@
 5	uçuşları	uç	NOUN	O
 6	göster	göster	VERB	O
 
-
 # sent_id = 0524.test
 # text = Boston'dan San Francisco'ya uçuşlar nelerdir
 # intent: flight
@@ -7087,7 +6564,6 @@
 3	Francisco'ya	francisco	PROPN	I-toloc.city_name
 4	uçuşlar	uç	NOUN	O
 5	nelerdir	ne	VERB	O
-
 
 # sent_id = 0525.test
 # text = Boston'dan San Francisco'ya giden hangi uçuşların var
@@ -7100,7 +6576,6 @@
 6	uçuşların	uç	NOUN	O
 7	var	var	ADJ	O
 
-
 # sent_id = 0526.test
 # text = lütfen Washington'dan San Francisco'ya tüm uçuşları listele
 # intent: flight
@@ -7111,7 +6586,6 @@
 5	tüm	tüm	DET	O
 6	uçuşları	uç	NOUN	O
 7	listele	listele	VERB	O
-
 
 # sent_id = 0527.test
 # text = Oakland ve San Francisco arasındaki uçuşları listele
@@ -7124,7 +6598,6 @@
 6	uçuşları	uç	NOUN	O
 7	listele	listele	VERB	O
 
-
 # sent_id = 0528.test
 # text = Washington'dan Fort Worth'a bir uçuşla ilgileniyorum
 # intent: flight
@@ -7134,7 +6607,6 @@
 4	bir	bir	DET	O
 5	uçuşla	uç	NOUN	O
 6	ilgileniyorum	ilgilen	VERB	O
-
 
 # sent_id = 0529.test
 # text = Boston ve Dallas Fort Worth arasında şu anda hangi uçuşlar mevcut
@@ -7151,7 +6623,6 @@
 10	uçuşlar	uç	NOUN	O
 11	mevcut	mevcut	NOUN	O
 
-
 # sent_id = 0530.test
 # text = peki ya Boston'dan San Diego'ya uçuşlar
 # intent: flight
@@ -7162,7 +6633,6 @@
 5	Diego'ya	diego	PROPN	I-toloc.city_name
 6	uçuşlar	uç	NOUN	O
 
-
 # sent_id = 0531.test
 # text = Baltimore - San Francisco uçuşları
 # intent: flight
@@ -7171,7 +6641,6 @@
 3	San	san	PROPN	B-toloc.city_name
 4	Francisco	francisco	PROPN	I-toloc.city_name
 5	uçuşları	uç	NOUN	O
-
 
 # sent_id = 0532.test
 # text = Washington'da yaşıyorum ve San Francisco'ya bir gezi yapmak istiyorum bu iki şehre hangi havayollarının bağlandığını söyleyebilir misiniz
@@ -7194,7 +6663,6 @@
 16	söyleyebilir	söyle	VERB	O
 17	misiniz	mi	AUX	O
 
-
 # sent_id = 0533.test
 # text = Detroit'ten Las Vegas'a uçuşları göster
 # intent: flight
@@ -7203,7 +6671,6 @@
 3	Vegas'a	vegas	PROPN	B-toloc.city_name
 4	uçuşları	uç	NOUN	O
 5	göster	göster	VERB	O
-
 
 # sent_id = 0534.test
 # text = Denver'den Atlanta'ya hangi uçuşlar gider
@@ -7214,7 +6681,6 @@
 4	uçuşlar	uç	NOUN	O
 5	gider	git	VERB	O
 
-
 # sent_id = 0535.test
 # text = bana Montreal'dan Philly'e uçuşları göster
 # intent: flight
@@ -7224,14 +6690,12 @@
 4	uçuşları	uç	NOUN	O
 5	göster	göster	VERB	O
 
-
 # sent_id = 0536.test
 # text = Denver'den Philadelphia'ya uçuş
 # intent: flight
 1	Denver'den	denver	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 3	uçuş	uç	NOUN	O
-
 
 # sent_id = 0537.test
 # text = bana Baltimore'den Pittsburgh'a uçuşları ver
@@ -7242,7 +6706,6 @@
 4	uçuşları	uç	NOUN	O
 5	ver	ver	VERB	O
 
-
 # sent_id = 0538.test
 # text = Boston'dan Baltimore'ye uçmak istiyorum
 # intent: flight
@@ -7250,7 +6713,6 @@
 2	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
 3	uçmak	uç	NOUN	O
 4	istiyorum	iste	VERB	O
-
 
 # sent_id = 0539.test
 # text = bana Philadelphia'dan ayrılıp Dallas'a giden uçuşları söyle
@@ -7263,7 +6725,6 @@
 6	uçuşları	uç	NOUN	O
 7	söyle	söyle	VERB	O
 
-
 # sent_id = 0540.test
 # text = Oakland den Denver'e uçuş bilgileri
 # intent: flight
@@ -7273,14 +6734,12 @@
 4	uçuş	uç	NOUN	O
 5	bilgileri	bilgi	NOUN	O
 
-
 # sent_id = 0541.test
 # text = uçuş Boston'dan başlayacak
 # intent: flight
 1	uçuş	uç	NOUN	O
 2	Boston'dan	boston	PROPN	B-fromloc.city_name
 3	başlayacak	başla	ADJ	O
-
 
 # sent_id = 0542.test
 # text = Pittsburgh'tan Oakland'a uçuşlar nelerdir
@@ -7289,7 +6748,6 @@
 2	Oakland'a	oakland	PROPN	B-toloc.city_name
 3	uçuşlar	uç	NOUN	O
 4	nelerdir	ne	VERB	O
-
 
 # sent_id = 0543.test
 # text = Baltimore'den Newark'a hangi uçuşlar var
@@ -7300,14 +6758,12 @@
 4	uçuşlar	uç	NOUN	O
 5	var	var	ADJ	O
 
-
 # sent_id = 0544.test
 # text = Columbus'tan Milwaukee'ye uçuşlar
 # intent: flight
 1	Columbus'tan	columbus	PROPN	B-fromloc.city_name
 2	Milwaukee'ye	milwaukee	PROPN	B-toloc.city_name
 3	uçuşlar	uç	NOUN	O
-
 
 # sent_id = 0545.test
 # text = Boston - Washington hakkında bilgi istiyorum
@@ -7319,7 +6775,6 @@
 3	bilgi	bilgi	NOUN	O
 4	istiyorum	iste	VERB	O
 
-
 # sent_id = 0546.test
 # text = Houston'dan Phoenix'e uçuşları listele
 # intent: flight
@@ -7328,7 +6783,6 @@
 3	uçuşları	uç	NOUN	O
 4	listele	listele	VERB	O
 
-
 # sent_id = 0547.test
 # text = Atlanta'dan Pittsburgh'a uçuş bilgisi
 # intent: flight
@@ -7336,7 +6790,6 @@
 2	Pittsburgh'a	pittsburgh	PROPN	B-toloc.city_name
 3	uçuş	uç	NOUN	O
 4	bilgisi	bilgi	NOUN	O
-
 
 # sent_id = 0548.test
 # text = Pittsburgh ve Denver'e gitmem gerek
@@ -7347,7 +6800,6 @@
 4	gitmem	git	VERB	O
 5	gerek	gerek	NOUN	O
 
-
 # sent_id = 0549.test
 # text = Philadelphia'dan Atlanta'ya hangi uçuşlar var
 # intent: flight
@@ -7357,14 +6809,12 @@
 4	uçuşlar	uç	NOUN	O
 5	var	var	ADJ	O
 
-
 # sent_id = 0550.test
 # text = Milwaukee'den Denver'e uçuş
 # intent: flight
 1	Milwaukee'den	milwaukee	PROPN	B-fromloc.city_name
 2	Denver'e	denver	PROPN	B-toloc.city_name
 3	uçuş	uç	NOUN	O
-
 
 # sent_id = 0551.test
 # text = bana Baltimore'den Dallas'a olan uçuşları söyle
@@ -7375,7 +6825,6 @@
 4	olan	ol	ADJ	O
 5	uçuşları	uç	NOUN	O
 6	söyle	söyle	VERB	O
-
 
 # sent_id = 0552.test
 # text = Atlanta'dan Denver'e bir uçuş rezervasyonu yapmak istiyorum
@@ -7388,7 +6837,6 @@
 6	yapmak	yap	NOUN	O
 7	istiyorum	iste	VERB	O
 
-
 # sent_id = 0553.test
 # text = şimdi beni Pittsburgh'tan Denver'e getir
 # intent: flight
@@ -7398,7 +6846,6 @@
 4	Denver'e	denver	PROPN	B-toloc.city_name
 5	getir	getir	VERB	O
 
-
 # sent_id = 0554.test
 # text = Boston'dan Dallas'a hangi uçuşlar var
 # intent: flight
@@ -7407,7 +6854,6 @@
 3	hangi	hangi	ADJ	O
 4	uçuşlar	uç	NOUN	O
 5	var	var	ADJ	O
-
 
 # sent_id = 0555.test
 # text = bana Pittsburgh - Philadelphia uçuşlarını göster
@@ -7419,7 +6865,6 @@
 5	uçuşlarını	uç	NOUN	O
 6	göster	göster	VERB	O
 
-
 # sent_id = 0556.test
 # text = Philadelphia'dan Boston'a olan uçuşları gösterin
 # intent: flight
@@ -7428,7 +6873,6 @@
 3	olan	ol	ADJ	O
 4	uçuşları	uç	NOUN	O
 5	gösterin	göster	VERB	O
-
 
 # sent_id = 0557.test
 # text = Pittsburgh'tan Philadelphia'ya uçuşları görmek istiyorum
@@ -7439,7 +6883,6 @@
 4	görmek	gör	NOUN	O
 5	istiyorum	iste	VERB	O
 
-
 # sent_id = 0558.test
 # text = Pittsburgh'tan Baltimore'ye olan uçuşları göster
 # intent: flight
@@ -7449,7 +6892,6 @@
 4	uçuşları	uç	NOUN	O
 5	göster	göster	VERB	O
 
-
 # sent_id = 0559.test
 # text = Philadelphia'dan Dallas'a gitmek istiyorum
 # intent: flight
@@ -7457,7 +6899,6 @@
 2	Dallas'a	dallas	PROPN	B-toloc.city_name
 3	gitmek	git	NOUN	O
 4	istiyorum	iste	VERB	O
-
 
 # sent_id = 0560.test
 # text = Pittsburgh'tan Oakland'a olan uçuşları gösterin
@@ -7468,7 +6909,6 @@
 4	uçuşları	uç	NOUN	O
 5	gösterin	göster	VERB	O
 
-
 # sent_id = 0561.test
 # text = Chicago'dan İndianapolis'e olan uçuşlar nelerdir
 # intent: flight
@@ -7478,7 +6918,6 @@
 4	uçuşlar	uç	NOUN	O
 5	nelerdir	ne	VERB	O
 
-
 # sent_id = 0562.test
 # text = Toronto'dan Milwaukee'ye uçuşları verin
 # intent: flight
@@ -7486,7 +6925,6 @@
 2	Milwaukee'ye	milwaukee	PROPN	B-toloc.city_name
 3	uçuşları	uç	NOUN	O
 4	verin	ver	VERB	O
-
 
 # sent_id = 0563.test
 # text = Bir havayolunun hizmet verdiği sınıflar nelerdir
@@ -7498,7 +6936,6 @@
 5	sınıflar	sınıfla	VERB	O
 6	nelerdir	ne	VERB	O
 
-
 # sent_id = 0564.test
 # text = Boston ve Denver arasındaki uçuşları gösterin
 # intent: flight
@@ -7509,7 +6946,6 @@
 5	uçuşları	uç	NOUN	O
 6	gösterin	göster	VERB	O
 
-
 # sent_id = 0565.test
 # text = Dallas'tan Oakland'a olan uçuşları göster
 # intent: flight
@@ -7518,7 +6954,6 @@
 3	olan	ol	ADJ	O
 4	uçuşları	uç	NOUN	O
 5	göster	göster	VERB	O
-
 
 # sent_id = 0566.test
 # text = Bana Baltimore'den Dallas'a olan uçuşları gösterin
@@ -7530,7 +6965,6 @@
 5	uçuşları	uç	NOUN	O
 6	gösterin	göster	VERB	O
 
-
 # sent_id = 0567.test
 # text = bana Memphis'ten Charlotte'ye tüm uçuşları ver
 # intent: flight
@@ -7540,7 +6974,6 @@
 4	tüm	tüm	DET	O
 5	uçuşları	uç	NOUN	O
 6	ver	ver	VERB	O
-
 
 # sent_id = 0568.test
 # text = Baltimore'den Philadelphia'ya olan uçuşları görmek istiyorum lütfen
@@ -7553,7 +6986,6 @@
 6	istiyorum	iste	VERB	O
 7	lütfen	lütfen	ADV	O
 
-
 # sent_id = 0569.test
 # text = İndianapolis'ten Orlando'ya hangi uçuşlar var
 # intent: flight
@@ -7562,7 +6994,6 @@
 3	hangi	hangi	ADJ	O
 4	uçuşlar	uç	NOUN	O
 5	var	var	ADJ	O
-
 
 # sent_id = 0570.test
 # text = Hayır Denver'den Oakland'a gitmek istiyorum
@@ -7573,7 +7004,6 @@
 4	gitmek	git	NOUN	O
 5	istiyorum	iste	VERB	O
 
-
 # sent_id = 0571.test
 # text = bana Milwaukee'den Orlando'ya olan uçuşları göster
 # intent: flight
@@ -7583,7 +7013,6 @@
 4	olan	ol	ADJ	O
 5	uçuşları	uç	NOUN	O
 6	göster	göster	VERB	O
-
 
 # sent_id = 0572.test
 # text = Bana Denver ve Oakland arasındaki uçuşların listesini verin
@@ -7597,7 +7026,6 @@
 7	listesini	liste	NOUN	O
 8	verin	ver	VERB	O
 
-
 # sent_id = 0573.test
 # text = Bana Charlotte'den Cleveland'a olan tüm uçuşları gösterin
 # intent: flight
@@ -7609,7 +7037,6 @@
 6	uçuşları	uç	NOUN	O
 7	gösterin	göster	VERB	O
 
-
 # sent_id = 0574.test
 # text = Denver'den Baltimore'ye olan uçuşları göster
 # intent: flight
@@ -7618,7 +7045,6 @@
 3	olan	ol	ADJ	O
 4	uçuşları	uç	NOUN	O
 5	göster	göster	VERB	O
-
 
 # sent_id = 0575.test
 # text = Bana İndianapolis'ten Houston'a olan uçuşları söyleyin
@@ -7630,13 +7056,11 @@
 5	uçuşları	uç	NOUN	O
 6	söyleyin	söyle	VERB	O
 
-
 # sent_id = 0576.test
 # text = Oakland'dan Philadelphia'ya
 # intent: flight
 1	Oakland'dan	oakland	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-
 
 # sent_id = 0577.test
 # text = Denver'den Baltimore'ye olan uçuşlarınız nelerdir
@@ -7647,7 +7071,6 @@
 4	uçuşlarınız	uç	NOUN	O
 5	nelerdir	ne	VERB	O
 
-
 # sent_id = 0578.test
 # text = Baltimore'den Philadelphia'ya tüm uçuşları listele
 # intent: flight
@@ -7657,7 +7080,6 @@
 4	uçuşları	uç	NOUN	O
 5	listele	listele	VERB	O
 
-
 # sent_id = 0579.test
 # text = Boston'dan Dallas'a hangi uçuşlar var
 # intent: flight
@@ -7666,7 +7088,6 @@
 3	hangi	hangi	ADJ	O
 4	uçuşlar	uç	NOUN	O
 5	var	var	ADJ	O
-
 
 # sent_id = 0580.test
 # text = Denver'den Philadelphia'ya olan tüm uçuşları görmek istiyorum
@@ -7679,13 +7100,11 @@
 6	görmek	gör	NOUN	O
 7	istiyorum	iste	VERB	O
 
-
 # sent_id = 0581.test
 # text = Atlanta'dan Pittsburgh'a
 # intent: flight
 1	Atlanta'dan	atlanta	PROPN	B-fromloc.city_name
 2	Pittsburgh'a	pittsburgh	PROPN	B-toloc.city_name
-
 
 # sent_id = 0582.test
 # text = Baltimore'den Newark'a en erken giden uçuşu verin
@@ -7698,7 +7117,6 @@
 6	uçuşu	uç	NOUN	O
 7	verin	ver	VERB	O
 
-
 # sent_id = 0583.test
 # text = Atlanta'dan Denver'e hangi uçuşlar var
 # intent: flight
@@ -7707,7 +7125,6 @@
 3	hangi	hangi	ADJ	O
 4	uçuşlar	uç	NOUN	O
 5	var	var	ADJ	O
-
 
 # sent_id = 0584.test
 # text = Phoenix'den Atlanta'ya olan bir uçuşa ihtiyacım var
@@ -7720,7 +7137,6 @@
 6	ihtiyacım	ihtiyaç	NOUN	O
 7	var	var	ADJ	O
 
-
 # sent_id = 0585.test
 # text = Atlanta'dan Philadelphia'ya uçmak istiyorum
 # intent: flight
@@ -7728,7 +7144,6 @@
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 3	uçmak	uç	NOUN	O
 4	istiyorum	iste	VERB	O
-
 
 # sent_id = 0586.test
 # text = Aynı zamanda Oakland ve Boston arasındaki uçuşları göster
@@ -7741,5 +7156,4 @@
 6	arasındaki	ara	ADJ	O
 7	uçuşları	uç	NOUN	O
 8	göster	göster	VERB	O
-
 

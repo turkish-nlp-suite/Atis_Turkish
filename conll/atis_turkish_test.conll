@@ -953,8 +953,8 @@
 1	bana	ben	PRON	O
 2	gidiş	git	NOUN	O
 3	dönüş	dön	NOUN	O
-4	1500	1500	NUM	B-depart_time.time
-5	dolardan	dolar	NOUN	O
+4	1500	1500	NUM	B-fare_amount
+5	dolardan	dolar	NOUN	I-fare_amount
 6	az	az	ADP	O
 7	olan	ol	ADJ	O
 8	tüm	tüm	DET	O
@@ -967,8 +967,8 @@
 # intent: airfare
 1	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	doların	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	doların	dolar	NOUN	I-fare_amount
 5	altındaki	alt	ADJ	B-cost_relative
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
@@ -979,8 +979,8 @@
 # intent: airfare
 1	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	doların	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	doların	dolar	NOUN	I-fare_amount
 5	altında	alt	NOUN	B-cost_relative
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
@@ -993,8 +993,8 @@
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 3	tüm	tüm	DET	O
 4	uçuşlar	uç	NOUN	O
-5	1000	1000	NUM	B-depart_time.time
-6	dolardan	dolar	NOUN	O
+5	1000	1000	NUM	B-fare_amount
+6	dolardan	dolar	NOUN	I-fare_amount
 7	az	az	ADP	O
 
 # sent_id = 0080.test

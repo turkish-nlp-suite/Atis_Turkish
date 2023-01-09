@@ -761,8 +761,8 @@
 2	Dallas'a	dallas	PROPN	B-toloc.city_name
 3	12'den	12	NOUN	B-depart_time.time
 4	sonra	sonra	ADP	B-depart_time.time_relative
-5	1100	1100	NUM	B-depart_time.time
-6	dolardan	dolar	NOUN	O
+5	1100	1100	NUM	B-fare_amount
+6	dolardan	dolar	NOUN	I-fare_amount
 7	daha	daha	ADV	O
 8	az	az	ADV	O
 9	gidiş	git	NOUN	O
@@ -948,8 +948,8 @@
 1	Bana	ben	PRON	O
 2	gidiş	git	NOUN	O
 3	dönüş	dön	NOUN	O
-4	466	466	NUM	O
-5	dolardan	dolar	NOUN	O
+4	466	466	NUM	B-fare_amount
+5	dolardan	dolar	NOUN	I-fare_amount
 6	daha	daha	ADV	O
 7	az	az	ADJ	O
 8	olan	ol	ADJ	O
@@ -966,8 +966,8 @@
 # text = Denver'e 500 doların altında uçmak istiyorum Lütfen bana Pittsburgh ve Denver arasındaki uçuş ücretlerini gösterin
 # intent: airfare+flight
 1	Denver'e	denver	PROPN	B-toloc.city_name
-2	500	500	NUM	B-depart_time.time
-3	doların	dolar	NOUN	O
+2	500	500	NUM	B-fare_amount
+3	doların	dolar	NOUN	I-fare_amount
 4	altında	alt	NOUN	B-cost_relative
 5	uçmak	uç	NOUN	O
 6	istiyorum	iste	VERB	O
@@ -987,8 +987,8 @@
 1	Bana	ben	PRON	O
 2	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 3	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
-4	415	415	NUM	O
-5	dolarlık	dolar	ADJ	O
+4	415	415	NUM	B-fare_amount
+5	dolarlık	dolar	ADJ	I-fare_amount
 6	uçuşları	uç	NOUN	O
 7	gösterin	göster	VERB	O
 

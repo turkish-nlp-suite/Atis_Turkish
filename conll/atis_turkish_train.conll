@@ -260,8 +260,8 @@
 # sent_id = 0018.train
 # text = 416 dolarlık uçak bileti için Pittsburgh'tan Atlanta'ya giden uçuşlardaki havayolu kısıtlamaları nelerdir
 # intent: restriction+flight
-1	416	416	NUM	O
-2	dolarlık	dolar	ADJ	O
+1	416	416	NUM	B-fare_amount
+2	dolarlık	dolar	ADJ	I-fare_amount
 3	uçak	uçak	NOUN	O
 4	bileti	bilet	NOUN	O
 5	için	için	ADP	O
@@ -3417,8 +3417,8 @@
 8	Tacoma	tacoma	PROPN	B-toloc.city_name
 9	Washington'a	washington	PROPN	B-toloc.state_name
 10	giden	git	ADJ	O
-11	300	300	NUM	B-depart_time.time
-12	doları	dolar	NOUN	O
+11	300	300	NUM	B-fare_amount
+12	doları	dolar	NOUN	I-fare_amount
 13	geçmeyen	geç	ADJ	O
 14	San	san	PROPN	B-stoploc.city_name
 15	Francisco'da	francisco	PROPN	I-stoploc.city_name
@@ -4105,8 +4105,8 @@
 6	ücretleri	ücret	NOUN	O
 7	12'den	12	NOUN	B-depart_time.time
 8	sonra	sonra	ADP	B-depart_time.time_relative
-9	1100	1100	NUM	B-depart_time.time
-10	dolardan	dolar	NOUN	O
+9	1100	1100	NUM	B-fare_amount
+10	dolardan	dolar	NOUN	I-fare_amount
 11	az	az	ADP	O
 
 # sent_id = 0305.train
@@ -5508,8 +5508,8 @@
 6	giden	git	ADJ	O
 7	aktarmasız	aktarmasız	ADJ	B-flight_stop
 8	ve	ve	CCONJ	O
-9	466	466	NUM	B-depart_end_time.time
-10	dolardan	dolar	NOUN	O
+9	466	466	NUM	B-fare_amount
+10	dolardan	dolar	NOUN	I-fare_amount
 11	daha	daha	ADV	B-cost_relative
 12	düşük	düşük	ADJ	I-cost_relative
 13	maliyetli	maliyet	ADJ	I-cost_relative
@@ -5523,8 +5523,8 @@
 2	Pittsburgh'a	pittsburgh	PROPN	B-toloc.city_name
 3	tek	tek	ADJ	B-round_trip
 4	yön	yön	NOUN	I-round_trip
-5	329	329	NUM	O
-6	dolar	dolar	NOUN	O
+5	329	329	NUM	B-fare_amount
+6	dolar	dolar	NOUN	I-fare_amount
 7	olan	ol	ADJ	O
 8	uçuş	uç	NOUN	O
 9	hangisi	hangi	PRON	O
@@ -5532,8 +5532,8 @@
 # sent_id = 0425.train
 # text = 932 doların altında gidiş dönüş fiyatları olan herhangi bir salı günü New York'tan Miami'ye olan tüm uçuşları göster
 # intent: airfare+flight
-1	932	932	NUM	O
-2	doların	dolar	NOUN	O
+1	932	932	NUM	B-fare_amount
+2	doların	dolar	NOUN	I-fare_amount
 3	altında	alt	NOUN	B-cost_relative
 4	gidiş	git	NOUN	O
 5	dönüş	dön	NOUN	O
@@ -5556,8 +5556,8 @@
 # intent: airfare
 1	Denver'den	denver	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	dolardan	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	dolardan	dolar	NOUN	I-fare_amount
 5	az	az	ADP	O
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
@@ -5574,8 +5574,8 @@
 6	tek	tek	ADJ	B-round_trip
 7	yön	yön	NOUN	I-round_trip
 8	ve	ve	CCONJ	O
-9	200	200	NUM	B-depart_end_time.time
-10	dolardan	dolar	NOUN	O
+9	200	200	NUM	B-fare_amount
+10	dolardan	dolar	NOUN	I-fare_amount
 11	az	az	ADV	O
 12	olan	ol	ADJ	O
 13	tüm	tüm	DET	O
@@ -5588,8 +5588,8 @@
 # intent: airfare+flight
 1	Tek	tek	ADJ	B-round_trip
 2	yön	yön	NOUN	I-round_trip
-3	466	466	NUM	O
-4	dolardan	dolar	NOUN	O
+3	466	466	NUM	B-fare_amount
+4	dolardan	dolar	NOUN	I-fare_amount
 5	daha	daha	ADV	O
 6	az	az	ADV	O
 7	maliyetli	maliyet	ADJ	O
@@ -5610,8 +5610,8 @@
 # intent: flight
 1	gidiş	git	NOUN	O
 2	dönüş	dön	NOUN	O
-3	932	932	NUM	O
-4	dolardan	dolar	NOUN	O
+3	932	932	NUM	B-fare_amount
+4	dolardan	dolar	NOUN	I-fare_amount
 5	az	az	ADP	O
 6	olan	ol	ADJ	O
 7	herhangi	herhangi	ADJ	O
@@ -5633,8 +5633,8 @@
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 3	gidiş	git	NOUN	O
 4	dönüş	dön	NOUN	O
-5	1000	1000	NUM	B-depart_time.time
-6	dolardan	dolar	NOUN	O
+5	1000	1000	NUM	B-fare_amount
+6	dolardan	dolar	NOUN	I-fare_amount
 7	az	az	ADP	O
 8	uçak	uçak	NOUN	O
 9	bileti	bilet	NOUN	O
@@ -5648,8 +5648,8 @@
 3	gidiş	git	NOUN	O
 4	dönüş	dön	NOUN	O
 5	ücreti	ücret	NOUN	O
-6	1000	1000	NUM	B-depart_time.time
-7	dolardan	dolar	NOUN	O
+6	1000	1000	NUM	B-fare_amount
+7	dolardan	dolar	NOUN	I-fare_amount
 8	az	az	ADP	O
 
 # sent_id = 0432.train
@@ -5658,8 +5658,8 @@
 1	Bana	ben	PRON	O
 2	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 3	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
-4	300	300	NUM	B-depart_time.time
-5	dolardan	dolar	NOUN	O
+4	300	300	NUM	B-fare_amount
+5	dolardan	dolar	NOUN	I-fare_amount
 6	daha	daha	ADV	B-cost_relative
 7	ucuz	ucuz	ADJ	I-cost_relative
 8	olan	ol	ADJ	O
@@ -5674,8 +5674,8 @@
 3	gidiş	git	NOUN	O
 4	dönüş	dön	NOUN	O
 5	ücretinin	ücret	NOUN	O
-6	1000	1000	NUM	B-depart_time.time
-7	dolardan	dolar	NOUN	O
+6	1000	1000	NUM	B-fare_amount
+7	dolardan	dolar	NOUN	I-fare_amount
 8	az	az	ADP	O
 9	olduğu	ol	ADJ	O
 10	uçuşlar	uç	NOUN	O
@@ -5685,8 +5685,8 @@
 # intent: airfare
 1	Denver'den	denver	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	doların	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	doların	dolar	NOUN	I-fare_amount
 5	altında	alt	NOUN	B-cost_relative
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
@@ -5700,8 +5700,8 @@
 3	olan	ol	ADJ	O
 4	sabah	sabah	NOUN	B-depart_time.period_of_day
 5	uçuşlarını	uç	NOUN	O
-6	124	124	NUM	O
-7	dolardan	dolar	NOUN	O
+6	124	124	NUM	B-fare_amount
+7	dolardan	dolar	NOUN	I-fare_amount
 8	listele	listele	VERB	O
 
 # sent_id = 0436.train
@@ -5709,24 +5709,24 @@
 # intent: airfare
 1	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	dolardan	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	dolardan	dolar	NOUN	I-fare_amount
 5	az	az	ADP	O
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
 8	ücretleri	ücret	NOUN	O
 9	Denver'den	denver	PROPN	B-fromloc.city_name
 10	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-11	1000	1000	NUM	B-depart_time.time
-12	dolardan	dolar	NOUN	O
+11	1000	1000	NUM	B-fare_amount
+12	dolardan	dolar	NOUN	I-fare_amount
 13	az	az	ADP	O
 14	gidiş	git	NOUN	O
 15	dönüş	dön	NOUN	O
 16	ücretleri	ücret	NOUN	O
 17	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
 18	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-19	1000	1000	NUM	B-depart_time.time
-20	dolardan	dolar	NOUN	O
+19	1000	1000	NUM	B-fare_amount
+20	dolardan	dolar	NOUN	I-fare_amount
 21	az	az	ADP	O
 22	gidiş	git	NOUN	O
 23	dönüş	dön	NOUN	O
@@ -5743,8 +5743,8 @@
 6	aktarmasız	aktarmasız	ADJ	B-flight_stop
 7	uçuşları	uç	NOUN	O
 8	ve	ve	CCONJ	O
-9	466	466	NUM	B-depart_end_time.time
-10	dolardan	dolar	NOUN	O
+9	466	466	NUM	B-fare_amount
+10	dolardan	dolar	NOUN	I-fare_amount
 11	az	az	ADP	O
 12	olan	ol	ADJ	O
 13	ücretleri	ücret	NOUN	O
@@ -5757,8 +5757,8 @@
 # intent: flight_time
 1	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
 2	Cleveland'a	cleveland	PROPN	B-toloc.city_name
-3	200	200	NUM	B-arrive_time.time
-4	doların	dolar	NOUN	O
+3	200	200	NUM	B-fare_amount
+4	doların	dolar	NOUN	I-fare_amount
 5	altında	alt	NOUN	B-cost_relative
 6	bir	bir	DET	O
 7	tarife	tarife	NOUN	O
@@ -5777,8 +5777,8 @@
 7	salı	salı	NOUN	B-depart_date.day_name
 8	günü	gün	NOUN	O
 9	kalkan	kalk	ADJ	O
-10	466	466	NUM	O
-11	dolara	dolar	NOUN	O
+10	466	466	NUM	B-fare_amount
+11	dolara	dolar	NOUN	I-fare_amount
 12	ya	ya	CCONJ	B-or
 13	da	da	CCONJ	I-or
 14	daha	daha	ADV	B-cost_relative
@@ -5791,8 +5791,8 @@
 # text = Bana 1100 dolardan ucuza Atlanta'dan Dallas'a gidiş dönüş olan tüm uçuşları göster
 # intent: flight
 1	Bana	ben	PRON	O
-2	1100	1100	NUM	B-depart_time.time
-3	dolardan	dolar	NOUN	O
+2	1100	1100	NUM	B-fare_amount
+3	dolardan	dolar	NOUN	I-fare_amount
 4	ucuza	ucuz	NOUN	O
 5	Atlanta'dan	atlanta	PROPN	B-fromloc.city_name
 6	Dallas'a	dallas	PROPN	B-toloc.city_name
@@ -5806,8 +5806,8 @@
 # sent_id = 0441.train
 # text = 150 dolardan ucuza Montreal'dan tüm uçuşlar
 # intent: flight
-1	150	150	NUM	O
-2	dolardan	dolar	NOUN	O
+1	150	150	NUM	B-fare_amount
+2	dolardan	dolar	NOUN	I-fare_amount
 3	ucuza	ucuz	NOUN	O
 4	Montreal'dan	montreal	PROPN	B-fromloc.city_name
 5	tüm	tüm	DET	O
@@ -5818,14 +5818,14 @@
 # intent: airfare+flight
 1	Denver'den	denver	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	doların	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	doların	dolar	NOUN	I-fare_amount
 5	altında	alt	NOUN	B-cost_relative
 6	ve	ve	CCONJ	O
 7	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
 8	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-9	1000	1000	NUM	B-depart_time.time
-10	doların	dolar	NOUN	O
+9	1000	1000	NUM	B-fare_amount
+10	doların	dolar	NOUN	I-fare_amount
 11	altında	alt	NOUN	B-cost_relative
 12	gidiş	git	NOUN	O
 13	dönüş	dön	NOUN	O
@@ -5837,24 +5837,24 @@
 # intent: airfare
 1	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	dolardan	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	dolardan	dolar	NOUN	I-fare_amount
 5	az	az	ADP	O
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
 8	ücretleri	ücret	NOUN	O
 9	Denver'den	denver	PROPN	B-fromloc.city_name
 10	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-11	1000	1000	NUM	B-depart_time.time
-12	dolardan	dolar	NOUN	O
+11	1000	1000	NUM	B-fare_amount
+12	dolardan	dolar	NOUN	I-fare_amount
 13	az	az	ADP	O
 14	gidiş	git	NOUN	O
 15	dönüş	dön	NOUN	O
 16	ücretleri	ücret	NOUN	O
 17	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
 18	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-19	1000	1000	NUM	B-depart_time.time
-20	dolardan	dolar	NOUN	O
+19	1000	1000	NUM	B-fare_amount
+20	dolardan	dolar	NOUN	I-fare_amount
 21	az	az	ADP	O
 22	gidiş	git	NOUN	O
 23	dönüş	dön	NOUN	O
@@ -5874,8 +5874,8 @@
 9	gidiş	git	NOUN	O
 10	dönüş	dön	NOUN	O
 11	ücreti	ücret	NOUN	O
-12	1000	1000	NUM	B-depart_time.time
-13	dolardan	dolar	NOUN	O
+12	1000	1000	NUM	B-fare_amount
+13	dolardan	dolar	NOUN	I-fare_amount
 14	az	az	ADP	O
 15	olan	ol	ADJ	O
 16	uçuşlar	uç	NOUN	O
@@ -5883,8 +5883,8 @@
 # sent_id = 0445.train
 # text = 466 dolardan daha az maliyetle New York'tan Miami'ye tüm gidiş dönüş uçuşlarını bana göster
 # intent: airfare+flight
-1	466	466	NUM	O
-2	dolardan	dolar	NOUN	O
+1	466	466	NUM	B-fare_amount
+2	dolardan	dolar	NOUN	I-fare_amount
 3	daha	daha	ADV	O
 4	az	az	ADP	O
 5	maliyetle	maliyet	NOUN	O
@@ -5901,8 +5901,8 @@
 # sent_id = 0446.train
 # text = 400 dolardan daha düşük ücreti olan Dallas - Baltimore uçuşlarını göster
 # intent: airfare+flight
-1	400	400	NUM	B-depart_time.time
-2	dolardan	dolar	NOUN	O
+1	400	400	NUM	B-fare_amount
+2	dolardan	dolar	NOUN	I-fare_amount
 3	daha	daha	ADV	B-cost_relative
 4	düşük	düşük	ADJ	I-cost_relative
 5	ücreti	ücret	NOUN	I-cost_relative
@@ -5918,8 +5918,8 @@
 # intent: airfare+flight
 1	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
 2	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
-3	1000	1000	NUM	B-depart_time.time
-4	dolardan	dolar	NOUN	O
+3	1000	1000	NUM	B-fare_amount
+4	dolardan	dolar	NOUN	I-fare_amount
 5	ucuza	ucuz	NOUN	O
 6	gidiş	git	NOUN	O
 7	dönüş	dön	NOUN	O
@@ -6412,7 +6412,7 @@
 # sent_id = 0494.train
 # text = 30 Eylül'de Washington'dan San Francisco'ya olan bir ekonomi sınıfı bilet ne kadar
 # intent: airfare+flight
-1	30	30	NUM	B-depart_time.time
+1	30	30	NUM	B-depart_date.day_number
 2	Eylül'de	eylül	PROPN	B-depart_date.month_name
 3	Washington'dan	washington	PROPN	B-fromloc.state_name
 4	San	san	PROPN	B-toloc.city_name
@@ -10321,7 +10321,7 @@
 # sent_id = 0780.train
 # text = 30 Eylül'de kalkan Baltimore'den San Francisco'ya en ucuz bilet hangisi
 # intent: flight
-1	30	30	NUM	B-depart_time.time
+1	30	30	NUM	B-depart_date.day_number
 2	Eylül'de	eylül	PROPN	B-depart_date.month_name
 3	kalkan	kalk	ADJ	O
 4	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
@@ -35789,7 +35789,7 @@
 1	San	san	PROPN	B-fromloc.city_name
 2	Jose'den	jose	PROPN	I-fromloc.city_name
 3	Houston'a	houston	PROPN	B-toloc.city_name
-4	30	30	NUM	B-depart_time.time
+4	30	30	NUM	B-depart_date.day_number
 5	Mayıs'ta	mayıs	PROPN	B-depart_date.month_name
 6	giden	git	ADJ	O
 7	ve	ve	CCONJ	O
@@ -37950,7 +37950,7 @@
 # sent_id = 2890.train
 # text = 30 Temmuz'da Dallas'tan Boston'a tüm uçuşları göster
 # intent: flight
-1	30	30	NUM	B-depart_time.time
+1	30	30	NUM	B-depart_day.day_number
 2	Temmuz'da	temmuz	PROPN	B-depart_date.month_name
 3	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 4	Boston'a	boston	PROPN	B-toloc.city_name

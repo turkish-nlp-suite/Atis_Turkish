@@ -2112,8 +2112,8 @@
 # intent: flight
 1	Hangi	hangi	PRON	O
 2	uçuşlar	uç	NOUN	O
-3	on	on	NUM	O
-4	üç	üç	NUM	O
+3	on	on	NUM	B-depart_date.day_number
+4	üç	üç	NUM	I-depart_date.day_number
 5	Nisan	nisan	PROPN	B-depart_date.month_name
 6	çarşamba	çarşamba	PROPN	B-depart_date.day_name
 7	günü	gün	NOUN	O
@@ -5078,7 +5078,7 @@
 2	Philadelphia'dan	philadelphia	PROPN	B-fromloc.city_name
 3	San	san	PROPN	B-toloc.city_name
 4	Francisco'ya	francisco	PROPN	I-toloc.city_name
-5	üç	üç	NUM	O
+5	üç	üç	NUM	B-return_date.day_number
 6	Aralık	aralık	PROPN	B-return_date.month_name
 7	için	için	ADP	O
 8	dönüş	dön	NOUN	O
@@ -5088,8 +5088,8 @@
 # sent_id = 0386.dev
 # text = On bir Temmuz'da Boston ve Atlanta arasında öğleden sonra saat birde kalkan uçuşları istiyorum
 # intent: flight
-1	On	on	NUM	O
-2	bir	bir	DET	O
+1	On	on	NUM	B-depart_date.day_number
+2	bir	bir	DET	I-depart_date.day_number
 3	Temmuz'da	temmuz	PROPN	B-depart_date.month_name
 4	Boston	boston	PROPN	B-fromloc.city_name
 5	ve	ve	CCONJ	O
@@ -5106,7 +5106,7 @@
 # sent_id = 0387.dev
 # text = Yirmi Ağustos için Washington'dan Boston'a öğleden sonra olan bir uçuş istiyorum
 # intent: flight
-1	Yirmi	yirmi	NUM	O
+1	Yirmi	yirmi	NUM	B-depart_date.day_number
 2	Ağustos	ağustos	NOUN	B-depart_date.month_name
 3	için	için	ADP	O
 4	Washington'dan	washington	PROPN	B-fromloc.state_name
@@ -5121,7 +5121,7 @@
 # sent_id = 0388.dev
 # text = Altı Ağustos akşamı olan Pittsburgh'tan Atlanta'ya uçuşları listeleyin
 # intent: flight
-1	Altı	altı	NUM	O
+1	Altı	altı	NUM	B-depart_date.day_number
 2	Ağustos	ağustos	NOUN	B-depart_date.month_name
 3	akşamı	akşam	NOUN	B-depart_time.period_of_day
 4	olan	ol	ADJ	O
@@ -5136,7 +5136,7 @@
 1	San	san	PROPN	B-fromloc.city_name
 2	Jose'den	jose	PROPN	I-fromloc.city_name
 3	Nashville'ye	nashville	PROPN	B-toloc.city_name
-4	üç	üç	NUM	O
+4	üç	üç	NUM	B-depart_date.day_number
 5	Haziran	haziran	PROPN	B-depart_date.month_name
 6	cuma	cuma	NOUN	B-depart_date.day_name
 7	sabahı	sabah	NOUN	B-depart_time.period_of_day
@@ -5151,7 +5151,7 @@
 2	United	united	PROPN	B-airline_name
 3	Airlines	airlines	PROPN	I-airline_name
 4	uçuşları	uç	NOUN	O
-5	sekiz	sekiz	NUM	O
+5	sekiz	sekiz	NUM	B-depart_date.day_number
 6	Haziran'da	haziran	PROPN	B-depart_date.month_name
 7	Westchester	Westchester	PROPN	B-fromloc.city_name
 8	bölgesinden	bölge	NOUN	O
@@ -5163,7 +5163,7 @@
 # intent: flight
 1	United	united	PROPN	B-airline_name
 2	Airlines'in	airlines	PROPN	I-airline_name
-3	yirmi	yirmi	NUM	O
+3	yirmi	yirmi	NUM	B-depart_date.day_number
 4	Eylül	eylül	NOUN	B-depart_date.month_name
 5	sabahı	sabah	NOUN	B-depart_time.period_of_day
 6	uçuşları	uç	NOUN	O
@@ -5174,8 +5174,8 @@
 # intent: flight
 1	Charlotte'den	charlotte	PROPN	B-fromloc.city_name
 2	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
-3	bir	bir	NUM	O
-4	Haziran'da	haziran	PROPN	B-arrive_date.month_name
+3	bir	bir	NUM	B-depart_date.day_number
+4	Haziran'da	haziran	PROPN	B-depart_date.month_name
 5	uçuşunuz	uç	VERB	O
 6	var	var	ADJ	O
 7	mı	mi	AUX	O
@@ -5186,9 +5186,9 @@
 1	St.	St.	PROPN	B-fromloc.city_name
 2	Petersburg'dan	petersburg	PROPN	I-fromloc.city_name
 3	Milwaukee'ye	milwaukee	PROPN	B-toloc.city_name
-4	on	on	NUM	O
-5	bir	bir	NUM	O
-6	Haziran'da	haziran	PROPN	B-arrive_date.month_name
+4	on	on	NUM	B-depart_date.day_number
+5	bir	bir	NUM	I-depart_date.day_number
+6	Haziran'da	haziran	PROPN	B-depart_date.month_name
 7	bir	bir	DET	O
 8	uçuş	uç	NOUN	O
 9	var	var	ADJ	O
@@ -5200,7 +5200,7 @@
 1	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 2	San	san	PROPN	B-toloc.city_name
 3	Francisco'ya	francisco	PROPN	I-toloc.city_name
-4	bir	bir	NUM	O
+4	bir	bir	NUM	B-depart_date.day_number
 5	ekim	ekim	PROPN	B-depart_date.month_name
 6	salı	salı	NOUN	B-depart_date.day_name
 7	günü	gün	NOUN	O
@@ -5229,8 +5229,8 @@
 4	City'den	city	PROPN	I-fromloc.city_name
 5	Chicago'ya	chicago	PROPN	B-toloc.city_name
 6	ayın	ay	VERB	O
-7	on	on	NUM	O
-8	altısındaki	altı	ADJ	O
+7	on	on	NUM	B-depart_date.day_number
+8	altısındaki	altı	ADJ	I-depart_date.day_number
 9	uçuşları	uç	NOUN	O
 10	verin	ver	VERB	O
 
@@ -5242,8 +5242,8 @@
 3	San	san	PROPN	B-toloc.city_name
 4	Francisco	francisco	PROPN	I-toloc.city_name
 5	arasındaki	ara	ADJ	O
-6	on	on	NUM	O
-7	yedi	ye	VERB	O
+6	on	on	NUM	B-depart_date.day_number
+7	yedi	ye	VERB	I-depart_date.day_number
 8	Eylül	eylül	NOUN	B-depart_date.month_name
 9	uçuşlarını	uç	NOUN	O
 10	göster	göster	VERB	O
@@ -5255,7 +5255,7 @@
 2	bölgesinden	bölge	NOUN	O
 3	Cincinnati'ye	cincinnati	PROPN	B-toloc.city_name
 4	olan	ol	ADJ	O
-5	sekiz	sekiz	NUM	O
+5	sekiz	sekiz	NUM	B-depart_date.day_number
 6	Haziran	haziran	PROPN	B-depart_date.month_name
 7	uçuşlarını	uç	NOUN	O
 8	listele	listele	VERB	O
@@ -5267,8 +5267,8 @@
 2	Tacoma'ya	tacoma	PROPN	B-toloc.city_name
 3	olan	ol	ADJ	O
 4	ayın	ay	NOUN	O
-5	on	on	NUM	O
-6	sekizindeki	sekiz	ADJ	O
+5	on	on	NUM	B-depart_date.day_number
+6	sekizindeki	sekiz	ADJ	I-depart_date.day_number
 7	uçuşlar	uç	NOUN	O
 8	hangileri	hangi	PRON	O
 

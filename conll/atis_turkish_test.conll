@@ -5,11 +5,11 @@
 2	ve	ve	CCONJ	O
 3	Baltimore	baltimore	PROPN	B-toloc.city_name
 4	arasında	ara	NOUN	O
-5	on	on	NUM	O
+5	on	on	NUM	B-depart_date.day_number
 6	Ağustos'ta	ağustos	PROPN	B-depart_date.month_name
 7	kalkıp	kalk	ADV	O
-8	on	on	NUM	O
-9	iki	iki	NUM	O
+8	on	on	NUM	B-return_date.day_number
+9	iki	iki	NUM	I-return_date.day_number
 10	Ağustos'ta	ağustos	PROPN	B-return_date.month_name
 11	geri	geri	ADV	O
 12	dönen	dön	ADJ	O
@@ -233,7 +233,7 @@
 # intent: flight
 1	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 2	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
-3	yedi	yedi	NUM	O
+3	yedi	yedi	NUM	B-arrive_date.day_number
 4	Temmuz'da	temmuz	PROPN	B-arrive_date.month_name
 5	varan	var	ADJ	O
 6	ekonomi	ekonomi	NOUN	B-class_type
@@ -752,8 +752,8 @@
 # text = bana yirmi yedi Aralık'ta Indianapolis'ten Orlando'ya olan uçuşları ve ücretlerini ver
 # intent: airfare+flight
 1	bana	ben	PRON	O
-2	yirmi	yirmi	NUM	O
-3	yedi	yedi	NUM	O
+2	yirmi	yirmi	NUM	B-depart_date.day_number
+3	yedi	yedi	NUM	I-depart_date.day_number
 4	Aralık'ta	aralık	PROPN	B-depart_date.month_name
 5	Indianapolis'ten	indianapolis	PROPN	B-fromloc.city_name
 6	Orlando'ya	orlando	PROPN	B-toloc.city_name
@@ -864,7 +864,7 @@
 1	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
 2	kalkan	kalk	ADJ	O
 3	ve	ve	CCONJ	O
-4	dört	dört	NUM	O
+4	dört	dört	NUM	B-arrive_date.day_number
 5	Temmuz'da	temmuz	PROPN	B-arrive_date.month_name
 6	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
 7	varan	var	ADJ	O
@@ -1265,16 +1265,16 @@
 # intent: flight
 1	Columbus'tan	columbus	PROPN	B-fromloc.city_name
 2	Minneapolis'e	minneapolis	PROPN	B-toloc.city_name
-3	on	on	NUM	O
-4	dört	dört	NUM	O
+3	on	on	NUM	B-depart_date.day_number
+4	dört	dört	NUM	I-depart_date.day_number
 5	Haziran	haziran	PROPN	B-depart_date.month_name
 6	pazartesi	pazartesi	PROPN	B-depart_date.day_name
 7	sabahın	sabah	NOUN	B-depart_time.period_of_day
 8	erken	erken	ADJ	B-depart_time.period_of_day
 9	saatlerinde	saat	NOUN	O
 10	veya	veya	CCONJ	B-or
-11	on	on	NUM	O
-12	üç	üç	NUM	O
+11	on	on	NUM	B-depart_date.day_number
+12	üç	üç	NUM	I-depart_date.day_number
 13	Haziran	haziran	PROPN	B-depart_date.month_name
 14	pazar	pazar	NOUN	B-depart_date.day_name
 15	akşamı	akşam	NOUN	B-depart_time.period_of_day
@@ -1344,8 +1344,8 @@
 # text = bana on beş Haziran'da Denver veya Dallas'tan kalkan Baltimore'ye varan uçuşları göster
 # intent: flight
 1	bana	ben	PRON	O
-2	on	on	NUM	O
-3	beş	beş	NUM	O
+2	on	on	NUM	B-depart_date.day_number
+3	beş	beş	NUM	I-depart_date.day_number
 4	Haziran'da	haziran	PROPN	B-depart_date.month_name
 5	Denver	denver	PROPN	B-fromloc.city_name
 6	veya	veya	CCONJ	B-or
@@ -1371,8 +1371,8 @@
 # text = bana on dört Haziran'da Baltimore'ye varan uçuşları göster
 # intent: flight
 1	bana	ben	PRON	O
-2	on	on	NUM	O
-3	dört	dört	NUM	O
+2	on	on	NUM	B-depart_date.day_number
+3	dört	dört	NUM	I-depart_date.day_number
 4	Haziran'da	haziran	PROPN	B-arrive_date.month_name
 5	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
 6	varan	var	ADJ	O
@@ -1384,8 +1384,8 @@
 # intent: flight
 1	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 2	başlayarak	başla	ADV	O
-3	on	on	NUM	O
-4	dört	dört	NUM	O
+3	on	on	NUM	B-arrive_date.day_number
+4	dört	dört	NUM	I-arrive_date.day_number
 5	Haziran'da	haziran	PROPN	B-arrive_date.month_name
 6	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
 7	varan	var	ADJ	O
@@ -1601,7 +1601,7 @@
 # intent: flight
 1	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 2	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
-3	üç	üç	NUM	O
+3	üç	üç	NUM	B-depart_date.day_number
 4	Ağustos'ta	ağustos	PROPN	B-depart_date.month_name
 5	uygun	uygun	ADJ	O
 6	olan	ol	ADJ	O
@@ -1661,7 +1661,7 @@
 3	öğrenmek	öğren	NOUN	O
 4	istediğim	iste	ADJ	O
 5	şey	şey	NOUN	O
-6	yirmi	yirmi	NUM	O
+6	yirmi	yirmi	NUM	B-arrive_date.day_number
 7	Nisan'da	nisan	PROPN	B-arrive_date.month_name
 8	Washington'dan	washington	PROPN	B-fromloc.state_name
 9	Denver'e	denver	PROPN	B-toloc.city_name
@@ -2177,8 +2177,8 @@
 # text = bana yirmi iki Temmuz'da akşam 6'dan sonra DC'den ayrılıp Dallas'a giden uçuşların listesini göster
 # intent: flight
 1	bana	ben	PRON	O
-2	yirmi	yirmi	NUM	O
-3	iki	iki	NUM	O
+2	yirmi	yirmi	NUM	B-depart_date.day_number
+3	iki	iki	NUM	I-depart_date.day_number
 4	Temmuz'da	temmuz	PROPN	B-depart_date.month_name
 5	akşam	akşam	NOUN	B-depart_time.period_of_day
 6	6'dan	6	NOUN	B-depart_time.time
@@ -2932,11 +2932,11 @@
 # intent: flight
 1	Aralık	aralık	PROPN	B-depart_date.month_name
 2	ayının	ay	NOUN	O
-3	yirmi	yirmi	NUM	O
-4	yedisi	yedi	NOUN	O
+3	yirmi	yirmi	NUM	B-depart_date.day_number
+4	yedisi	yedi	NOUN	I-depart_date.day_number
 5	ve	ve	CCONJ	O
-6	yirmi	yirmi	NUM	O
-7	sekizi	sekiz	NOUN	O
+6	yirmi	yirmi	NUM	B-depart_date.day_number
+7	sekizi	sekiz	NOUN	I-depart_date.day_number
 8	için	için	ADP	O
 9	İndianapolis	indianapolis	NOUN	B-fromloc.city_name
 10	ile	ile	CCONJ	O
@@ -2991,8 +2991,8 @@
 6	Philadelphia'dan	philadelphia	PROPN	B-fromloc.city_name
 7	San	san	PROPN	B-toloc.city_name
 8	Francisco'ya	francisco	PROPN	I-toloc.city_name
-9	yirmi	yirmi	NUM	O
-10	üçüncü	üçüncü	ADJ	O
+9	yirmi	yirmi	NUM	B-depart_date.day_number
+10	üçüncü	üçüncü	ADJ	I-depart_date.day_number
 11	uçuş	uç	NOUN	O
 
 # sent_id = 0231.test
@@ -3002,8 +3002,8 @@
 2	air'de	air	PROPN	I-airline_name
 3	Cleveland'dan	cleveland	PROPN	B-fromloc.city_name
 4	Miami'ye	miami	PROPN	B-toloc.city_name
-5	yirmi	yirmi	NUM	O
-6	dört	dört	NUM	O
+5	yirmi	yirmi	NUM	B-depart_date.day_number
+6	dört	dört	NUM	I-depart_date.day_number
 7	şubattaki	şubat	ADJ	B-depart_date.month_name
 8	en	en	ADV	B-cost_relative
 9	ucuz	ucuz	ADJ	I-cost_relative
@@ -3015,8 +3015,8 @@
 # sent_id = 0232.test
 # text = yirmi beş Aralık'ta İndianapolis ile Orlando arasında en ucuz gidiş dönüş yolculuk ücreti
 # intent: airfare+flight
-1	yirmi	yirmi	NUM	O
-2	beş	beş	NUM	O
+1	yirmi	yirmi	NUM	B-depart_date.day_number
+2	beş	beş	NUM	I-depart_date.day_number
 3	Aralık'ta	aralık	PROPN	B-depart_date.month_name
 4	İndianapolis	indianapolis	NOUN	B-fromloc.city_name
 5	ile	ile	CCONJ	O
@@ -3032,8 +3032,8 @@
 # sent_id = 0233.test
 # text = yirmi yedi Ağustos sabahı 650'de çıkarak Dallas'tan Denver'e uçmak istiyorum
 # intent: flight
-1	yirmi	yirmi	NUM	O
-2	yedi	yedi	NUM	O
+1	yirmi	yirmi	NUM	B-depart_date.day_number
+2	yedi	yedi	NUM	I-depart_date.day_number
 3	Ağustos	ağustos	NOUN	B-depart_date.month_name
 4	sabahı	sabah	NOUN	B-depart_time.period_of_day
 5	650'de	650	NOUN	B-depart_time.time
@@ -3047,11 +3047,11 @@
 # text = bana yirmi yedi ve yirmi sekiz Aralık'ta İndianapolis - Orlando uçuşlarını ver
 # intent: flight
 1	bana	ben	PRON	O
-2	yirmi	yirmi	NUM	O
-3	yedi	yedi	NUM	O
+2	yirmi	yirmi	NUM	B-depart_date.day_number
+3	yedi	yedi	NUM	I-depart_date.day_number
 4	ve	ve	CCONJ	O
-5	yirmi	yirmi	NUM	O
-6	sekiz	sekiz	NUM	O
+5	yirmi	yirmi	NUM	B-depart_date.day_number
+6	sekiz	sekiz	NUM	I-depart_date.day_number
 7	Aralık'ta	aralık	PROPN	B-depart_date.month_name
 8	İndianapolis	indianapolis	NOUN	B-fromloc.city_name
 9	-	-	PUNCT	O
@@ -3062,8 +3062,8 @@
 # sent_id = 0235.test
 # text = yirmi altı Mayıs'ta Tampa'dan Seattle'ye giden bir uçak bileti rezerve etmek istiyorum yolda Milwaukee'de durmak istiyorum
 # intent: flight
-1	yirmi	yirmi	NUM	O
-2	altı	altı	NUM	O
+1	yirmi	yirmi	NUM	B-depart_date.day_number
+2	altı	altı	NUM	I-depart_date.day_number
 3	Mayıs'ta	mayıs	PROPN	B-depart_date.month_name
 4	Tampa'dan	tampa	PROPN	B-fromloc.city_name
 5	Seattle'ye	seattle	PROPN	B-toloc.city_name
@@ -3082,8 +3082,8 @@
 # sent_id = 0236.test
 # text = yirmi bir Ağustos çarşamba günü San Francisco'dan Boston'a en ucuz tek yön ücret nedir
 # intent: airfare+flight
-1	yirmi	yirmi	NUM	O
-2	bir	bir	DET	O
+1	yirmi	yirmi	NUM	B-depart_date.day_number
+2	bir	bir	DET	I-depart_date.day_number
 3	Ağustos	ağustos	NOUN	B-depart_date.month_name
 4	çarşamba	çarşamba	PROPN	B-depart_date.day_name
 5	günü	gün	NOUN	O
@@ -3100,8 +3100,8 @@
 # sent_id = 0237.test
 # text = yirmi ikinci Nisan sabahı Tacoma'dan San Jose'ye hangi uçuşlar var
 # intent: flight
-1	yirmi	yirmi	NUM	O
-2	ikinci	ikinci	ADJ	O
+1	yirmi	yirmi	NUM	B-depart_date.day_number
+2	ikinci	ikinci	ADJ	I-depart_date.day_number
 3	Nisan	nisan	PROPN	B-arrive_date.month_name
 4	sabahı	sabah	NOUN	B-arrive_time.period_of_day
 5	Tacoma'dan	tacoma	PROPN	B-fromloc.city_name
@@ -3116,8 +3116,8 @@
 # intent: flight
 1	Aralık	aralık	PROPN	B-depart_date.month_name
 2	ayının	ay	NOUN	O
-3	yirmi	yirmi	NUM	O
-4	yedisinde	yedi	NOUN	O
+3	yirmi	yirmi	NUM	B-depart_date.day_number
+4	yedisinde	yedi	NOUN	I-depart_date.day_number
 5	İndianapolis	indianapolis	NOUN	B-fromloc.city_name
 6	ve	ve	CCONJ	O
 7	Orlando	orlando	PROPN	B-toloc.city_name
@@ -4755,8 +4755,8 @@
 # sent_id = 0369.test
 # text = on beş Temmuz'da Denver'den Pittsburgh'a bir uçuş rezervasyonu yapmak istiyorum en ucuz uçuş olmasını istiyorum
 # intent: flight
-1	on	on	NUM	O
-2	beş	beş	NUM	O
+1	on	on	NUM	B-depart_date.day_number
+2	beş	beş	NUM	I-depart_date.day_number
 3	Temmuz'da	temmuz	PROPN	B-depart_date.month_name
 4	Denver'den	denver	PROPN	B-fromloc.city_name
 5	Pittsburgh'a	pittsburgh	PROPN	B-toloc.city_name
@@ -5079,7 +5079,7 @@
 # intent: airfare
 1	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
 2	Boston'a	boston	PROPN	B-toloc.city_name
-3	yedi	yedi	NUM	O
+3	yedi	yedi	NUM	B-depart_date.day_number
 4	Kasım'da	kasım	PROPN	B-depart_date.month_name
 5	tek	tek	ADJ	B-round_trip
 6	yön	yön	NOUN	I-round_trip
@@ -5106,7 +5106,7 @@
 # intent: airfare
 1	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
 2	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
-3	yedi	yedi	NUM	O
+3	yedi	yedi	NUM	B-depart_date.day_number
 4	Kasım'da	kasım	PROPN	B-depart_date.month_name
 5	tek	tek	ADJ	B-round_trip
 6	yön	yön	NOUN	I-round_trip
@@ -5139,7 +5139,7 @@
 # sent_id = 0399.test
 # text = Dört Haziran'da Chicago'dan Seattle'ye bir uçuş rezervasyonu yapmak istiyorum
 # intent: flight
-1	Dört	dört	NUM	O
+1	Dört	dört	NUM	B-depart_date.day_number
 2	Haziran'da	haziran	PROPN	B-depart_date.month_name
 3	Chicago'dan	chicago	PROPN	B-fromloc.city_name
 4	Seattle'ye	seattle	PROPN	B-toloc.city_name
@@ -5155,7 +5155,7 @@
 1	Long	long	PROPN	B-fromloc.city_name
 2	Beach'tan	Beach	PROPN	I-fromloc.city_name
 3	Columbus'a	columbus	PROPN	B-toloc.city_name
-4	altı	altı	NUM	O
+4	altı	altı	NUM	B-arrive_date.day_number
 5	Nisan	nisan	PROPN	B-arrive_date.month_name
 6	çarşamba	çarşamba	PROPN	B-arrive_date.day_name
 7	günü	gün	NOUN	O
@@ -5170,7 +5170,7 @@
 2	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
 3	öğleden	öğle	NOUN	O
 4	sonra	sonra	ADP	O
-5	altı	altı	NUM	O
+5	altı	altı	NUM	B-depart_date.day_number
 6	Ağustos'ta	ağustos	PROPN	B-depart_date.month_name
 7	kalkan	kalk	ADJ	O
 8	uçuşlar	uç	NOUN	O
@@ -5179,8 +5179,8 @@
 # sent_id = 0402.test
 # text = on bir Haziran cuma günü St. Petersburg'dan Milwaukee'ye ve ardından Milwaukee'den Tacoma'ya hangi uçuşların olduğunu öğrenmek istiyorum teşekkür ederim
 # intent: flight
-1	on	on	NUM	O
-2	bir	bir	DET	O
+1	on	on	NUM	B-depart_date.day_number
+2	bir	bir	DET	I-depart_date.day_number
 3	Haziran	haziran	PROPN	B-depart_date.month_name
 4	cuma	cuma	NOUN	B-depart_date.day_name
 5	günü	gün	NOUN	O
@@ -5202,7 +5202,7 @@
 # sent_id = 0403.test
 # text = beş Haziran'da Chicago'dan Dallas'a Continental'la bir uçuşa ihtiyacım var
 # intent: flight
-1	beş	beş	NUM	O
+1	beş	beş	NUM	B-depart_date.day_number
 2	Haziran'da	haziran	PROPN	B-arrive_date.month_name
 3	Chicago'dan	chicago	PROPN	B-fromloc.city_name
 4	Dallas'a	dallas	PROPN	B-toloc.city_name
@@ -5215,7 +5215,7 @@
 # sent_id = 0404.test
 # text = dokuz Temmuz'da Orlando'dan Kansas şehrine öğleden sonra bir uçuş istiyorum
 # intent: flight
-1	dokuz	dokuz	NUM	O
+1	dokuz	dokuz	NUM	B-depart_date.day_number
 2	Temmuz'da	temmuz	PROPN	B-depart_date.month_name
 3	Orlando'dan	orlando	PROPN	B-fromloc.city_name
 4	Kansas	kansas	PROPN	B-state_name
@@ -5229,7 +5229,7 @@
 # sent_id = 0405.test
 # text = bir Ocak'ta Baltimore'ye bir gezi ayarlamak istiyorum
 # intent: flight
-1	bir	bir	NUM	O
+1	bir	bir	NUM	B-depart_date.day_number
 2	Ocak'ta	ocak	PROPN	B-depart_date.month_name
 3	Baltimore'ye	baltimore	PROPN	B-toloc.city_name
 4	bir	bir	DET	O
@@ -5244,7 +5244,7 @@
 2	ve	ve	CCONJ	O
 3	sonra	sonra	ADV	O
 4	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
-5	dört	dört	NUM	O
+5	dört	dört	NUM	B-depart_date.day_number
 6	Eylül'de	eylül	PROPN	B-depart_date.month_name
 7	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
 8	gitmek	git	NOUN	O
@@ -5272,7 +5272,7 @@
 # sent_id = 0409.test
 # text = on Ağustos'ta Pittsburgh ve Baltimore arasındaki uçuşlar nelerdir
 # intent: flight
-1	on	on	NUM	O
+1	on	on	NUM	B-depart_date.day_number
 2	Ağustos'ta	ağustos	PROPN	B-depart_date.month_name
 3	Pittsburgh	pittsburgh	PROPN	B-fromloc.city_name
 4	ve	ve	CCONJ	O
@@ -5299,7 +5299,7 @@
 # text = bana üç Ağustos için Denver'den Baltimore'ye United ile uçuşların listesini göster
 # intent: flight
 1	bana	ben	PRON	O
-2	üç	üç	NUM	O
+2	üç	üç	NUM	B-depart_date.day_number
 3	Ağustos	ağustos	NOUN	B-depart_date.month_name
 4	için	için	ADP	O
 5	Denver'den	denver	PROPN	B-fromloc.city_name

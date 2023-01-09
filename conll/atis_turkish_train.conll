@@ -9927,8 +9927,8 @@
 3	Texas'tan	texas	PROPN	B-fromloc.state_name
 4	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 5	giden	git	ADJ	O
-6	Amerikan	amerikan	ADJ	O
-7	Havayolları	havayol	NOUN	O
+6	Amerikan	amerikan	ADJ	B-airline_name
+7	Havayolları	havayol	NOUN	I-airline_name
 8	hakkında	hakkında	ADV	O
 9	bilgi	bilgi	NOUN	O
 
@@ -11496,14 +11496,14 @@
 8	arasındaki	ara	ADJ	O
 9	uçuşları	uç	NOUN	O
 10	göster	göster	VERB	O
-11	Amerikan	amerikan	ADJ	O
-12	Havayolları	havayol	NOUN	O
+11	Amerikan	amerikan	ADJ	B-airline_name
+12	Havayolları	havayol	NOUN	I-airline_name
 
 # sent_id = 0876.train
 # text = Amerikan Havayolları uçuşlarının hangileri Milwaukee'den cumartesi veya pazar günü Phoenix'e gidiyor
 # intent: flight
-1	Amerikan	amerikan	ADJ	O
-2	Havayolları	havayol	NOUN	O
+1	Amerikan	amerikan	ADJ	B-airline_name
+2	Havayolları	havayol	NOUN	I-airline_name
 3	uçuşlarının	uç	NOUN	O
 4	hangileri	hangi	PRON	O
 5	Milwaukee'den	milwaukee	PROPN	B-fromloc.city_name
@@ -13655,8 +13655,8 @@
 # sent_id = 1035.train
 # text = Amerikan Havayolları ile Miami'den Chicago'ya uçmak ve öğleden sonra saat 5 civarında varmak istiyorum bana tüm uçuşları göster
 # intent: flight
-1	Amerikan	amerikan	ADJ	O
-2	Havayolları	havayol	NOUN	O
+1	Amerikan	amerikan	ADJ	B-airline_name
+2	Havayolları	havayol	NOUN	I-airline_name
 3	ile	ile	ADP	O
 4	Miami'den	miami	PROPN	B-fromloc.city_name
 5	Chicago'ya	chicago	PROPN	B-toloc.city_name
@@ -16069,7 +16069,7 @@
 # intent: aircraft
 1	419'da	419	NOUN	O
 2	kalkan	kalk	ADJ	O
-3	amerikan	amerikan	ADJ	O
+3	amerikan	amerikan	ADJ	B-airline_name
 4	uçuşu	uç	NOUN	O
 5	için	için	ADP	O
 6	ne	ne	ADJ	O
@@ -16274,8 +16274,8 @@
 3	birinci	birinci	ADJ	B-class_type
 4	sınıf	sınıf	NOUN	I-class_type
 5	bir	bir	DET	O
-6	Amerikan	amerikan	ADJ	O
-7	havayolları	havayol	NOUN	O
+6	Amerikan	amerikan	ADJ	B-airline_name
+7	havayolları	havayol	NOUN	I-airline_name
 8	uçuşu	uç	NOUN	O
 9	yaparsam	yap	VERB	O
 10	ne	ne	ADJ	O
@@ -16895,8 +16895,8 @@
 # sent_id = 1272.train
 # text = amerikan havayolları ile en erken uçuşu St. Petersburg'dan Milwaukee'ye
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolları	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolları	havayol	NOUN	I-airline_name
 3	ile	ile	ADP	O
 4	en	en	ADV	O
 5	erken	erken	ADJ	O
@@ -17954,8 +17954,8 @@
 7	sonra	sonra	ADP	B-arrive_time.time_relative
 8	varan	var	ADJ	O
 9	tüm	tüm	DET	O
-10	Amerikan	amerikan	ADJ	O
-11	havayolları	havayol	NOUN	O
+10	Amerikan	amerikan	ADJ	B-airline_name
+11	havayolları	havayol	NOUN	I-airline_name
 12	uçuşlarını	uç	NOUN	O
 13	listeleyin	listele	VERB	O
 
@@ -28751,8 +28751,8 @@
 4	giden	git	ADJ	O
 5	Denver	denver	PROPN	B-stoploc.city_name
 6	aktarmalı	aktarmalı	ADJ	B-connect
-7	Amerikan	amerikan	ADJ	O
-8	Havayolları	havayol	NOUN	O
+7	Amerikan	amerikan	ADJ	B-airline_name
+8	Havayolları	havayol	NOUN	I-airline_name
 9	ile	ile	ADP	O
 10	kıtalararası	kıtalararası	NOUN	O
 11	bir	bir	DET	O
@@ -29334,8 +29334,8 @@
 1	Phoenix'den	phoenix	PROPN	B-fromloc.city_name
 2	Milwaukee'ye	milwaukee	PROPN	B-toloc.city_name
 3	hangi	hangi	ADJ	O
-4	Amerikan	amerikan	ADJ	O
-5	havayolları	havayol	NOUN	O
+4	Amerikan	amerikan	ADJ	B-airline_name
+5	havayolları	havayol	NOUN	I-airline_name
 6	uçuşları	uç	NOUN	O
 7	çarşamba	çarşamba	PROPN	B-depart_date.day_name
 8	akşam	akşam	NOUN	B-depart_time.period_of_day
@@ -29419,7 +29419,7 @@
 4	630'da	630	NOUN	B-depart_time.time
 5	olan	ol	ADJ	O
 6	bir	bir	DET	O
-7	Amerikan	amerikan	ADJ	O
+7	Amerikan	amerikan	ADJ	B-airline_name
 8	uçuşu	uç	NOUN	O
 9	bul	bul	VERB	O
 
@@ -30677,8 +30677,8 @@
 2	saat	saat	NOUN	O
 3	630'da	630	NOUN	B-depart_time.time
 4	kalkan	kalk	ADJ	O
-5	amerikan	amerikan	ADJ	O
-6	havayolları	havayol	NOUN	O
+5	amerikan	amerikan	ADJ	B-airline_name
+6	havayolları	havayol	NOUN	I-airline_name
 7	ile	ile	ADP	O
 8	Newark'tan	newark	PROPN	B-fromloc.city_name
 9	Nashville'ye	nashville	PROPN	B-toloc.city_name
@@ -31109,8 +31109,8 @@
 # sent_id = 2361.train
 # text = amerikan havayollarının Houston'dan Newark'a on Haziran günü akşam saat 3'ten sonra uçuşu var mı
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayollarının	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayollarının	havayol	NOUN	I-airline_name
 3	Houston'dan	houston	PROPN	B-fromloc.city_name
 4	Newark'a	newark	PROPN	B-toloc.city_name
 5	on	on	NUM	B-depart_date.day_name
@@ -32629,8 +32629,8 @@
 3	giden	git	ADJ	O
 4	en	en	ADV	O
 5	erken	erken	ADV	O
-6	Amerikan	amerikan	ADJ	O
-7	havayolları	havayol	NOUN	O
+6	Amerikan	amerikan	ADJ	B-airline_name
+7	havayolları	havayol	NOUN	I-airline_name
 8	uçuşu	uç	NOUN	O
 9	nedir	ne	VERB	O
 
@@ -32779,8 +32779,8 @@
 # sent_id = 2498.train
 # text = Amerikan Havayolları ile Boston - San Francisco arasındaki en erken uçuş nedir
 # intent: flight
-1	Amerikan	amerikan	NOUN	O
-2	Havayolları	havayol	NOUN	O
+1	Amerikan	amerikan	NOUN	B-airline_name
+2	Havayolları	havayol	NOUN	I-airline_name
 3	ile	ile	CCONJ	O
 4	Boston	boston	PROPN	B-fromloc.city_name
 5	-	-	PUNCT	O
@@ -34067,8 +34067,8 @@
 1	Cleveland	cleveland	PROPN	B-fromloc.city_name
 2	-	-	PUNCT	O
 3	Miami	miami	PROPN	B-toloc.city_name
-4	Amerikan	amerikan	NOUN	O
-5	Havayollarında	havayol	NOUN	O
+4	Amerikan	amerikan	NOUN	B-airline_name
+5	Havayollarında	havayol	NOUN	I-airline_name
 6	en	en	ADV	B-cost_relative
 7	ucuz	ucuz	ADJ	I-cost_relative
 8	uçuş	uç	NOUN	O
@@ -36819,8 +36819,8 @@
 # sent_id = 2804.train
 # text = amerikan havayolları ile Washington'dan Dallas'a dönüş uçuşu istiyorum
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolları	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolları	havayol	NOUN	I-airline_name
 3	ile	ile	ADP	O
 4	Washington'dan	washington	PROPN	B-fromloc.state_name
 5	Dallas'a	dallas	PROPN	B-toloc.city_name
@@ -37156,8 +37156,8 @@
 3	bir	bir	NUM	I-depart_date.day_name
 4	Temmuz	temmuz	PROPN	B-depart_date.month_name
 5	akşamı	akşam	NOUN	B-depart_time.period_of_day
-6	amerikan	amerikan	ADJ	O
-7	havayolları	havayol	NOUN	O
+6	amerikan	amerikan	ADJ	B-airline_name
+7	havayolları	havayol	NOUN	I-airline_name
 8	ile	ile	ADP	O
 9	Fort	fort	PROPN	B-toloc.city_name
 10	Worth	Worth	PROPN	I-toloc.city_name
@@ -39074,8 +39074,8 @@
 # text = lütfen amerikan havayollarında San Jose'den Dallas'a cuma öğleden sonra olan uçuşlarını listeleyin
 # intent: flight
 1	lütfen	lütfen	ADV	O
-2	amerikan	amerikan	ADJ	O
-3	havayollarında	havayol	NOUN	O
+2	amerikan	amerikan	ADJ	B-airline_name
+3	havayollarında	havayol	NOUN	I-airline_name
 4	San	san	PROPN	B-fromloc.city_name
 5	Jose'den	jose	PROPN	I-fromloc.city_name
 6	Dallas'a	dallas	PROPN	B-toloc.city_name
@@ -39267,8 +39267,8 @@
 # sent_id = 3002.train
 # text = amerikan havayollarında Dallas'tan Houston'a pazar uçuşlarını listeleyin lütfen
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayollarında	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayollarında	havayol	NOUN	I-airline_name
 3	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 4	Houston'a	houston'a	NOUN	O
 5	pazar	pazar	NOUN	B-depart_date.day_name
@@ -39344,8 +39344,8 @@
 # sent_id = 3007.train
 # text = amerikan havayollarında cuma günü Houston'dan Milwaukee'ye hangi uçuşlar var
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayollarında	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayollarında	havayol	NOUN	I-airline_name
 3	cuma	cuma	NOUN	B-arrive_date.day_name
 4	günü	gün	NOUN	O
 5	Houston'dan	houston	PROPN	B-fromloc.city_name
@@ -39417,8 +39417,8 @@
 # sent_id = 3013.train
 # text = amerikan havayolu şirketi Denver'den Pittsburgh'a uçuyor mu
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolu	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolu	havayol	NOUN	I-airline_name
 3	şirketi	şirket	NOUN	O
 4	Denver'den	denver	PROPN	B-fromloc.city_name
 5	Pittsburgh'a	pittsburgh	PROPN	B-toloc.city_name
@@ -39431,8 +39431,8 @@
 1	bana	ben	PRON	O
 2	Milwaukee'den	milwaukee	PROPN	B-fromloc.city_name
 3	Phoenix'e	phoenix	PROPN	B-toloc.city_name
-4	amerikan	amerikan	ADJ	O
-5	havayollarında	havayol	NOUN	O
+4	amerikan	amerikan	ADJ	B-airline_name
+5	havayollarında	havayol	NOUN	I-airline_name
 6	uçuş	uç	NOUN	O
 7	ver	ver	VERB	O
 
@@ -39500,8 +39500,8 @@
 # sent_id = 3020.train
 # text = amerikan havayollarında Philadelphia'dan Dallas'a uçuşlarını listeleyin
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayollarında	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayollarında	havayol	NOUN	I-airline_name
 3	Philadelphia'dan	philadelphia	PROPN	B-fromloc.city_name
 4	Dallas'a	dallas	PROPN	B-toloc.city_name
 5	uçuşlarını	uç	NOUN	O
@@ -39596,8 +39596,8 @@
 5	sonra	sonra	ADP	O
 6	kalkan	kalk	ADJ	O
 7	bir	bir	DET	O
-8	amerikan	amerikan	ADJ	O
-9	havayolları	havayol	NOUN	O
+8	amerikan	amerikan	ADJ	B-airline_name
+9	havayolları	havayol	NOUN	I-airline_name
 10	uçuşu	uç	NOUN	O
 11	istiyorum	iste	VERB	O
 
@@ -39740,9 +39740,9 @@
 2	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 3	San	san	PROPN	B-toloc.city_name
 4	Francisco'ya	francisco	PROPN	I-toloc.city_name
-5	amerikan	amerikan	ADJ	O
-6	havayolu	havayol	NOUN	O
-7	şirketinin	şirket	NOUN	O
+5	amerikan	amerikan	ADJ	B-airline_name
+6	havayolu	havayol	NOUN	I-airline_name
+7	şirketinin	şirket	NOUN	I-airline_name
 8	uçuşlarını	uç	NOUN	O
 9	ver	ver	VERB	O
 
@@ -39760,8 +39760,8 @@
 # intent: flight
 1	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 2	Washington'a	washington	PROPN	B-toloc.state_name
-3	amerikan	amerikan	ADJ	O
-4	havayolları	havayol	NOUN	O
+3	amerikan	amerikan	ADJ	B-airline_name
+4	havayolları	havayol	NOUN	I-airline_name
 5	uçuşuyla	uç	NOUN	O
 6	ilgileniyorum	ilgilen	VERB	O
 
@@ -39916,8 +39916,8 @@
 # intent: flight
 1	Phoenix'den	phoenix	PROPN	B-fromloc.city_name
 2	Denver'e	denver	PROPN	B-toloc.city_name
-3	amerikan	amerikan	ADJ	O
-4	havayolları	havayol	NOUN	O
+3	amerikan	amerikan	ADJ	B-airline_name
+4	havayolları	havayol	NOUN	I-airline_name
 
 # sent_id = 3055.train
 # text = Delta havayolları tarafından hangi uçuşlar sağlanmaktadır
@@ -39963,16 +39963,16 @@
 4	pazar	pazar	NOUN	B-depart_date.day_name
 5	Milwaukee'den	milwaukee	PROPN	B-fromloc.city_name
 6	Phoenix'e	phoenix	PROPN	B-toloc.city_name
-7	Amerikan	amerikan	ADJ	O
-8	havayolları	havayol	NOUN	O
+7	Amerikan	amerikan	ADJ	B-airline_name
+8	havayolları	havayol	NOUN	I-airline_name
 9	uçuşlarını	uç	NOUN	O
 10	verin	ver	VERB	O
 
 # sent_id = 3059.train
 # text = amerikan havayolları ile Dallas'tan San Francisco'ya kalkan öğleden sonra uçuşları nelerdir
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolları	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolları	havayol	NOUN	I-airline_name
 3	ile	ile	ADP	O
 4	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 5	San	san	PROPN	B-toloc.city_name
@@ -40042,8 +40042,8 @@
 # sent_id = 3064.train
 # text = amerikan havayolları ile Dallas'tan San Francisco'ya giden akşam uçuşları nelerdir
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolları	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolları	havayol	NOUN	I-airline_name
 3	ile	ile	ADP	O
 4	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 5	San	san	PROPN	B-toloc.city_name
@@ -40068,8 +40068,8 @@
 # sent_id = 3066.train
 # text = amerikan havayolları hangi uçuşları sağlıyor
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolları	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolları	havayol	NOUN	I-airline_name
 3	hangi	hangi	ADJ	O
 4	uçuşları	uç	NOUN	O
 5	sağlıyor	sağla	VERB	O
@@ -40077,8 +40077,8 @@
 # sent_id = 3067.train
 # text = amerikan havayollarının Washington'dan Philadelphia'ya uçuşları hakkında bilgi
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayollarının	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayollarının	havayol	NOUN	I-airline_name
 3	Washington'dan	washington	PROPN	B-fromloc.state_name
 4	Philadelphia'ya	philadelphia	PROPN	B-toloc.city_name
 5	uçuşları	uç	NOUN	O
@@ -40101,8 +40101,8 @@
 # sent_id = 3069.train
 # text = amerikan havayolları Pittsburgh'tan Atlanta'ya uçuyor mu
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolları	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolları	havayol	NOUN	I-airline_name
 3	Pittsburgh'tan	pittsburgh	PROPN	B-fromloc.city_name
 4	Atlanta'ya	atlanta	PROPN	B-toloc.city_name
 5	uçuyor	uç	VERB	O
@@ -40159,8 +40159,8 @@
 # sent_id = 3074.train
 # text = amerikan ve Delta havayollarında Dallas'tan Baltimore'ye uçuşların listesini göster
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	ve	ve	CCONJ	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	ve	ve	CCONJ	I-airline_name
 3	Delta	delta	PROPN	B-airline_name
 4	havayollarında	havayol	NOUN	I-airline_name
 5	Dallas'tan	dallas	PROPN	B-fromloc.city_name
@@ -40187,8 +40187,8 @@
 # sent_id = 3076.train
 # text = Amerikan havayollarında cuma akşamı Houston'dan Milwaukee'ye hangi uçuşlar var
 # intent: flight
-1	Amerikan	amerikan	ADJ	O
-2	havayollarında	havayol	NOUN	O
+1	Amerikan	amerikan	ADJ	B-airline_name
+2	havayollarında	havayol	NOUN	I-airline_name
 3	cuma	cuma	NOUN	B-arrive_date.day_name
 4	akşamı	akşam	NOUN	B-arrive_time.period_of_day
 5	Houston'dan	houston	PROPN	B-fromloc.city_name
@@ -40206,8 +40206,8 @@
 4	Denver'den	denver	PROPN	B-fromloc.city_name
 5	San	san	PROPN	B-toloc.city_name
 6	Francisco'ya	francisco	PROPN	I-toloc.city_name
-7	amerikan	amerikan	ADJ	O
-8	havayolları	havayol	NOUN	O
+7	amerikan	amerikan	ADJ	B-airline_name
+8	havayolları	havayol	NOUN	I-airline_name
 9	uçuşunuz	uç	VERB	O
 10	var	var	ADJ	O
 11	mı	mi	AUX	O
@@ -40239,8 +40239,8 @@
 # sent_id = 3080.train
 # text = amerikan havayollarının pazar günü Milwaukee - Phoenix uçuşlarını listele
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayollarının	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayollarının	havayol	NOUN	I-airline_name
 3	pazar	pazar	NOUN	B-depart_date.day_name
 4	günü	gün	NOUN	O
 5	Milwaukee	milwaukee	PROPN	B-fromloc.city_name
@@ -40271,8 +40271,8 @@
 1	bana	ben	PRON	O
 2	Phoenix'den	phoenix	PROPN	B-fromloc.city_name
 3	Milwaukee'ye	milwaukee	PROPN	B-toloc.city_name
-4	amerikan	amerikan	ADJ	O
-5	havayollarıyla	havayol	NOUN	O
+4	amerikan	amerikan	ADJ	B-airline_name
+5	havayollarıyla	havayol	NOUN	I-airline_name
 6	uçuşları	uç	NOUN	O
 7	verin	ver	VERB	O
 
@@ -40353,8 +40353,8 @@
 3	günü	gün	NOUN	O
 4	Phoenix'den	phoenix	PROPN	B-fromloc.city_name
 5	Milwaukee'ye	milwaukee	PROPN	B-toloc.city_name
-6	amerikan	amerikan	ADJ	O
-7	havayolları	havayol	NOUN	O
+6	amerikan	amerikan	ADJ	B-airline_name
+7	havayolları	havayol	NOUN	I-airline_name
 8	uçuşlarını	uç	NOUN	O
 9	ver	ver	VERB	O
 
@@ -40362,8 +40362,8 @@
 # text = merhaba amerikan havayolları ile Boston'dan Denver'e bir uçuş planlamak istiyorum
 # intent: flight
 1	merhaba	merhaba	NOUN	O
-2	amerikan	amerikan	ADJ	O
-3	havayolları	havayol	NOUN	O
+2	amerikan	amerikan	ADJ	B-airline_name
+3	havayolları	havayol	NOUN	I-airline_name
 4	ile	ile	ADP	O
 5	Boston'dan	boston	PROPN	B-fromloc.city_name
 6	Denver'e	denver	PROPN	B-toloc.city_name
@@ -40391,8 +40391,8 @@
 2	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 3	San	san	PROPN	B-toloc.city_name
 4	Francisco'ya	francisco	PROPN	I-toloc.city_name
-5	amerikan	amerikan	ADJ	O
-6	havayolları	havayol	NOUN	O
+5	amerikan	amerikan	ADJ	B-airline_name
+6	havayolları	havayol	NOUN	I-airline_name
 7	uçuşu	uç	NOUN	O
 8	var	var	ADJ	O
 9	mı	mi	AUX	O
@@ -40402,8 +40402,8 @@
 # intent: flight
 1	Milwaukee'den	milwaukee	PROPN	B-fromloc.city_name
 2	Phoenix'e	phoenix	PROPN	B-toloc.city_name
-3	Amerikan	amerikan	ADJ	O
-4	havayolları	havayol	NOUN	O
+3	Amerikan	amerikan	ADJ	B-airline_name
+4	havayolları	havayol	NOUN	I-airline_name
 5	ile	ile	ADP	O
 6	cumartesi	cumartesi	NOUN	B-depart_date.day_name
 7	uçuşu	uç	NOUN	O
@@ -40425,8 +40425,8 @@
 # sent_id = 3094.train
 # text = amerikan havayolları tarafından hangi uçuşlar sağlanmaktadır
 # intent: flight
-1	amerikan	amerikan	ADJ	O
-2	havayolları	havayol	NOUN	O
+1	amerikan	amerikan	ADJ	B-airline_name
+2	havayolları	havayol	NOUN	I-airline_name
 3	tarafından	tarafından	ADV	O
 4	hangi	hangi	ADJ	O
 5	uçuşlar	uç	NOUN	O
@@ -40460,8 +40460,8 @@
 # intent: flight
 1	Dallas'tan	dallas	PROPN	B-fromloc.city_name
 2	washington'a	washington	PROPN	B-toloc.state_name
-3	amerikan	amerikan	ADJ	O
-4	havayolları	havayol	NOUN	O
+3	amerikan	amerikan	ADJ	B-airline_name
+4	havayolları	havayol	NOUN	I-airline_name
 5	uçuşuyla	uç	NOUN	O
 6	ilgileniyorum	ilgilen	VERB	O
 
@@ -40482,8 +40482,8 @@
 2	ve	ve	CCONJ	O
 3	pazar	pazar	NOUN	B-depart_date.day_name
 4	günkü	gün	ADJ	O
-5	amerikan	amerikan	ADJ	O
-6	havayollarıyla	havayol	NOUN	O
+5	amerikan	amerikan	ADJ	B-airline_name
+6	havayollarıyla	havayol	NOUN	I-airline_name
 7	Milwaukee'den	milwaukee	PROPN	B-fromloc.city_name
 8	Phoenix'e	phoenix	PROPN	B-toloc.city_name
 9	uçuşlarını	uç	NOUN	O
@@ -40548,8 +40548,8 @@
 1	Baltimore'den	baltimore	PROPN	B-fromloc.city_name
 2	San	san	PROPN	B-toloc.city_name
 3	Francisco'ya	francisco	PROPN	I-toloc.city_name
-4	amerikan	amerikan	ADJ	O
-5	havayollarında	havayol	NOUN	O
+4	amerikan	amerikan	ADJ	B-airline_name
+5	havayollarında	havayol	NOUN	I-airline_name
 6	uçmak	uç	NOUN	O
 7	istiyorum	iste	VERB	O
 
@@ -40596,8 +40596,8 @@
 # intent: flight
 1	Philadelphia'dan	philadelphia	PROPN	B-fromloc.city_name
 2	Dallas'a	dallas	PROPN	B-toloc.city_name
-3	amerikan	amerikan	ADJ	O
-4	havayollarıyla	havayol	NOUN	O
+3	amerikan	amerikan	ADJ	B-airline_name
+4	havayollarıyla	havayol	NOUN	I-airline_name
 5	sabah	sabah	NOUN	B-depart_time.period_of_day
 6	uçuşları	uç	NOUN	O
 7	hangileridir	hangi	VERB	O
@@ -40688,8 +40688,8 @@
 # intent: airline
 1	Phoenix	phoenix	PROPN	B-city_name
 2	çıkışlı	çık	ADJ	O
-3	amerikan	amerikan	ADJ	O
-4	havayolları	havayol	NOUN	O
+3	amerikan	amerikan	ADJ	B-airline_name
+4	havayolları	havayol	NOUN	I-airline_name
 
 # sent_id = 3116.train
 # text = Northwest havayolundaki hangi uçuşlar Detroit'ten ayrılıp St. Petersburg'a gidiyor

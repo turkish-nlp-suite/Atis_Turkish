@@ -1,6 +1,6 @@
 # Atis_Turkish
 
-Re-annotate of [UD_Turkish_Atis](https://github.com/UniversalDependencies/UD_Turkish-Atis) with slots and intents. This treebank is a tranlation of the original [ATIS dataset](https://github.com/howl-anderson/ATIS_dataset). 
+Re-annotate of [UD_Turkish_Atis](https://github.com/UniversalDependencies/UD_Turkish-Atis) with slots and intents. This treebank is a translation of the original [ATIS dataset](https://github.com/howl-anderson/ATIS_dataset). 
 
 Intents and slots are extracted by transfer learning. For the explanation of the work I'll compile a paper soon. Here are the all intent names and slots, same with the original ATIS.
 
@@ -150,8 +150,8 @@ and a json annotation:
     ]
   },
 ```
-
-Part of Duygu 2022 Fall-Winter collection, "Turkish NLP with Duygu"/ "Duygu'yla Türkçe NLP". All rights reserved.
+This work is supported by Google Developer Experts Program.
+Part of Duygu 2023 Fall-Winter collection, "Turkish NLP with Duygu"/ "Duygu'yla Türkçe NLP". All rights reserved.
 
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]

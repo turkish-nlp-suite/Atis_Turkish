@@ -150,6 +150,8 @@ and a json annotation:
     ]
   },
 ```
+If you want to find out more about how I compiled this dataset you can visit my Youtube channel and watch the playlist [Veriseti nasıl derlenir?](https://www.youtube.com/playlist?list=PLJTHlIwB8Vco4ONU_mCNOYIcVyFA9QrBr). For finest Turkish NLP, you can our [website for Turkish NLP]() or visit my [personal website](https://www.onlyduygu.com).
+
 This work is supported by Google Developer Experts Program.
 Part of Duygu 2023 Fall-Winter collection, "Turkish NLP with Duygu"/ "Duygu'yla Türkçe NLP". All rights reserved.
 
